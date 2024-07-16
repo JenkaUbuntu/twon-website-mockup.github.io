@@ -1,0 +1,21 @@
+# Balancing Principles
+
+## Maximize Expected Goodness
+
+Principle: You ought to choose the option which leads to the outcome with the highest expected goodness.
+
+- This principle requires information on:
+  
+  - negative consequences from lying:
+    
+    - how good is it that A's desire to being informed will be satisfied? Or: how bad is it that A's desire to being informed will remain unsatisfied?
+    - how bad is it to restrict A's autonomy?
+    - what is the probability that your relationship to A will deteriorate as a result from lying? How bad is it that your relationship deteriorates?
+  
+  - negatives consequences from truth-sticking:
+    
+    - how probable is it that A misses the connection? How bad is it that she misses the meeting?
+
+- If there are only two options for action (T) and (L), and if (T), then A's desire to I will remain unsatisfied and A's autonomy will be restricted, and you risk to deteriorate your relationship with A to a degree D, and if (L), A will be harmed to a degree H with a probability p, then you ought to choose x.
+
+## Decision Making under Uncertainty

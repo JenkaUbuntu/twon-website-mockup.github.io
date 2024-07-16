@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "TWON-Website-Mockup"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Arg-Anal-Method.qmd
+        text: Methods
+    right:
+      - about.qmd
+    collapse: true
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+
+
+
