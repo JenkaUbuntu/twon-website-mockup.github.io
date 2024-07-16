@@ -1,38 +1,45 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Can Two Wrongs Make a Right?",
+    "objectID": "output.html",
+    "href": "output.html",
+    "title": "Outcomes: How to deal with TWONs?",
     "section": "",
-    "text": "Decription of the challenge"
+    "text": "To be specified"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "output.html#recommendations-for-politics",
+    "href": "output.html#recommendations-for-politics",
+    "title": "Outcomes: How to deal with TWONs?",
     "section": "",
-    "text": "About this site"
+    "text": "To be specified"
   },
   {
-    "objectID": "index.html#using-argumenation-analysis-for-technology-assessment",
-    "href": "index.html#using-argumenation-analysis-for-technology-assessment",
-    "title": "Can Two Wrongs Make a Right?",
-    "section": "Using Argumenation Analysis for Technology Assessment",
-    "text": "Using Argumenation Analysis for Technology Assessment\n\n\n\nArgumentation-Analysis-Idea\n\n\n\nExplain the Method Page-internal-link\nPlay with the Method\nApply the Method Page"
+    "objectID": "output.html#recommendations-for-researchers",
+    "href": "output.html#recommendations-for-researchers",
+    "title": "Outcomes: How to deal with TWONs?",
+    "section": "Recommendations for Researchers",
+    "text": "Recommendations for Researchers\n\nTo be specified"
   },
   {
-    "objectID": "index.html#outcome-our-recommendations-for-the-development-of-twons",
-    "href": "index.html#outcome-our-recommendations-for-the-development-of-twons",
-    "title": "Can Two Wrongs Make a Right?",
-    "section": "Outcome: Our Recommendations for the Development of TWONs",
-    "text": "Outcome: Our Recommendations for the Development of TWONs\n\nRecommendations for the research community:\n\n…\n\nRecommendations for politics and the interested public\n\n…"
+    "objectID": "Trumping-Principles.html",
+    "href": "Trumping-Principles.html",
+    "title": "Trumping Principles",
+    "section": "",
+    "text": "Strict Prohibition of Lying\n\n\nThe argument:\n\nIf you choose the option “lying” you will lie to your friend.\nLying is morally prohibited independently of its consequences.\n\n\n\nIf you choose the option “lying”, you conduct an action which is morally prohibited.\nMorally prohibited actiions ought to be avoided [Principle of moral consistency]\n\n\n\nYou should avoid the option “lying”.\n\nProblem of the argument:\n\nthe constructed principle in premise (2) is unconvincing. We can easily provide examples in which a morally adequate action violates this principle.\n\n\n\n\nTo be added"
   },
   {
-    "objectID": "index.html#outcome-our-recommendations",
-    "href": "index.html#outcome-our-recommendations",
-    "title": "Can Two Wrongs Make a Right?",
-    "section": "Outcome: Our Recommendations",
-    "text": "Outcome: Our Recommendations\n\nRecommendations for the research community:\n\n…\n\nRecommendations for politics and the interested public\n\n…"
+    "objectID": "Trumping-Principles.html#strict-prohibition-of-lying",
+    "href": "Trumping-Principles.html#strict-prohibition-of-lying",
+    "title": "Trumping Principles",
+    "section": "",
+    "text": "Strict Prohibition of Lying\n\n\nThe argument:\n\nIf you choose the option “lying” you will lie to your friend.\nLying is morally prohibited independently of its consequences.\n\n\n\nIf you choose the option “lying”, you conduct an action which is morally prohibited.\nMorally prohibited actiions ought to be avoided [Principle of moral consistency]\n\n\n\nYou should avoid the option “lying”.\n\nProblem of the argument:\n\nthe constructed principle in premise (2) is unconvincing. We can easily provide examples in which a morally adequate action violates this principle."
+  },
+  {
+    "objectID": "Trumping-Principles.html#dominance-of-individual-autonomy",
+    "href": "Trumping-Principles.html#dominance-of-individual-autonomy",
+    "title": "Trumping Principles",
+    "section": "",
+    "text": "To be added"
   },
   {
     "objectID": "Arg-Anal-Method.html",
@@ -63,27 +70,6 @@
     "text": "Argumentation Analysis: Construction of Arguments\nConstruction of arguments is a creative task which involves several trial-and-error attempts. There is a formal requirement:\n\nThe formal requirement is necessary but not sufficient for a plausible argument: we can find a large number of principles which guarantee a deductively valid inference to one of the options for action. These principles differ, however, in their plausibility, as the exmaples below demonstrate."
   },
   {
-    "objectID": "Trumping-Principles.html",
-    "href": "Trumping-Principles.html",
-    "title": "Trumping Principles",
-    "section": "",
-    "text": "Strict Prohibition of Lying\n\n\nThe argument:\n\nIf you choose the option “lying” you will lie to your friend.\nLying is morally prohibited independently of its consequences.\n\n\n\nIf you choose the option “lying”, you conduct an action which is morally prohibited.\nMorally prohibited actiions ought to be avoided [Principle of moral consistency]\n\n\n\nYou should avoid the option “lying”.\n\nProblem of the argument:\n\nthe constructed principle in premise (2) is unconvincing. We can easily provide examples in which a morally adequate action violates this principle.\n\n\n\n\nTo be added"
-  },
-  {
-    "objectID": "Trumping-Principles.html#strict-prohibition-of-lying",
-    "href": "Trumping-Principles.html#strict-prohibition-of-lying",
-    "title": "Trumping Principles",
-    "section": "",
-    "text": "Strict Prohibition of Lying\n\n\nThe argument:\n\nIf you choose the option “lying” you will lie to your friend.\nLying is morally prohibited independently of its consequences.\n\n\n\nIf you choose the option “lying”, you conduct an action which is morally prohibited.\nMorally prohibited actiions ought to be avoided [Principle of moral consistency]\n\n\n\nYou should avoid the option “lying”.\n\nProblem of the argument:\n\nthe constructed principle in premise (2) is unconvincing. We can easily provide examples in which a morally adequate action violates this principle."
-  },
-  {
-    "objectID": "Trumping-Principles.html#dominance-of-individual-autonomy",
-    "href": "Trumping-Principles.html#dominance-of-individual-autonomy",
-    "title": "Trumping Principles",
-    "section": "",
-    "text": "To be added"
-  },
-  {
     "objectID": "Balancing-Principles.html",
     "href": "Balancing-Principles.html",
     "title": "Balancing Principles",
@@ -98,6 +84,13 @@
     "text": "Principle: You ought to choose the option which leads to the outcome with the highest expected goodness.\n\nThis principle requires information on:\n\nnegative consequences from lying:\n\nhow good is it that A’s desire to being informed will be satisfied? Or: how bad is it that A’s desire to being informed will remain unsatisfied?\nhow bad is it to restrict A’s autonomy?\nwhat is the probability that your relationship to A will deteriorate as a result from lying? How bad is it that your relationship deteriorates?\n\nnegatives consequences from truth-sticking:\n\nhow probable is it that A misses the connection? How bad is it that she misses the meeting?\n\n\nIf there are only two options for action (T) and (L), and if (T), then A’s desire to I will remain unsatisfied and A’s autonomy will be restricted, and you risk to deteriorate your relationship with A to a degree D, and if (L), A will be harmed to a degree H with a probability p, then you ought to choose x."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Can Two Wrongs Make a Right?",
+    "section": "",
+    "text": "Decription of the challenge"
+  },
+  {
     "objectID": "index.html#methods-argumentation-analysis",
     "href": "index.html#methods-argumentation-analysis",
     "title": "Can Two Wrongs Make a Right?",
@@ -105,24 +98,17 @@
     "text": "Methods: Argumentation Analysis\n\n\n\nArgumentation-Analysis-Idea\n\n\n\n\n\n\n\n\n\n\n\n\nExplain the Method: Using Argumentation Analysis for Technology Assessment\nApply the Method: Analysis of TWONs"
   },
   {
-    "objectID": "output.html",
-    "href": "output.html",
-    "title": "Outcomes: How to deal with TWONs?",
-    "section": "",
-    "text": "To be specified"
+    "objectID": "index.html#outcome-our-recommendations",
+    "href": "index.html#outcome-our-recommendations",
+    "title": "Can Two Wrongs Make a Right?",
+    "section": "Outcome: Our Recommendations",
+    "text": "Outcome: Our Recommendations\n\nRecommendations for the research community:\n\n…\n\nRecommendations for politics and the interested public\n\n…"
   },
   {
-    "objectID": "output.html#recommendations-for-politics",
-    "href": "output.html#recommendations-for-politics",
-    "title": "Outcomes: How to deal with TWONs?",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "To be specified"
-  },
-  {
-    "objectID": "output.html#recommendations-for-researchers",
-    "href": "output.html#recommendations-for-researchers",
-    "title": "Outcomes: How to deal with TWONs?",
-    "section": "Recommendations for Researchers",
-    "text": "Recommendations for Researchers\n\nTo be specified"
+    "text": "About this site"
   }
 ]
