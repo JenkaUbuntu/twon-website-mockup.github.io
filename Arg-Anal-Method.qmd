@@ -6,15 +6,16 @@ title: "Method of Argumentation Analysis"
 
 Suppose, you are in a situation in which a lie could prevent a bad outcome. Should you lie or should you risk the bad outcome?
 
-* Here is an example for how such a situation can look like (feel free to imagine another example):
-  * Your friend must be at 2 o'clock at a place in another part of the city for a highly important meeting. She is unfamiliar with the city and needs your skills to advise her on how to get to the meeting place. She asks you to tell her when the latest public transport connection leaves by which she will be at the meeting place right on time.
-  * Let us assume that the last connection that will get her to the meeting on time leaves at 1.30. The next one leaves 30 min later -- meaning that if she misses the 1.30 connection, she will miss the meeting. The one earlier leaves at 1 o'clock meaning that she will waiting time of about 30 minutes at the meeting place.
-  * You know that your friend has a tendency to miss the connections she intends to catch. She often sees the train just driving away from the station.
-  * You have the following options:
-    * Truth-sticking option: You tell your friend that the last train leaves at 1.30 and that the next departs only 30 minutes later implying that she will miss the meeting if she misses the train. You add that you strongly recommend her to take a connection earlier.
-    * Lying option: You tell your friend that the latest public transport connection leaves at 1 o'clock and will bring her to the meeting place about 30 minutes before the meeting starts.
-    * Let us assume that there are no other options for you (in reality, there might be other relevant options: telling the truth and than making your friend leaving on time for the last train. For simplicity, let us bracket these additional options.)
-  * You must decide which of the two options to choose: to stick to the truth or to lie?
+* Your friend asks you to tell her when the latest public transport connection leaves by which she will be at the meeting place at 2 o'clock.
+  * She must be at a place in another part of the city for a highly important meeting. She is unfamiliar with the city and needs your skills to advise her on how to get to the meeting place. 
+* You know:
+  * The last connection that will get her to the meeting on time leaves at 1.30. The next one leaves 30 min later -- meaning that if she misses the 1.30 connection, she will miss the meeting. The one earlier leaves at 1 o'clock meaning that she will waiting time of about 30 minutes at the meeting place.
+  * Your friend has a tendency to miss the connections she intends to catch. She often sees the train just driving away from the station.
+* Your options:
+  * **Tell the truth!**: You tell your friend that the last train leaves at 1.30 and that the next departs only 30 minutes later implying that she will miss the meeting if she misses the train. You add that you strongly recommend her to take a connection earlier.
+  * **Lie!**: You tell your friend that the latest public transport connection leaves at 1 o'clock and will bring her to the meeting place about 30 minutes before the meeting starts.
+  * Let us assume that there are no other options for you (in reality, there might be other relevant options: telling the truth and than making your friend leaving on time for the last train. For simplicity, let us bracket these additional options.)
+* You must decide: to stick to truth or to lie?
 
 ## Argumentation Analysis: it's Idea
 
