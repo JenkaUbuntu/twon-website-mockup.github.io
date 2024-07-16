@@ -9,6 +9,8 @@ website:
         text: Home
       - href: Arg-Anal-Method.qmd
         text: Methods
+      - href: output.qmd
+        text: Outcomes
     right:
       - about.qmd
     collapse: true
