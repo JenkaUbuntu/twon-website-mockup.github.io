@@ -1,0 +1,26 @@
+---
+title: "Can Two Wrongs Make a Right?"
+---
+
+![Decription of the challenge](./Graphics/problem-description-v2.png)
+
+## Methods: Argumentation Analysis
+
+![Argumentation-Analysis-Idea](./Graphics/method-intro.png)
+
+| | [Explain the Method: Using Argumentation Analysis for Technology Assessment](./Arg-Anal-Method.qmd) | [Apply the Method: Analysis of TWONs]() | |
+|----|:------:|:------:|----|
+: {tbl-colwidths="[10,40,40,10]"}
+
+## Outcome: Our Recommendations 
+
+
+- Recommendations for the research community:
+  
+  - ...
+
+- Recommendations for politics and the interested public
+  
+  - ...
+  
+  ---

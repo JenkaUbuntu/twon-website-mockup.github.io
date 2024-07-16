@@ -1,0 +1,29 @@
+# Trumping Principles
+
+## Strict Prohibition of Lying
+
+![Strict Prohibition of Lying](./Graphics/prohibition-to-lie.png)
+
+The argument:
+
+(1) If you choose the option "lying" you will lie to your friend.
+
+(2) Lying is morally prohibited independently of its consequences.
+
+---
+
+(3) If you choose the option "lying", you conduct an action which is morally prohibited.
+
+(4) Morally prohibited actiions ought to be avoided [Principle of moral consistency]
+
+---
+
+(5) You should avoid the option "lying".
+
+Problem of the argument: 
+
+* the constructed principle in premise (2) is unconvincing. We can easily provide examples in which a morally adequate action violates this principle.
+
+## Dominance of Individual Autonomy
+
+To be added
