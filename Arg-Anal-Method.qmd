@@ -4,7 +4,7 @@ title: "Method of Argumentation Analysis"
 
 ## Example: Should I Lie or Should I not?
 
-Suppose, you are in a situation in which a lie could prevent a bad outcome. Should you lie or should you risk the bad outcome?
+Suppose, you are in a situation in which a lie would prevent a bad outcome. Should you lie or should you risk the bad outcome? -- Here is a story:^[Feel free to think another story in which a lie would prevent a bad outcome!]
 
 * Your friend asks you to tell her when the latest public transport connection leaves by which she will be at the meeting place at 2 o'clock.
   * She must be at a place in another part of the city for a highly important meeting. She is unfamiliar with the city and needs your skills to advise her on how to get to the meeting place. 
@@ -14,12 +14,19 @@ Suppose, you are in a situation in which a lie could prevent a bad outcome. Shou
 * Your options:
   * **Tell the truth!**: You tell your friend that the last train leaves at 1.30 and that the next departs only 30 minutes later implying that she will miss the meeting if she misses the train. You add that you strongly recommend her to take a connection earlier.
   * **Lie!**: You tell your friend that the latest public transport connection leaves at 1 o'clock and will bring her to the meeting place about 30 minutes before the meeting starts.
-  * Let us assume that there are no other options for you (in reality, there might be other relevant options: telling the truth and than making your friend leaving on time for the last train. For simplicity, let us bracket these additional options.)
+  * For simplicity, let us assume that there are no other options for you^[In reality, there will be further relevant options, but let us assume here that they do not exist: </br>* telling the truth and than reminding your friend to leave on time for the last train; </br>* considering another means of transportation (e.g. taxi) for the case the public transport option will be missed; </br>* nudging your friend: presenting both options in a way that your friend finds the earlier one more attractive.]
 * You must decide: to stick to truth or to lie?
 
 ## Argumentation Analysis: it's Idea
 
-![](./Graphics/argument-analysis.png)
+<!-- ![](./Graphics/argument-analysis.png) -->
+
+
+### The Argumentatiive problem
+
+* At first sight, there are reasons for both options for action
+* You must weigh these prima facie reasons for and against the two options to decide whether you should tell the truth or you sould lie.
+
 
 <!--
 ```{mermaid}
@@ -90,26 +97,69 @@ digraph G {
 }
 ```
 
+### Process of the Argumentation Analysis
+Argumentation Analysis supports you in clarifying the process of wheighing:
 
-You are facing the following argumentatiive problem:
+1. [**Identification/Evaluation of prima facie reasons**](./Arg-Anal-Method.qmd#step-1-list-of-prima-facie-reasons) </br>
+  Identify the list of all prima facie reasons in favour and against the available options for action.
+2. [**Identification/Construction of decision rules**](./Arg-Anal-Method.qmd#step-2-construction-of-decision-rules) </br>
+  Find/construct general principles which allow a [deductively valid inference]() from the premises (containing at least one prima facie reason) to a conclusion  (recommendation for one of the options for action)
+  Construct these principles for all available options for action. 
 
-* To decide between the two exclusive options for action (T!) and (L!), you must balance the prima facie considerations in favour of the options.
-* Argumentation Analysis supports you in clarifying the process of balancing:
+2. **Evaluate the decision rules** </br>
+  Provide arguments against the decision rules you believe to be implausible. 
+
+## Steps of Argumentation Analysis
+
+### Step 1: List of prima facie reasons
+
+Compile a list of all prima facie reasons that support the available options for action. Below, is an example for how such a final list could look like.^[Compillation of the list as depicted below would usually require several steps </br> * one starts with collecting candidates for prima reasons in favour of all options for action; </br> * subsequently, one reflects on which of these candidates are genuine reasons and reduces the brainstormed list to a usually much reduced list of prima facie reasons.] 
 
 
-> (1) Find/construct a general principle which allows a [deductively valid inference]()
-> from the premises (containing one or all prima facie reasons) to a conclusion  (recommendation for one of the options for action) 
+| Pro Truth-Sticking (contra lying) | Pro Lying (contra truth-sticking) |
+|:---------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Desire-Fulfillment** By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)     | **Avoidance of Harm** By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e. you avoid that she is significantly harmed. |
+| **Respecting Autonomy** By telling the truth, you respect your friend's autonomy (i.e. her ability to make own decisions) |  |
+| **Supporting a sincere relationship** By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc. | |
+| **Supporting social practice** Telling the truth, you support a highly important social practice of honesty/ sincerity | |
+: {.striped}
 
-> (2) Evaluate the premises of the constructed arguments regarding their plausibility
+### Step 2: Construction of Decision Rules
 
-List of prima facie reasons:
+#### Trumping
 
-| pro truth-sticking (contra lying)                                                                                           | pro lying (contra truth-sticking)                                                                                                                                        |
-|:---------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)     | By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e. you avoid that she is significantly harmed. |
-| By telling the truth, you avoid the costs of lying: mistrust in the relationship with your friend, remorseful feelings etc. |                                                                                                                                                                          |
-| By telling the truth, you respect your friend's autonomy (i.e. her ability to make own decisions)                           |                                                                                                                                                                          |
-| Telling the truth, you support a highly important societal practice of honesty | |
+One of the values contained in the prima facie reasons is that important that it should not be violated independently of the counter-reasons. The resulting decision rules are:
+
+| Pro Truth-Sticking (contra lying) | Pro Lying (contra truth-sticking) |
+|:---------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Desire-Fulfillment** If it does not cause inappropriate costs to you, you should always fulfill the articulated desires of your friend, even if they can substantially harm your friend. | **Avoidance of Harm**  If it does not cause inappropriate costs to you, you should choose the action which minimizes the expected harm to your friend, even if you break established social norms thereby. |
+| **Respecting Autonomy** If it does not cause inappropriate costs to you, you should always respect the autonomy of your friend, even if the respective actions can substantially harm your friend. |  |
+| **Supporting a sincere relationship** If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend. | |
+| **Supporting social practice** You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend. | |
+: Trumping Principles {.striped}
+
+
+#### Balancing
+
+| Maximizing Expected Value pro Lying |
+|:-----|
+| The expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty. |
+: {.striped}
+
+| Maximizing Expected Value pro Truth-Sticking |
+|:-----|
+| The expected harm for your friend from missing the meeting is lower  than the aggregated harm to her and to society which results from your friend's frustrated desire, disregard of her autonomy, the stress caused to your relationship, and a violation of the social practice of honesty. |
+: {.striped}
+
+| Precautionary Principle pro Truth-Sticking |
+|:-----|
+| XYz |
+: {.striped}
+
+| Precautionary Principle pro Lying |
+|:-----|
+| XYz |
+: {.striped}
 
 Linked sub-sides:
 
