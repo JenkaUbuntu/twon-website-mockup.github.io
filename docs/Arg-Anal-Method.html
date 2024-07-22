@@ -35,10 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,6 +114,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -126,7 +129,16 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#example-should-i-lie-or-should-i-not" id="toc-example-should-i-lie-or-should-i-not" class="nav-link active" data-scroll-target="#example-should-i-lie-or-should-i-not">Example: Should I Lie or Should I not?</a></li>
-  <li><a href="#argumentation-analysis-its-idea" id="toc-argumentation-analysis-its-idea" class="nav-link" data-scroll-target="#argumentation-analysis-its-idea">Argumentation Analysis: it’s Idea</a></li>
+  <li><a href="#argumentation-analysis-its-idea" id="toc-argumentation-analysis-its-idea" class="nav-link" data-scroll-target="#argumentation-analysis-its-idea">Argumentation Analysis: it’s Idea</a>
+  <ul class="collapse">
+  <li><a href="#the-argumentatiive-problem" id="toc-the-argumentatiive-problem" class="nav-link" data-scroll-target="#the-argumentatiive-problem">The Argumentatiive problem</a></li>
+  <li><a href="#process-of-the-argumentation-analysis" id="toc-process-of-the-argumentation-analysis" class="nav-link" data-scroll-target="#process-of-the-argumentation-analysis">Process of the Argumentation Analysis</a></li>
+  </ul></li>
+  <li><a href="#steps-of-argumentation-analysis" id="toc-steps-of-argumentation-analysis" class="nav-link" data-scroll-target="#steps-of-argumentation-analysis">Steps of Argumentation Analysis</a>
+  <ul class="collapse">
+  <li><a href="#step-1-list-of-prima-facie-reasons" id="toc-step-1-list-of-prima-facie-reasons" class="nav-link" data-scroll-target="#step-1-list-of-prima-facie-reasons">Step 1: List of prima facie reasons</a></li>
+  <li><a href="#step-2-construction-of-decision-rules" id="toc-step-2-construction-of-decision-rules" class="nav-link" data-scroll-target="#step-2-construction-of-decision-rules">Step 2: Construction of Decision Rules</a></li>
+  </ul></li>
   <li><a href="#argumentation-analysis-construction-of-arguments" id="toc-argumentation-analysis-construction-of-arguments" class="nav-link" data-scroll-target="#argumentation-analysis-construction-of-arguments">Argumentation Analysis: Construction of Arguments</a>
   <ul class="collapse">
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
@@ -158,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="example-should-i-lie-or-should-i-not" class="level2">
 <h2 class="anchored" data-anchor-id="example-should-i-lie-or-should-i-not">Example: Should I Lie or Should I not?</h2>
-<p>Suppose, you are in a situation in which a lie could prevent a bad outcome. Should you lie or should you risk the bad outcome?</p>
+<p>Suppose, you are in a situation in which a lie would prevent a bad outcome. Should you lie or should you risk the bad outcome? – Here is a story:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <ul>
 <li>Your friend asks you to tell her when the latest public transport connection leaves by which she will be at the meeting place at 2 o’clock.
 <ul>
@@ -173,18 +185,21 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Tell the truth!</strong>: You tell your friend that the last train leaves at 1.30 and that the next departs only 30 minutes later implying that she will miss the meeting if she misses the train. You add that you strongly recommend her to take a connection earlier.</li>
 <li><strong>Lie!</strong>: You tell your friend that the latest public transport connection leaves at 1 o’clock and will bring her to the meeting place about 30 minutes before the meeting starts.</li>
-<li>Let us assume that there are no other options for you (in reality, there might be other relevant options: telling the truth and than making your friend leaving on time for the last train. For simplicity, let us bracket these additional options.)</li>
+<li>For simplicity, let us assume that there are no other options for you<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
 </ul></li>
 <li>You must decide: to stick to truth or to lie?</li>
 </ul>
 </section>
 <section id="argumentation-analysis-its-idea" class="level2">
 <h2 class="anchored" data-anchor-id="argumentation-analysis-its-idea">Argumentation Analysis: it’s Idea</h2>
-<p><img src="./Graphics/argument-analysis.png" class="img-fluid"></p>
+<!-- ![](./Graphics/argument-analysis.png) -->
+<section id="the-argumentatiive-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-argumentatiive-problem">The Argumentatiive problem</h3>
+<ul>
+<li>At first sight, there are reasons for both options for action</li>
+<li>You must weigh these prima facie reasons for and against the two options to decide whether you should tell the truth or you sould lie.</li>
+</ul>
 <!--
-
-
-
 
 
 
@@ -207,9 +222,6 @@ ul.task-list li input[type="checkbox"] {
 ::::
 :::::
 ::::::
-
-
-
 
 
 
@@ -359,49 +371,143 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>You are facing the following argumentatiive problem:</p>
-<ul>
-<li>To decide between the two exclusive options for action (T!) and (L!), you must balance the prima facie considerations in favour of the options.</li>
-<li>Argumentation Analysis supports you in clarifying the process of balancing:</li>
-</ul>
-<blockquote class="blockquote">
+</section>
+<section id="process-of-the-argumentation-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="process-of-the-argumentation-analysis">Process of the Argumentation Analysis</h3>
+<p>Argumentation Analysis supports you in clarifying the process of wheighing:</p>
 <ol type="1">
-<li>Find/construct a general principle which allows a <a href="">deductively valid inference</a> from the premises (containing one or all prima facie reasons) to a conclusion (recommendation for one of the options for action)</li>
+<li><p><a href="./Arg-Anal-Method.html#step-1-list-of-prima-facie-reasons"><strong>Identification/Evaluation of prima facie reasons</strong></a> <br> Identify the list of all prima facie reasons in favour and against the available options for action.</p></li>
+<li><p><a href="./Arg-Anal-Method.html#step-2-construction-of-decision-rules"><strong>Identification/Construction of decision rules</strong></a> <br> Find/construct general principles which allow a <a href="">deductively valid inference</a> from the premises (containing at least one prima facie reason) to a conclusion (recommendation for one of the options for action) Construct these principles for all available options for action.</p></li>
+<li><p><strong>Evaluate the decision rules</strong> <br> Provide arguments against the decision rules you believe to be implausible.</p></li>
 </ol>
-</blockquote>
-<blockquote class="blockquote">
-<ol start="2" type="1">
-<li>Evaluate the premises of the constructed arguments regarding their plausibility</li>
-</ol>
-</blockquote>
-<p>List of prima facie reasons:</p>
-<table class="caption-top table">
+</section>
+</section>
+<section id="steps-of-argumentation-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="steps-of-argumentation-analysis">Steps of Argumentation Analysis</h2>
+<section id="step-1-list-of-prima-facie-reasons" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-list-of-prima-facie-reasons">Step 1: List of prima facie reasons</h3>
+<p>Compile a list of all prima facie reasons that support the available options for action. Below, is an example for how such a final list could look like.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<table class="table-striped caption-top table">
 <colgroup>
 <col style="width: 42%">
 <col style="width: 57%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">pro truth-sticking (contra lying)</th>
-<th style="text-align: center;">pro lying (contra truth-sticking)</th>
+<th style="text-align: left;">Pro Truth-Sticking (contra lying)</th>
+<th style="text-align: left;">Pro Lying (contra truth-sticking)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)</td>
-<td style="text-align: center;">By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e.&nbsp;you avoid that she is significantly harmed.</td>
+<td style="text-align: left;"><strong>Desire-Fulfillment</strong> By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)</td>
+<td style="text-align: left;"><strong>Avoidance of Harm</strong> By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e.&nbsp;you avoid that she is significantly harmed.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">By telling the truth, you avoid the costs of lying: mistrust in the relationship with your friend, remorseful feelings etc.</td>
-<td style="text-align: center;"></td>
+<td style="text-align: left;"><strong>Respecting Autonomy</strong> By telling the truth, you respect your friend’s autonomy (i.e.&nbsp;her ability to make own decisions)</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">By telling the truth, you respect your friend’s autonomy (i.e.&nbsp;her ability to make own decisions)</td>
-<td style="text-align: center;"></td>
+<td style="text-align: left;"><strong>Supporting a sincere relationship</strong> By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc.</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">Telling the truth, you support a highly important societal practice of honesty</td>
-<td style="text-align: center;"></td>
+<td style="text-align: left;"><strong>Supporting social practice</strong> Telling the truth, you support a highly important social practice of honesty/ sincerity</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="step-2-construction-of-decision-rules" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-construction-of-decision-rules">Step 2: Construction of Decision Rules</h3>
+<section id="trumping" class="level4">
+<h4 class="anchored" data-anchor-id="trumping">Trumping</h4>
+<p>One of the values contained in the prima facie reasons is that important that it should not be violated independently of the counter-reasons. The resulting decision rules are:</p>
+<table class="table-striped caption-top table">
+<caption>Trumping Principles</caption>
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Pro Truth-Sticking (contra lying)</th>
+<th style="text-align: left;">Pro Lying (contra truth-sticking)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Desire-Fulfillment</strong> If it does not cause inappropriate costs to you, you should always fulfill the articulated desires of your friend, even if they can substantially harm your friend.</td>
+<td style="text-align: left;"><strong>Avoidance of Harm</strong> If it does not cause inappropriate costs to you, you should choose the action which minimizes the expected harm to your friend, even if you break established social norms thereby.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Respecting Autonomy</strong> If it does not cause inappropriate costs to you, you should always respect the autonomy of your friend, even if the respective actions can substantially harm your friend.</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Supporting a sincere relationship</strong> If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend.</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Supporting social practice</strong> You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend.</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="balancing" class="level4">
+<h4 class="anchored" data-anchor-id="balancing">Balancing</h4>
+<table class="table-striped caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Maximizing Expected Value pro Lying</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">The expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty.</td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Maximizing Expected Value pro Truth-Sticking</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">The expected harm for your friend from missing the meeting is lower than the aggregated harm to her and to society which results from your friend’s frustrated desire, disregard of her autonomy, the stress caused to your relationship, and a violation of the social practice of honesty.</td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Precautionary Principle pro Truth-Sticking</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">XYz</td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Precautionary Principle pro Lying</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">XYz</td>
 </tr>
 </tbody>
 </table>
@@ -413,6 +519,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 <p>Sub-Side Argumentation Analysis (?)</p>
+</section>
+</section>
 </section>
 <section id="argumentation-analysis-construction-of-arguments" class="level2">
 <h2 class="anchored" data-anchor-id="argumentation-analysis-construction-of-arguments">Argumentation Analysis: Construction of Arguments</h2>
@@ -427,7 +535,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Feel free to think another story in which a lie would prevent a bad outcome!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>In reality, there will be further relevant options, but let us assume here that they do not exist: <br>* telling the truth and than reminding your friend to leave on time for the last train; <br>* considering another means of transportation (e.g.&nbsp;taxi) for the case the public transport option will be missed; <br>* nudging your friend: presenting both options in a way that your friend finds the earlier one more attractive.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Compillation of the list as depicted below would usually require several steps <br> * one starts with collecting candidates for prima reasons in favour of all options for action; <br> * subsequently, one reflects on which of these candidates are genuine reasons and reduces the brainstormed list to a usually much reduced list of prima facie reasons.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -448,6 +564,150 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
