@@ -60,7 +60,7 @@
     "href": "Arg-Anal-Method.html#argumentation-analysis-its-idea",
     "title": "Method of Argumentation Analysis",
     "section": "Argumentation Analysis: it’s Idea",
-    "text": "Argumentation Analysis: it’s Idea\n\n\nThe Argumentatiive problem\n\nAt first sight, there are reasons for both options for action\nYou must weigh these prima facie reasons for and against the two options to decide whether you should tell the truth or you sould lie.\n\n\n\n\n\n\n\n\n\nG\n\n\n\nPFRT\n\nPrima-Facie Reasons \n for Truth-Sticking\n- desire fulfillment  \n- autonomy \n- avoiding distrust\n\n\n\nA1\n\nBalancing Arguments\n\n\n\nPFRT-&gt;A1\n\n\n\n\n\nA2\n\nTrumping Arguments\n\n\n\nPFRT-&gt;A2\n\n\n\n\n\nA3\n\nDebunking Arguments\n\n\n\nPFRT-&gt;A3\n\n\n\n\n\nPFRL\n\nPrima-Facie Reasons \n for Lying\n- guarantee that the \n  harmful outcomes for \n your friend are avoided\n\n\n\nPFRL-&gt;A1\n\n\n\n\n\nPFRL-&gt;A2\n\n\n\n\n\nPFRL-&gt;A3\n\n\n\n\n\nT1\n\nT!: You should stick to truth\n\n\n\nA1-&gt;T1\n\n\n?\n\n\n\nT2\n\nL!: You should lie\n\n\n\nA1-&gt;T2\n\n\n?\n\n\n\nA2-&gt;T1\n\n\n?\n\n\n\nA2-&gt;T2\n\n\n?\n\n\n\nA3-&gt;T1\n\n\n?\n\n\n\nA3-&gt;T2\n\n\n?\n\n\n\n\n\n\n\n\n\n\nProcess of the Argumentation Analysis\nArgumentation Analysis supports you in clarifying the process of wheighing:\n\nIdentification/Evaluation of prima facie reasons  Identify the list of all prima facie reasons in favour and against the available options for action.\nIdentification/Construction of decision rules  Find/construct general principles which allow a deductively valid inference from the premises (containing at least one prima facie reason) to a conclusion (recommendation for one of the options for action) Construct these principles for all available options for action.\nEvaluate the decision rules  Provide arguments against the decision rules you believe to be implausible."
+    "text": "Argumentation Analysis: it’s Idea\n\n\nThe Argumentatiive problem\n\nYou are facing two options for action – sticking to truth or lying – and must decide which one to choose.\nAt first sight, there are reasons for both options for action.\nYou must weigh these prima facie reasons for and against the two options to decide whether you should tell the truth or you sould lie.\n\n\n\n\n\n\n\n\n\nG\n\n\n\nPFRT\n\nPrima-Facie Reasons \n for Truth-Sticking\n- desire fulfillment  \n- autonomy \n- avoiding distrust\n\n\n\nA1\n\nBalancing Arguments\n\n\n\nPFRT-&gt;A1\n\n\n\n\n\nA2\n\nTrumping Arguments\n\n\n\nPFRT-&gt;A2\n\n\n\n\n\nA3\n\nDebunking Arguments\n\n\n\nPFRT-&gt;A3\n\n\n\n\n\nPFRL\n\nPrima-Facie Reasons \n for Lying\n- guarantee that the \n  harmful outcomes for \n your friend are avoided\n\n\n\nPFRL-&gt;A1\n\n\n\n\n\nPFRL-&gt;A2\n\n\n\n\n\nPFRL-&gt;A3\n\n\n\n\n\nT1\n\nT!: You should stick to truth\n\n\n\nA1-&gt;T1\n\n\n?\n\n\n\nT2\n\nL!: You should lie\n\n\n\nA1-&gt;T2\n\n\n?\n\n\n\nA2-&gt;T1\n\n\n?\n\n\n\nA2-&gt;T2\n\n\n?\n\n\n\nA3-&gt;T1\n\n\n?\n\n\n\nA3-&gt;T2\n\n\n?\n\n\n\n\n\n\n\n\n\n\nProcess of the Argumentation Analysis\nArgumentation Analysis supports you in clarifying the process of wheighing:\n\nSpecification of the available options for action  As a prerequisite of an argumentation analysis, you need to identify all the available options for action in the case your are interested in. Here, we have assumed for simplicity, that there are only two options for you.\nIdentification/Evaluation of prima facie reasons  Identify the list of all prima facie reasons in favour and against the available options for action.\nIdentification/Construction of decision rules  Find/construct general principles which allow a deductively valid inference from the premises (containing at least one prima facie reason) to a conclusion (recommendation for one of the options for action) Construct these principles for all available options for action.\nEvaluate the decision rules  Provide arguments against the decision rules you believe to be implausible."
   },
   {
     "objectID": "Arg-Anal-Method.html#argumentation-analysis-construction-of-arguments",
@@ -123,6 +123,62 @@
     "href": "Arg-Anal-Method.html#steps-of-argumentation-analysis",
     "title": "Method of Argumentation Analysis",
     "section": "Steps of Argumentation Analysis",
-    "text": "Steps of Argumentation Analysis\n\nStep 1: List of prima facie reasons\nCompile a list of all prima facie reasons that support the available options for action. Below, is an example for how such a final list could look like.3\n\n\n\n\n\n\n\nPro Truth-Sticking (contra lying)\nPro Lying (contra truth-sticking)\n\n\n\n\nDesire-Fulfillment By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)\nAvoidance of Harm By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e. you avoid that she is significantly harmed.\n\n\nRespecting Autonomy By telling the truth, you respect your friend’s autonomy (i.e. her ability to make own decisions)\n\n\n\nSupporting a sincere relationship By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc.\n\n\n\nSupporting social practice Telling the truth, you support a highly important social practice of honesty/ sincerity\n\n\n\n\n\n\nStep 2: Construction of Decision Rules\n\nTrumping\nOne of the values contained in the prima facie reasons is that important that it should not be violated independently of the counter-reasons. The resulting decision rules are:\n\nTrumping Principles\n\n\n\n\n\n\nPro Truth-Sticking (contra lying)\nPro Lying (contra truth-sticking)\n\n\n\n\nDesire-Fulfillment If it does not cause inappropriate costs to you, you should always fulfill the articulated desires of your friend, even if they can substantially harm your friend.\nAvoidance of Harm If it does not cause inappropriate costs to you, you should choose the action which minimizes the expected harm to your friend, even if you break established social norms thereby.\n\n\nRespecting Autonomy If it does not cause inappropriate costs to you, you should always respect the autonomy of your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting a sincere relationship If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting social practice You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend.\n\n\n\n\n\n\nBalancing\n\n\n\n\n\n\nMaximizing Expected Value pro Lying\n\n\n\n\nThe expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty.\n\n\n\n\n\n\n\n\n\nMaximizing Expected Value pro Truth-Sticking\n\n\n\n\nThe expected harm for your friend from missing the meeting is lower than the aggregated harm to her and to society which results from your friend’s frustrated desire, disregard of her autonomy, the stress caused to your relationship, and a violation of the social practice of honesty.\n\n\n\n\n\n\nPrecautionary Principle pro Truth-Sticking\n\n\n\n\nXYz\n\n\n\n\n\n\nPrecautionary Principle pro Lying\n\n\n\n\nXYz\n\n\n\nLinked sub-sides:\n\nTrumping Arguments-internal-link\nBalancing Arguments-internal\nDebunking Arguments\n\n\nSub-Side Argumentation Analysis (?)"
+    "text": "Steps of Argumentation Analysis\n\nStep 1: List of prima facie reasons\nCompile a list of all prima facie reasons that support the available options for action. Below, is an example for how such a final list could look like.3\n\n\n\n\n\n\n\nPro Truth-Sticking (contra lying)\nPro Lying (contra truth-sticking)\n\n\n\n\nDesire-Fulfillment By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)\nAvoidance of Harm By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e. you avoid that she is significantly harmed.\n\n\nRespecting Autonomy By telling the truth, you respect your friend’s autonomy (i.e. her ability to make own decisions)\n\n\n\nSupporting a sincere relationship By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc.\n\n\n\nSupporting social practice Telling the truth, you support a highly important social practice of honesty/ sincerity\n\n\n\n\n\n\nStep 2: Construction of Decision Rules\n\nTrumping\nOne of the values contained in the prima facie reasons is that important that it should not be violated independently of the counter-reasons. The resulting decision rules are:\n\nTrumping Principles\n\n\n\n\n\n\nPro Truth-Sticking (contra lying)\nPro Lying (contra truth-sticking)\n\n\n\n\nDesire-Fulfillment If it does not cause inappropriate costs to you, you should always fulfill the articulated desires of your friend, even if they can substantially harm your friend.\nAvoidance of Harm If it does not cause inappropriate costs to you, you should choose the action which minimizes the expected harm to your friend, even if you break established social norms thereby.\n\n\nRespecting Autonomy If it does not cause inappropriate costs to you, you should always respect the autonomy of your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting a sincere relationship If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting social practice You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend.\n\n\n\n\n\n\nBalancing\nIf there are both prima facie reasons for truth-telling and for lying, and none of these reasons trumps the opposite, the prima facie reasons must be weighed.\n\n\n\n\n\n\nMaximizing Expected Value pro Lying\n\n\n\n\nThe expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty.\n\n\n\n\n\n\n\n\n\nMaximizing Expected Value pro Truth-Sticking\n\n\n\n\nThe expected harm for your friend from missing the meeting is lower than the aggregated harm to her and to society which results from your friend’s frustrated desire, disregard of her autonomy, the stress caused to your relationship, and a violation of the social practice of honesty.\n\n\n\n\n\n\nPrecautionary Principle pro Truth-Sticking\n\n\n\n\nXYz\n\n\n\n\n\n\nPrecautionary Principle pro Lying\n\n\n\n\nXYz\n\n\n\nLinked sub-sides:\n\nTrumping Arguments-internal-link\nBalancing Arguments-internal\nDebunking Arguments\n\n\nSub-Side Argumentation Analysis (?)"
+  },
+  {
+    "objectID": "TWON-Analysis.html#step-1-prima-facie-reasons",
+    "href": "TWON-Analysis.html#step-1-prima-facie-reasons",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Step 1: Prima facie Reasons",
+    "text": "Step 1: Prima facie Reasons"
+  },
+  {
+    "objectID": "TWON-Analysis.html#step-2-decision-rules",
+    "href": "TWON-Analysis.html#step-2-decision-rules",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Step 2: Decision Rules",
+    "text": "Step 2: Decision Rules"
+  },
+  {
+    "objectID": "TWON-Analysis.html#step-3-evaluation-of-the-decision-rules",
+    "href": "TWON-Analysis.html#step-3-evaluation-of-the-decision-rules",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Step 3: Evaluation of the Decision Rules",
+    "text": "Step 3: Evaluation of the Decision Rules"
+  },
+  {
+    "objectID": "TWON-Analysis.html",
+    "href": "TWON-Analysis.html",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "",
+    "text": "D\n\n\n\nA\nFree Public Access\nOwnership: \nAccess:\n\n\n\n\nB\nVetted Researchers \nAccess\nOwnership\nAccess\n\n\n\n\nC\nJudicial Authority\nOwnership\nAccess"
+  },
+  {
+    "objectID": "TWON-Analysis.html#gm-1-free-public-access",
+    "href": "TWON-Analysis.html#gm-1-free-public-access",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "GM-1: Free Public Access",
+    "text": "GM-1: Free Public Access\n\nPrima facie Reasons\n\n\nDecision Rules\n\n\nEvaluation"
+  },
+  {
+    "objectID": "TWON-Analysis.html#gm-2-vetted-researchers-access",
+    "href": "TWON-Analysis.html#gm-2-vetted-researchers-access",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "GM-2: Vetted Researchers Access",
+    "text": "GM-2: Vetted Researchers Access\n\nPrima facie Reasons\n\n\nDecision Rules\n\n\nEvaluation"
+  },
+  {
+    "objectID": "TWON-Analysis.html#gm-3-access-by-judicial-authority",
+    "href": "TWON-Analysis.html#gm-3-access-by-judicial-authority",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "GM-3: Access by Judicial Authority",
+    "text": "GM-3: Access by Judicial Authority\n\nPrima facie Reasons\n\n\nDecision Rules\n\n\nEvaluation"
+  },
+  {
+    "objectID": "TWON-Analysis.html#available-options-for-action",
+    "href": "TWON-Analysis.html#available-options-for-action",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "",
+    "text": "D\n\n\n\nA\nFree Public Access\nOwnership: \nAccess:\n\n\n\n\nB\nVetted Researchers \nAccess\nOwnership\nAccess\n\n\n\n\nC\nJudicial Authority\nOwnership\nAccess"
   }
 ]
