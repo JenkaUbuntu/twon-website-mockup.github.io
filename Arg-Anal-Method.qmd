@@ -24,7 +24,8 @@ Suppose, you are in a situation in which a lie would prevent a bad outcome. Shou
 
 ### The Argumentatiive problem
 
-* At first sight, there are reasons for both options for action
+* You are facing two options for action -- sticking to truth or lying -- and must decide which one to choose.
+* At first sight, there are reasons for both options for action.
 * You must weigh these prima facie reasons for and against the two options to decide whether you should tell the truth or you sould lie.
 
 
@@ -100,6 +101,9 @@ digraph G {
 ### Process of the Argumentation Analysis
 Argumentation Analysis supports you in clarifying the process of wheighing:
 
+0. **Specification of the available options for action** </br>
+  As a prerequisite of an argumentation analysis, you need to identify all the available options for action in the case your are interested in. Here, we have assumed for simplicity, that there are only two options for you. 
+
 1. [**Identification/Evaluation of prima facie reasons**](./Arg-Anal-Method.qmd#step-1-list-of-prima-facie-reasons) </br>
   Identify the list of all prima facie reasons in favour and against the available options for action.
 2. [**Identification/Construction of decision rules**](./Arg-Anal-Method.qmd#step-2-construction-of-decision-rules) </br>
@@ -141,6 +145,9 @@ One of the values contained in the prima facie reasons is that important that it
 
 #### Balancing
 
+If there are both prima facie reasons for truth-telling and for lying, and none of these reasons trumps the opposite, the prima facie reasons must be weighed. 
+
+
 | Maximizing Expected Value pro Lying |
 |:-----|
 | The expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty. |
@@ -160,6 +167,8 @@ One of the values contained in the prima facie reasons is that important that it
 |:-----|
 | XYz |
 : {.striped}
+
+### Evaluation of the Decision Rules
 
 Linked sub-sides:
 

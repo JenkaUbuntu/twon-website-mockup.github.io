@@ -9,7 +9,9 @@ website:
       - href: index.qmd
         text: Home
       - href: Arg-Anal-Method.qmd
-        text: Methods
+        text: Method
+      - href: TWON-Analysis.qmd
+        text: TWON-Analysis
       - href: output.qmd
         text: Outcomes
     right:

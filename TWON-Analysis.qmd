@@ -1,0 +1,59 @@
+---
+title: Should TWONs be Developed and Used?
+---
+
+## Available Options for Action
+
+```{dot}
+digraph D {
+
+  node [shape=plaintext];
+
+  A [ label=<
+   <table border="1" cellborder="0" cellspacing="1">
+     <tr><td align="left"><b>Free Public Access</b></td></tr>
+     <tr><td align="left">Ownership: </td></tr>
+     <tr><td align="left"><font color="darkgreen">Access:</font></td></tr>
+   </table>>];
+
+  B [ label=<
+   <table border="1" cellborder="0" cellspacing="1">
+     <tr><td align="left"><b>Vetted Researchers <br/>Access</b></td></tr>
+     <tr><td align="left">Ownership</td></tr>
+     <tr><td align="left"><font color="darkgreen">Access</font></td></tr>
+   </table>>];
+
+  C [ label=<
+   <table border="1" cellborder="0" cellspacing="1">
+     <tr><td align="left"><b>Judicial Authority</b></td></tr>
+     <tr><td align="left">Ownership</td></tr>
+     <tr><td align="left"><font color="red">Access</font></td></tr>
+   </table>>];
+
+}
+``` 
+
+
+## GM-1: Free Public Access
+
+### Prima facie Reasons
+
+### Decision Rules
+
+### Evaluation 
+
+## GM-2: Vetted Researchers Access 
+
+### Prima facie Reasons
+
+### Decision Rules
+
+### Evaluation 
+
+## GM-3: Access by Judicial Authority
+
+### Prima facie Reasons
+
+### Decision Rules
+
+### Evaluation 
