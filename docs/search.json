@@ -86,21 +86,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Can Two Wrongs Make a Right?",
+    "title": "Can Two Wrongs Make a Right?  A case study on ethical judgement and technology assessment",
     "section": "",
     "text": "Decription of the challenge"
   },
   {
     "objectID": "index.html#methods-argumentation-analysis",
     "href": "index.html#methods-argumentation-analysis",
-    "title": "Can Two Wrongs Make a Right?",
+    "title": "Can Two Wrongs Make a Right?  A case study on ethical judgement and technology assessment",
     "section": "Methods: Argumentation Analysis",
     "text": "Methods: Argumentation Analysis\n\n\n\nArgumentation-Analysis-Idea\n\n\n\n\n\n\n\n\n\n\n\n\nExplain the Method: Using Argumentation Analysis for Technology Assessment\nApply the Method: Analysis of TWONs"
   },
   {
     "objectID": "index.html#outcome-our-recommendations",
     "href": "index.html#outcome-our-recommendations",
-    "title": "Can Two Wrongs Make a Right?",
+    "title": "Can Two Wrongs Make a Right?  A case study on ethical judgement and technology assessment",
     "section": "Outcome: Our Recommendations",
     "text": "Outcome: Our Recommendations\n\nRecommendations for the research community:\n\n…\n\nRecommendations for politics and the interested public\n\n…"
   },
@@ -151,34 +151,48 @@
     "href": "TWON-Analysis.html",
     "title": "Should TWONs be Developed and Used?",
     "section": "",
-    "text": "D\n\n\n\nA\nFree Public Access\nOwnership: \nAccess:\n\n\n\n\nB\nVetted Researchers \nAccess\nOwnership\nAccess\n\n\n\n\nC\nJudicial Authority\nOwnership\nAccess"
+    "text": "R\n\n\n\nGM3\n\n\nJudicial Authority\n\n\n\n\n\nGM2\n\n\nVetted Researchers Access\n\n\n\n\n\nGM1\n\n\nFree Public Access\n\n\n\n\n\n\n\n\n\n\n\n\n\nA\n\nFree Public Access Ownership:  Access:    \n\nB\n\nVetted Researchers  Access Ownership Access    \n\nC\n\nJudicial Authority Ownership Access     ``:::\n\n`{=html} :::: ::::: ::::::\n–&gt;"
   },
   {
     "objectID": "TWON-Analysis.html#gm-1-free-public-access",
     "href": "TWON-Analysis.html#gm-1-free-public-access",
     "title": "Should TWONs be Developed and Used?",
     "section": "GM-1: Free Public Access",
-    "text": "GM-1: Free Public Access\n\nPrima facie Reasons\n\n\nDecision Rules\n\n\nEvaluation"
+    "text": "GM-1: Free Public Access\n\n\n\n\n\n\n\nPro Free Public Access\nContra Free Public Access\n\n\n\n\n(B-1-1) Increase in social welfare in an amount of SW(GM-1)\n\n\n\n(B-1-2) Improvement of individual quality of life in an amount of QoL(GM-1)\n(R-1-2) Risk to individual quality of life from misuse of personal data\n\n\n\n(R-2-1) Increase in vioalations of the right to informational privacy\n\n\n(B-2-2) Ability to prevent undermining of individual autonomy on OSNs\n(R-2-2) Intensified undermining of individual autonomy\n\n\n(B-2-3) Improvement of the deliberative quality of public discourse, but at least the ability to prevent the erosion of epistemic, moral, and juridical norms necessary for democratic governance\n(R-2-3) Risk of collapse of institutions necessary for democratic governance\n\n\n(B-3) Additional knowledge with regard to mitigation of existing injustices (e.g., marginalization of vulnerable groups\n(R-3-1) Harms to future generations from increased resources use and/or environmental pollution\n\n\n\n(R-3-2) Reinforcement of existing inequalities in financial and political power relations at the national and global level"
   },
   {
     "objectID": "TWON-Analysis.html#gm-2-vetted-researchers-access",
     "href": "TWON-Analysis.html#gm-2-vetted-researchers-access",
     "title": "Should TWONs be Developed and Used?",
     "section": "GM-2: Vetted Researchers Access",
-    "text": "GM-2: Vetted Researchers Access\n\nPrima facie Reasons\n\n\nDecision Rules\n\n\nEvaluation"
+    "text": "GM-2: Vetted Researchers Access"
   },
   {
     "objectID": "TWON-Analysis.html#gm-3-access-by-judicial-authority",
     "href": "TWON-Analysis.html#gm-3-access-by-judicial-authority",
     "title": "Should TWONs be Developed and Used?",
     "section": "GM-3: Access by Judicial Authority",
-    "text": "GM-3: Access by Judicial Authority\n\nPrima facie Reasons\n\n\nDecision Rules\n\n\nEvaluation"
+    "text": "GM-3: Access by Judicial Authority"
   },
   {
     "objectID": "TWON-Analysis.html#available-options-for-action",
     "href": "TWON-Analysis.html#available-options-for-action",
     "title": "Should TWONs be Developed and Used?",
     "section": "",
-    "text": "D\n\n\n\nA\nFree Public Access\nOwnership: \nAccess:\n\n\n\n\nB\nVetted Researchers \nAccess\nOwnership\nAccess\n\n\n\n\nC\nJudicial Authority\nOwnership\nAccess"
+    "text": "R\n\n\n\nGM1\n\n\nFree Public Access\n\n\n\n\n\nGM2\n\n\nVetted Researchers Access\n\n\n\n\n\nGM3\n\n\nJudicial Authority\n\n\n\n\n\n\n\n\n\n\n\n\n\nA\n\nFree Public Access Ownership:  Access:    \n\nB\n\nVetted Researchers  Access Ownership Access    \n\nC\n\nJudicial Authority Ownership Access     ``:::\n\n`{=html} :::: ::::: ::::::\n–&gt;"
+  },
+  {
+    "objectID": "TWON-Analysis.html#decision-rules",
+    "href": "TWON-Analysis.html#decision-rules",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Decision Rules",
+    "text": "Decision Rules"
+  },
+  {
+    "objectID": "TWON-Analysis.html#evaluation",
+    "href": "TWON-Analysis.html#evaluation",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Evaluation",
+    "text": "Evaluation"
   }
 ]
