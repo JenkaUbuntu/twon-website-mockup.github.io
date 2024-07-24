@@ -1,5 +1,5 @@
 ---
-title: "Can Two Wrongs Make a Right?"
+title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement and technology assessment"
 ---
 
 ![Decription of the challenge](./Graphics/problem-description-v2.png)

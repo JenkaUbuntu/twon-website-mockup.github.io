@@ -2,8 +2,22 @@
 title: Should TWONs be Developed and Used?
 ---
 
-## Available Options for Action
+# Available Options for Action
 
+```{dot}
+digraph R {
+  rankdir=LR
+  node [shape=box, style="rounded,filled"]
+  GM3 [label="Judicial Authority", href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-3-access-by-judicial-authority"]
+  GM2 [label="Vetted Researchers Access", href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-2-vetted-researchers-access"]
+  GM1 [label="Free Public Access", href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-1-free-public-access"]
+  
+  
+  
+}
+```
+
+<!--
 ```{dot}
 digraph D {
 
@@ -32,28 +46,55 @@ digraph D {
 
 }
 ``` 
+-->
 
+# Pro and Cons the Governing Modes
 
 ## GM-1: Free Public Access
 
-### Prima facie Reasons
 
-### Decision Rules
+| Pro Free Public Access | Contra Free Public Access |
+|:----------------------|:--------------------|
+| (B-1-1) **Increase in social welfare** in an amount of SW(GM-1)     |  |
+| (B-1-2) **Improvement of individual quality of life** in an amount of QoL(GM-1) | (R-1-2) **Risk to individual quality of life** from misuse of personal data |
+| | (R-2-1) Increase in **vioalations of the right to informational privacy** | 
+| (B-2-2) Ability to **prevent undermining of individual autonomy** on OSNs | (R-2-2) Intensified **undermining of individual autonomy** |
+| (B-2-3) Improvement of the **deliberative quality of public discourse**, but at least the ability to prevent the erosion of epistemic, moral, and juridical norms necessary for democratic governance | (R-2-3) Risk of **collapse of institutions necessary for democratic governance**
+| (B-3) Additional knowledge with regard to **mitigation of existing injustices** (e.g., marginalization of vulnerable groups | (R-3-1) **Harms to future generations** from increased resources use and/or environmental pollution |
+| | (R-3-2) **Reinforcement of existing inequalities** in financial and political power relations at the national and global level |
+: {.striped}
 
-### Evaluation 
 
 ## GM-2: Vetted Researchers Access 
 
-### Prima facie Reasons
-
-### Decision Rules
-
-### Evaluation 
 
 ## GM-3: Access by Judicial Authority
 
-### Prima facie Reasons
+# Your Evaluation based on the pro- and cons lists
 
-### Decision Rules
+* Step 1: Evaluation of prima facie reasons
+  * Possible Benefits: Which of the possible benefits are not prima facie reasons for a free access to TWONs? 
+    * possible outcomes: (i-pro) all pro-reasons debunked; (ii-pro) some or none pro-reasons debunked
+  * Possible Harms: Which of the risks are not prima facie reasons against a free access to TWON?
+    * possible outcomes: (i-contra) all debunked;
+    (ii-contra): some or none debunked.
+  * if (i-pro)&(i-contra): no reasoning on the basis of our pro-cons list possible -- a new pro-con list needed
+  * otherwise: Step 2: Decision Principles
 
-### Evaluation 
+* Step 2: Decision Principles
+  * if (i-pro)&(ii-Contra): contra-reasons trump
+    * Free Access has risks and no benefits
+    * Create the map
+  * if (ii-pro)&(i-contra): pro-reasons trump
+    * Free Access has benefits and no risks
+    * Additional premise needed: there are no alternatives
+      * Evaluate it: agree, disagree, do not know
+      * Result: 
+  * if (ii-pro)&(ii-contra: )
+
+
+# Our Evaluation based on the pro- and cons lists
+
+## Decision Rules
+
+## Evaluation 
