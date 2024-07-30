@@ -151,7 +151,7 @@
     "href": "TWON-Analysis.html",
     "title": "Should TWONs be Developed and Used?",
     "section": "",
-    "text": "Governance Modes for TWON\n\n\n\npro_1\n\n\nPossible Benefits and Risks\n\n\n\n\n\ndecision_principles_1\n\nPossible Decision Principles\n\n\n\npro_1-&gt;decision_principles_1\n\n\n\n\narguments_1\n\nArguments\n\n\n\ndecision_principles_1-&gt;arguments_1\n\n\n\n\npro_2\n\n\nPossible Benefits and Risks\n\n\n\n\n\ndecision_principles_2\n\nPossible Decision Principles\n\n\n\npro_2-&gt;decision_principles_2\n\n\n\n\narguments_2\n\nArguments\n\n\n\ndecision_principles_2-&gt;arguments_2\n\n\n\n\npro_3\n\n\nPossible Benefits and Risks\n\n\n\n\n\ndecision_principles_3\n\nPossible Decision Principles\n\n\n\npro_3-&gt;decision_principles_3\n\n\n\n\narguments_3\n\nArguments\n\n\n\ndecision_principles_3-&gt;arguments_3\n\n\n\n\nLabel_1\n\nFree Public Access\n\n\n\nLabel_1-&gt;pro_1\n\n\n\n\nLabel_2\n\nVetted Researchers Access\n\n\n\nLabel_2-&gt;pro_2\n\n\n\n\nLabel_3\n\nJudicial Authority\n\n\n\nLabel_3-&gt;pro_3\n\n\n\n\n\n\n\nFigure 1: Basic Structure of the TWON Analysis"
+    "text": "Governance Modes for TWON\n\n\n\npro_1\n\n\nPossible Benefits and Risks\n\n\n\n\n\ndecision_principles_1\n\n\nPossible Arguments\n\n\n\n\n\npro_1-&gt;decision_principles_1\n\n\n\n\narguments_1\n\nEvaluation of Arguments\n\n\n\ndecision_principles_1-&gt;arguments_1\n\n\n\n\npro_2\n\n\nPossible Benefits and Risks\n\n\n\n\n\ndecision_principles_2\n\n\nPossible Arguments\n\n\n\n\n\npro_2-&gt;decision_principles_2\n\n\n\n\narguments_2\n\nEvaluation of Arguments\n\n\n\ndecision_principles_2-&gt;arguments_2\n\n\n\n\npro_3\n\n\nPossible Benefits and Risks\n\n\n\n\n\ndecision_principles_3\n\n\nPossible Arguments\n\n\n\n\n\npro_3-&gt;decision_principles_3\n\n\n\n\narguments_3\n\nEvaluation of Arguments\n\n\n\ndecision_principles_3-&gt;arguments_3\n\n\n\n\nLabel_1\n\n\nFree Public Access\n\n\n\n\n\nLabel_1-&gt;pro_1\n\n\n\n\nLabel_2\n\n\nVetted Researchers Access\n\n\n\n\n\nLabel_2-&gt;pro_2\n\n\n\n\nLabel_3\n\n\nJudicial Authority\n\n\n\n\n\nLabel_3-&gt;pro_3\n\n\n\n\n\n\n\nFigure 1: Basic Structure of the TWON Analysis"
   },
   {
     "objectID": "TWON-Analysis.html#gm-1-free-public-access",
@@ -229,5 +229,54 @@
     "title": "Should TWONs be Developed and Used?",
     "section": "GM-1: Free Public Access",
     "text": "GM-1: Free Public Access\n\n\n\n\n\n\nGM-1 Argumentation Structure\n\n\n\npro_GM_1\n\nPro \nFree Public Access to TWONs\n\n\n\npro_GM_1_trumping\n\nRisks from \nfree public access \nare insignificant\n\n\n\npro_GM_1-&gt;pro_GM_1_trumping\n\n\n\n\npro_GM_1_balancing\n\nExpected benefits from \nfree public access \noutweigh the risks\n\n\n\npro_GM_1-&gt;pro_GM_1_balancing\n\n\n\n\narg_rekos_risks\n\nReconstructed \narguments\n\n\n\npro_GM_1_trumping-&gt;arg_rekos_risks\n\n\n\n\narg_maps_risks\n\nArgumentation \nmap\n\n\n\npro_GM_1_trumping-&gt;arg_maps_risks\n\n\n\n\narg_rekos_bal\n\nReconstructed \narguments\n\n\n\npro_GM_1_balancing-&gt;arg_rekos_bal\n\n\n\n\narg_maps_bal\n\nArgumentation \nmap\n\n\n\npro_GM_1_balancing-&gt;arg_maps_bal\n\n\n\n\ncontra_GM_1\n\nContra \nFree Public Access to TWONs\n\n\n\ncontra_GM_1_trumping\n\nBenefits from \nfree public access \nare insignificant\n\n\n\ncontra_GM_1-&gt;contra_GM_1_trumping\n\n\n\n\ncontra_GM_1_balancing\n\nRisks from free \npublic access outweigh \nthe expected benefits\n\n\n\ncontra_GM_1-&gt;contra_GM_1_balancing\n\n\n\n\narg_rekos_benefits\n\nReconstructed \narguments\n\n\n\ncontra_GM_1_trumping-&gt;arg_rekos_benefits\n\n\n\n\narg_maps_benefits\n\nArgumentation \nmap\n\n\n\ncontra_GM_1_trumping-&gt;arg_maps_benefits\n\n\n\n\narg_rekos_bal_contra\n\nReconstructed \narguments\n\n\n\ncontra_GM_1_balancing-&gt;arg_rekos_bal_contra\n\n\n\n\narg_maps_bal_contra\n\nArgumentation \nmap\n\n\n\ncontra_GM_1_balancing-&gt;arg_maps_bal_contra\n\n\n\n\n\nArgumentative Structure regarding a free public access regulation to TWONs"
+  },
+  {
+    "objectID": "TWON-Analysis.html#pro-cons-gm-1-free-public-access",
+    "href": "TWON-Analysis.html#pro-cons-gm-1-free-public-access",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Pro-Cons-GM-1: Free Public Access",
+    "text": "Pro-Cons-GM-1: Free Public Access\n\n\n\n\n\n\n\nPro Free Public Access\nContra Free Public Access\n\n\n\n\n(B-1-1) Increase in social welfare in an amount of SW(GM-1)\n\n\n\n(B-1-2) Improvement of individual quality of life in an amount of QoL(GM-1)\n(R-1-2) Risk to individual quality of life from misuse of personal data\n\n\n\n(R-2-1) Increase in vioalations of the right to informational privacy\n\n\n(B-2-2) Ability to prevent undermining of individual autonomy on OSNs\n(R-2-2) Intensified undermining of individual autonomy\n\n\n(B-2-3) Improvement of the deliberative quality of public discourse\n(R-2-3) Risk of collapse of institutions necessary for democratic governance\n\n\n(B-3) Additional knowledge with regard to mitigation of existing injustices (e.g., marginalization of vulnerable groups\n(R-3-1) Harms to future generations from increased resources use and/or environmental pollution\n\n\n\n(R-3-2) Reinforcement of existing inequalities in financial and political power relations at the national and global level"
+  },
+  {
+    "objectID": "TWON-Analysis.html#pro-cons-gm-2-vetted-researchers-access",
+    "href": "TWON-Analysis.html#pro-cons-gm-2-vetted-researchers-access",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Pro-Cons-GM-2: Vetted Researchers Access",
+    "text": "Pro-Cons-GM-2: Vetted Researchers Access\n\n\n\n\n\n\n\nPro Only Researchers Access\nContra Only Researchers Access\n\n\n\n\n\n(R-0) It is practically infeasible to restrict access to TWONs to researchers only\n\n\n(B-1-1) Increase in social welfare in an amount of SW(GM-2)&lt;SW(GM-1)\n\n\n\n(B-1-2) Improvement of individual quality of life in an amount of QoL(GM-2)&lt;SW(GM-1)\n(R-1-2) Risk to individual quality of life from misuse of personal data (risk lower than in GM-1)\n\n\n\n(R-2-1) Increase in vioalations of the right to informational privacy\n\n\n(B-2-2) Ability to prevent undermining of individual autonomy on OSNs\n\n\n\n(B-2-3) Improvement of the deliberative quality of public discourse (to a lesser extent than GM-1 in the best possible case)\n\n\n\n(B-3) Additional knowledge for mitigation of existing injustices (e.g., marginalization of vulnerable groups\n\n\n\n\n(R-3-2) Risk that existing global epistemic inequalities will be increased"
+  },
+  {
+    "objectID": "TWON-Analysis.html#pro-cons-gm-3-access-by-judicial-authority",
+    "href": "TWON-Analysis.html#pro-cons-gm-3-access-by-judicial-authority",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Pro-Cons-GM-3: Access by Judicial Authority",
+    "text": "Pro-Cons-GM-3: Access by Judicial Authority\n\n\n\n\n\n\n\nPro “On Behalf of Judicial Authority”\nContra “On Behalf of Judicial Authority”\n\n\n\n\n\n(R-0) It is practically infeasible to restrict access to TWONs\n\n\n\n(R-2-1) Increase in vioalations of the right to informational privacy1\n\n\n(B-2-3) Ability to prevent and prosecute violations of legal norms on OSNs"
+  },
+  {
+    "objectID": "TWON-Analysis.html#arguments-regarding-gm-1-free-public-access",
+    "href": "TWON-Analysis.html#arguments-regarding-gm-1-free-public-access",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Arguments regarding GM-1: Free Public Access",
+    "text": "Arguments regarding GM-1: Free Public Access\n\n\n\n\n\n\nGM-1 Argumentation Structure\n\n\n\npro_GM_1\n\nPro \nFree Public Access to TWONs\n\n\n\npro_GM_1_trumping\n\nRisks from \nfree public access \nare insignificant\n\n\n\npro_GM_1-&gt;pro_GM_1_trumping\n\n\n\n\npro_GM_1_balancing\n\nExpected benefits from \nfree public access \noutweigh the risks\n\n\n\npro_GM_1-&gt;pro_GM_1_balancing\n\n\n\n\narg_rekos_risks\n\nReconstructed \narguments\n\n\n\npro_GM_1_trumping-&gt;arg_rekos_risks\n\n\n\n\narg_maps_risks\n\nArgumentation \nmap\n\n\n\npro_GM_1_trumping-&gt;arg_maps_risks\n\n\n\n\narg_rekos_bal\n\nReconstructed \narguments\n\n\n\npro_GM_1_balancing-&gt;arg_rekos_bal\n\n\n\n\narg_maps_bal\n\nArgumentation \nmap\n\n\n\npro_GM_1_balancing-&gt;arg_maps_bal\n\n\n\n\ncontra_GM_1\n\nContra \nFree Public Access to TWONs\n\n\n\ncontra_GM_1_trumping\n\nBenefits from \nfree public access \nare insignificant\n\n\n\ncontra_GM_1-&gt;contra_GM_1_trumping\n\n\n\n\ncontra_GM_1_balancing\n\nRisks from free \npublic access outweigh \nthe expected benefits\n\n\n\ncontra_GM_1-&gt;contra_GM_1_balancing\n\n\n\n\narg_rekos_benefits\n\nReconstructed \narguments\n\n\n\ncontra_GM_1_trumping-&gt;arg_rekos_benefits\n\n\n\n\narg_maps_benefits\n\nArgumentation \nmap\n\n\n\ncontra_GM_1_trumping-&gt;arg_maps_benefits\n\n\n\n\narg_rekos_bal_contra\n\nReconstructed \narguments\n\n\n\ncontra_GM_1_balancing-&gt;arg_rekos_bal_contra\n\n\n\n\narg_maps_bal_contra\n\nArgumentation \nmap\n\n\n\ncontra_GM_1_balancing-&gt;arg_maps_bal_contra\n\n\n\n\n\nArgumentative Structure regarding a free public access regulation to TWONs"
+  },
+  {
+    "objectID": "TWON-Analysis.html#arguments-regarding-gm-2-vested-researchers-only",
+    "href": "TWON-Analysis.html#arguments-regarding-gm-2-vested-researchers-only",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Arguments regarding GM-2: Vested Researchers Only",
+    "text": "Arguments regarding GM-2: Vested Researchers Only"
+  },
+  {
+    "objectID": "TWON-Analysis.html#arguments-regarding-gm-3-on-behalf-of-judicial-authority-only",
+    "href": "TWON-Analysis.html#arguments-regarding-gm-3-on-behalf-of-judicial-authority-only",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Arguments regarding GM-3: On behalf of Judicial Authority Only",
+    "text": "Arguments regarding GM-3: On behalf of Judicial Authority Only"
+  },
+  {
+    "objectID": "TWON-Analysis.html#arguments-regarding-gm-2-vetted-researchers-only",
+    "href": "TWON-Analysis.html#arguments-regarding-gm-2-vetted-researchers-only",
+    "title": "Should TWONs be Developed and Used?",
+    "section": "Arguments regarding GM-2: Vetted Researchers Only",
+    "text": "Arguments regarding GM-2: Vetted Researchers Only"
   }
 ]
