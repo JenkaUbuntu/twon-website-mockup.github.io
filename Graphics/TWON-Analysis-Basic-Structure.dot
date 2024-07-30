@@ -17,18 +17,18 @@ digraph "Governance Modes for TWON" {
 		style = "filled,setlinewidth(3)"]
   subgraph GM_1 {
   node [color=black]
-  edge [color=green]
+  edge [color=black]
   pro_1 [
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-1-free-public-access",
-    fillcolor="white",
+    href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#pro-cons-gm-1-free-public-access",
+    fillcolor="#deebf7",
     fixedsize=false,
     label="Possible Benefits and Risks"
     height=0.6,
     row=func,
     width=1]
   decision_principles_1 [
-    URL="",
-    fillcolor="lightgrey",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#arguments-regarding-gm-1-free-public-access",
+    fillcolor="#9ecae1",
     fixedsize=false,
     label="Possible Arguments"
     height=0.6,
@@ -36,9 +36,10 @@ digraph "Governance Modes for TWON" {
     width=1]
   arguments_1 [
     URL="",
-    fillcolor="grey",
-    fixedsize=true,
+    fillcolor="#3182bd",
+    fixedsize=false,
     label="Evaluation of Arguments"
+    fontcolor=white,
     height=0.6,
     row=func,
     width=1
@@ -48,18 +49,18 @@ digraph "Governance Modes for TWON" {
  }
    subgraph GM_2 {
   node [color=black]
-  edge [color=green]
+  edge [color=black]
   pro_2 [
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-2-vetted-researchers-access",
-    fillcolor="white",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#pro-cons-gm-2-vetted-researchers-access",
+    fillcolor="#deebf7",
     fixedsize=false,
     label="Possible Benefits and Risks"
     height=0.6,
     row=func,
     width=1]
   decision_principles_2 [
-    URL="",
-    fillcolor="lightgrey",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#arguments-regarding-gm-2-vetted-researchers-only",
+    fillcolor="#9ecae1",
     fixedsize=false,
     label="Possible Arguments"
     height=0.6,
@@ -67,9 +68,10 @@ digraph "Governance Modes for TWON" {
     width=1]
   arguments_2 [
     URL="",
-    fillcolor="grey",
-    fixedsize=true,
+    fillcolor="#3182bd",
+    fixedsize=false,
     label="Evaluation of Arguments"
+    fontcolor=white,
     height=0.6,
     row=func,
     width=1
@@ -81,26 +83,27 @@ digraph "Governance Modes for TWON" {
   node [color=black]
   edge [color=black]
   pro_3 [
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-3-access-by-judicial-authority",
-    fillcolor="white",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#pro-cons-gm-3-access-by-judicial-authority",
+    fillcolor="#deebf7",
     fixedsize=false,
-    label="Possible Benefits and Risks"
+    label="Possible Benefits and Risks",
     height=0.6,
     row=func,
     width=1]
   decision_principles_3 [
-    URL="",
-    fillcolor="lightgrey",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#arguments-regarding-gm-3-on-behalf-of-judicial-authority-only",
+    fillcolor="#9ecae1",
     fixedsize=false,
-    label="Possible Arguments"
+    label="Possible Arguments",
     height=0.6,
     row=func,
     width=1]
   arguments_3 [
     URL="",
-    fillcolor="grey",
-    fixedsize=true,
-    label="Evaluation of Arguments"
+    fillcolor="#3182bd",
+    fixedsize=false,
+    label="Evaluation of Arguments",
+    fontcolor=white,
     height=0.6,
     row=func,
     width=1
@@ -110,16 +113,19 @@ digraph "Governance Modes for TWON" {
  }
  Label_1 [
   label="Free Public Access",
+  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-1-free-public-access",
   fillcolor="white",
   width=1
   height=.6]
  Label_2 [
   label="Vetted Researchers Access",
+  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-2-vetted-researchers-only",
   fillcolor="white",
   width=1
   height=.6]
  Label_3 [
   label="Judicial Authority",
+  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-3-judicial-authority",
   fillcolor="white",
   width=1
   height=.6]

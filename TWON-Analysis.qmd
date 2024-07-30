@@ -105,7 +105,7 @@ title: Should TWONs be Developed and Used?
 //| file: ./Graphics/GM-1-arguments.dot
 ```
 
-## Arguments regarding GM-2: Vested Researchers Only
+## Arguments regarding GM-2: Vetted Researchers Only
 
 ## Arguments regarding GM-3: On behalf of Judicial Authority Only
 # Evaluation of the Arguments

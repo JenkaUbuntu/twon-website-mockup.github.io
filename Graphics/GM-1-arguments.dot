@@ -24,19 +24,20 @@ digraph "GM-1 Argumentation Structure" {
   ]
   pro_GM_1_trumping [
    shape=ellipse,
-   fillcolor="white",
+   fillcolor="#6baed6",
    label="Risks from \nfree public access \nare insignificant"
    row=func,
   ]
   pro_GM_1_balancing [
    shape=ellipse,
-   fillcolor="white",
+   fillcolor="#6baed6",
    label="Expected benefits from \nfree public access \noutweigh the risks"
   ]
   arg_rekos_risks [
    shape=plain,
    url=""
-   fillcolor="lightgray",
+   fillcolor="#3182bd",
+   fontcolor=white,
    label="Reconstructed \narguments"
    height=5,
    width=5
@@ -44,7 +45,8 @@ digraph "GM-1 Argumentation Structure" {
   arg_maps_risks [
    shape=plain,
    url=""
-   fillcolor="lightgray",
+   fillcolor="#08519c",
+   fontcolor=white,
    label="Argumentation \nmap"
    height=.4,
    width=.5
@@ -52,7 +54,8 @@ digraph "GM-1 Argumentation Structure" {
   arg_rekos_bal [
    shape=plain,
    url=""
-   fillcolor="lightgray",
+   fillcolor="#3182bd",
+   fontcolor=white,
    label="Reconstructed \narguments"
    height=5,
    width=5
@@ -60,7 +63,8 @@ digraph "GM-1 Argumentation Structure" {
   arg_maps_bal [
    shape=plain,
    url=""
-   fillcolor="lightgray",
+   fillcolor="#08519cy",
+   fontcolor=white,
    label="Argumentation \nmap"
    height=.4,
    width=.5
@@ -82,19 +86,20 @@ digraph "GM-1 Argumentation Structure" {
   ]
   contra_GM_1_trumping [
    shape=ellipse,
-   fillcolor="white",
+   fillcolor="#6baed6",
    label="Benefits from \nfree public access \nare insignificant"
    row=func,
   ]
   contra_GM_1_balancing [
    shape=ellipse,
-   fillcolor="white",
+   fillcolor="#6baed6",
    label="Risks from free \npublic access outweigh \nthe expected benefits"
   ]
   arg_rekos_benefits [
    shape=plain,
    url=""
-   fillcolor="lightgray",
+   fillcolor="#3182bd",
+   fontcolor=white,
    label="Reconstructed \narguments"
    height=5,
    width=5
@@ -102,7 +107,8 @@ digraph "GM-1 Argumentation Structure" {
   arg_maps_benefits [
    shape=plain,
    url=""
-   fillcolor="lightgray",
+   fillcolor="#08519c",
+   fontcolor=white,
    label="Argumentation \nmap"
    height=.4,
    width=.5
@@ -110,7 +116,8 @@ digraph "GM-1 Argumentation Structure" {
   arg_rekos_bal_contra [
    shape=plain,
    url=""
-   fillcolor="lightgray",
+   fillcolor="#3182bd",
+   fontcolor=white,
    label="Reconstructed \narguments"
    height=5,
    width=5
@@ -118,7 +125,8 @@ digraph "GM-1 Argumentation Structure" {
   arg_maps_bal_contra [
    shape=plain,
    url=""
-   fillcolor="lightgray",
+   fillcolor="#08519c",
+   fontcolor=white,
    label="Argumentation \nmap"
    height=.4,
    width=.5
