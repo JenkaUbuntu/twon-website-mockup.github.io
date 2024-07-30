@@ -1,0 +1,129 @@
+digraph "Governance Modes for TWON" {
+ graph [newrank = true,
+		nodesep = 0.5,
+		ranksep = 0.4,
+		overlap = true,
+		splines = false,]
+ node [fixedsize = false,
+		fontsize = 14,
+		height = 1,
+		shape = box,
+		style = "filled,setlinewidth(1)",
+		width = 1]
+ edge [arrowhead = none,
+		arrowsize = 1,
+		labelfontname = "Ubuntu",
+		weight = 10,
+		style = "filled,setlinewidth(3)"]
+  subgraph GM_1 {
+  node [color=black]
+  edge [color=green]
+  pro_1 [
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-1-free-public-access",
+    fillcolor="white",
+    fixedsize=false,
+    label="Possible Benefits and Risks"
+    height=0.6,
+    row=func,
+    width=1]
+  decision_principles_1 [
+    URL="",
+    fillcolor="lightgrey",
+    fixedsize=false,
+    label="Possible Arguments"
+    height=0.6,
+    row=func,
+    width=1]
+  arguments_1 [
+    URL="",
+    fillcolor="grey",
+    fixedsize=true,
+    label="Evaluation of Arguments"
+    height=0.6,
+    row=func,
+    width=1
+  ]
+  pro_1 -> decision_principles_1
+  decision_principles_1 -> arguments_1
+ }
+   subgraph GM_2 {
+  node [color=black]
+  edge [color=green]
+  pro_2 [
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-2-vetted-researchers-access",
+    fillcolor="white",
+    fixedsize=false,
+    label="Possible Benefits and Risks"
+    height=0.6,
+    row=func,
+    width=1]
+  decision_principles_2 [
+    URL="",
+    fillcolor="lightgrey",
+    fixedsize=false,
+    label="Possible Arguments"
+    height=0.6,
+    row=func,
+    width=1]
+  arguments_2 [
+    URL="",
+    fillcolor="grey",
+    fixedsize=true,
+    label="Evaluation of Arguments"
+    height=0.6,
+    row=func,
+    width=1
+  ]
+  pro_2 -> decision_principles_2
+  decision_principles_2 -> arguments_2
+ }
+ subgraph GM_3 {
+  node [color=black]
+  edge [color=black]
+  pro_3 [
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-3-access-by-judicial-authority",
+    fillcolor="white",
+    fixedsize=false,
+    label="Possible Benefits and Risks"
+    height=0.6,
+    row=func,
+    width=1]
+  decision_principles_3 [
+    URL="",
+    fillcolor="lightgrey",
+    fixedsize=false,
+    label="Possible Arguments"
+    height=0.6,
+    row=func,
+    width=1]
+  arguments_3 [
+    URL="",
+    fillcolor="grey",
+    fixedsize=true,
+    label="Evaluation of Arguments"
+    height=0.6,
+    row=func,
+    width=1
+  ]
+  pro_3 -> decision_principles_3
+  decision_principles_3 -> arguments_3
+ }
+ Label_1 [
+  label="Free Public Access",
+  fillcolor="white",
+  width=1
+  height=.6]
+ Label_2 [
+  label="Vetted Researchers Access",
+  fillcolor="white",
+  width=1
+  height=.6]
+ Label_3 [
+  label="Judicial Authority",
+  fillcolor="white",
+  width=1
+  height=.6]
+ Label_1 -> pro_1
+ Label_2 -> pro_2
+ Label_3 -> pro_3
+}

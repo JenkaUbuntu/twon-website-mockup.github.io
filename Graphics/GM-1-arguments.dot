@@ -1,0 +1,135 @@
+digraph "GM-1 Argumentation Structure" {
+ graph [newrank = true,
+		nodesep = 0.5,
+		ranksep = 0.4,
+		overlap = true,
+		splines = false,]
+ node [fixedsize = false,
+		fontsize = 12,
+		height = 1,
+		shape = box,
+		style = "filled,setlinewidth(1)",
+		width = 1]
+ edge [arrowhead = none,
+		arrowsize = 1,
+		labelfontname = "Ubuntu",
+		weight = 10,
+		style = "filled,setlinewidth(3)"]
+  pro_GM_1 [
+    fillcolor="white",
+    label="Pro \nFree Public Access to TWONs"
+    height=.6,
+    row=func,
+    width=1
+  ]
+  pro_GM_1_trumping [
+   shape=ellipse,
+   fillcolor="white",
+   label="Risks from \nfree public access \nare insignificant"
+   row=func,
+  ]
+  pro_GM_1_balancing [
+   shape=ellipse,
+   fillcolor="white",
+   label="Expected benefits from \nfree public access \noutweigh the risks"
+  ]
+  arg_rekos_risks [
+   shape=plain,
+   url=""
+   fillcolor="lightgray",
+   label="Reconstructed \narguments"
+   height=5,
+   width=5
+  ]
+  arg_maps_risks [
+   shape=plain,
+   url=""
+   fillcolor="lightgray",
+   label="Argumentation \nmap"
+   height=.4,
+   width=.5
+  ]
+  arg_rekos_bal [
+   shape=plain,
+   url=""
+   fillcolor="lightgray",
+   label="Reconstructed \narguments"
+   height=5,
+   width=5
+  ]
+  arg_maps_bal [
+   shape=plain,
+   url=""
+   fillcolor="lightgray",
+   label="Argumentation \nmap"
+   height=.4,
+   width=.5
+  ]
+  
+  pro_GM_1 -> pro_GM_1_trumping
+  pro_GM_1 -> pro_GM_1_balancing
+  pro_GM_1_trumping -> arg_rekos_risks
+  pro_GM_1_trumping -> arg_maps_risks
+  pro_GM_1_balancing -> arg_rekos_bal
+  pro_GM_1_balancing -> arg_maps_bal
+
+  contra_GM_1 [
+    fillcolor="white",
+    label="Contra \nFree Public Access to TWONs"
+    height=.6,
+    row=func,
+    width=1
+  ]
+  contra_GM_1_trumping [
+   shape=ellipse,
+   fillcolor="white",
+   label="Benefits from \nfree public access \nare insignificant"
+   row=func,
+  ]
+  contra_GM_1_balancing [
+   shape=ellipse,
+   fillcolor="white",
+   label="Risks from free \npublic access outweigh \nthe expected benefits"
+  ]
+  arg_rekos_benefits [
+   shape=plain,
+   url=""
+   fillcolor="lightgray",
+   label="Reconstructed \narguments"
+   height=5,
+   width=5
+  ]
+  arg_maps_benefits [
+   shape=plain,
+   url=""
+   fillcolor="lightgray",
+   label="Argumentation \nmap"
+   height=.4,
+   width=.5
+  ]
+  arg_rekos_bal_contra [
+   shape=plain,
+   url=""
+   fillcolor="lightgray",
+   label="Reconstructed \narguments"
+   height=5,
+   width=5
+  ]
+  arg_maps_bal_contra [
+   shape=plain,
+   url=""
+   fillcolor="lightgray",
+   label="Argumentation \nmap"
+   height=.4,
+   width=.5
+  ]
+  
+  contra_GM_1 -> contra_GM_1_trumping
+  contra_GM_1 -> contra_GM_1_balancing
+  contra_GM_1_trumping -> arg_rekos_benefits
+  contra_GM_1_trumping -> arg_maps_benefits
+  contra_GM_1_balancing -> arg_rekos_bal_contra
+  contra_GM_1_balancing -> arg_maps_bal_contra
+
+
+}

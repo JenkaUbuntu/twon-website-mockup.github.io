@@ -2,55 +2,38 @@
 title: Should TWONs be Developed and Used?
 ---
 
-# Available Options for Action
-
 ```{dot}
-digraph R {
-  rankdir=LR
-  node [shape=box, style="rounded,filled"]
-  GM3 [label="Judicial Authority", href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-3-access-by-judicial-authority"]
-  GM2 [label="Vetted Researchers Access", href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-2-vetted-researchers-access"]
-  GM1 [label="Free Public Access", href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-1-free-public-access"]
-  
-  
-  
-}
+//| label: fig-basic-structure-TWON-Analysis
+//| fig-cap: "Basic Structure of the TWON Analysis"
+//| file: ./Graphics/TWON-Analysis-Basic-Structure.dot
 ```
 
-<!--
-```{dot}
-digraph D {
+# Available Options for Action: the Governing Modes
 
-  node [shape=plaintext];
+## GM-1: Free Public Access
+* **Ownership**: 
+  * a publicly financed institution runs and maintains the model: it updates the code and the background data. 
+  * the code of the model is publicly published under an open source license. The TWON governing institution has the task to ensure that the TWON is used in compliance with the current laws.
+* **Access**: 
+  * public users can access the model via a web interface. They can insert their queries for a model run and get a model output.
 
-  A [ label=<
-   <table border="1" cellborder="0" cellspacing="1">
-     <tr><td align="left"><b>Free Public Access</b></td></tr>
-     <tr><td align="left">Ownership: </td></tr>
-     <tr><td align="left"><font color="darkgreen">Access:</font></td></tr>
-   </table>>];
+## GM-2: Vetted Researchers Access
+* **Ownership**: 
+  * a research institution which hosts, maintains, and updates the TWON. 
+  * Only the hosting institution has access to the code and the background data. It regulates who is allowed to use the TWON.
+* **Access**: 
+  * restricted to researchers for enquiries in the public interest. The public interest is defined by a legislative body.
+  * researchers apply to the hosting institution to use the TWON for a specific research query. The proposal explains in how far the intended research contributes to the public interest and takes a stand on ethical concerns as, e.g., sensible data requirements. The hosting institution decides after evaluation of the research proposal. If a research question requires sensible personal data, the decision committee must weigh between the relevance of research and the protection of personal data.
 
-  B [ label=<
-   <table border="1" cellborder="0" cellspacing="1">
-     <tr><td align="left"><b>Vetted Researchers <br/>Access</b></td></tr>
-     <tr><td align="left">Ownership</td></tr>
-     <tr><td align="left"><font color="darkgreen">Access</font></td></tr>
-   </table>>];
-
-  C [ label=<
-   <table border="1" cellborder="0" cellspacing="1">
-     <tr><td align="left"><b>Judicial Authority</b></td></tr>
-     <tr><td align="left">Ownership</td></tr>
-     <tr><td align="left"><font color="red">Access</font></td></tr>
-   </table>>];
-
-}
-``` 
--->
+## GM-3: Judicial Authority
+* **Ownership**: 
+  * a publicly financed institution which hosts maintains, and updates the TWON. Only the hosting institution has access to the code and the background data.
+* **Access**:
+  * The TWON may only be used by order of a judicial authority. The legal authorities decide in accordance with the law in which cases they order enquiries by a TWON. A court may commission a group of investigators to analyze by a TWON of the OSN whether a suspicted communication on the OSN has contributed to a law break.
 
 # Pro and Cons the Governing Modes
 
-## GM-1: Free Public Access
+## Pro-Cons-GM-1: Free Public Access
 
 
 | Pro Free Public Access | Contra Free Public Access |
@@ -59,16 +42,35 @@ digraph D {
 | (B-1-2) **Improvement of individual quality of life** in an amount of QoL(GM-1) | (R-1-2) **Risk to individual quality of life** from misuse of personal data |
 | | (R-2-1) Increase in **vioalations of the right to informational privacy** | 
 | (B-2-2) Ability to **prevent undermining of individual autonomy** on OSNs | (R-2-2) Intensified **undermining of individual autonomy** |
-| (B-2-3) Improvement of the **deliberative quality of public discourse**, but at least the ability to prevent the erosion of epistemic, moral, and juridical norms necessary for democratic governance | (R-2-3) Risk of **collapse of institutions necessary for democratic governance**
+| (B-2-3) Improvement of the **deliberative quality of public discourse**| (R-2-3) Risk of **collapse of institutions necessary for democratic governance**
 | (B-3) Additional knowledge with regard to **mitigation of existing injustices** (e.g., marginalization of vulnerable groups | (R-3-1) **Harms to future generations** from increased resources use and/or environmental pollution |
 | | (R-3-2) **Reinforcement of existing inequalities** in financial and political power relations at the national and global level |
 : {.striped}
 
 
-## GM-2: Vetted Researchers Access 
+## Pro-Cons-GM-2: Vetted Researchers Access 
+
+| Pro Only Researchers Access | Contra Only Researchers Access |
+|:----------------------|:--------------------|
+| | (R-0) It is **practically infeasible** to restrict access to TWONs to researchers only |
+| (B-1-1) **Increase in social welfare** in an amount of SW(GM-2)\<SW(GM-1)     |  |
+| (B-1-2) **Improvement of individual quality of life** in an amount of QoL(GM-2)\<SW(GM-1) | (R-1-2) **Risk to individual quality of life** from misuse of personal data (risk lower than in GM-1) |
+| | (R-2-1) Increase in **vioalations of the right to informational privacy** | 
+| (B-2-2) Ability to **prevent undermining of individual autonomy** on OSNs  | |
+| (B-2-3) Improvement of the **deliberative quality of public discourse** (to a lesser extent than GM-1 in the best possible case) | 
+| (B-3) Additional knowledge for **mitigation of existing injustices** (e.g., marginalization of vulnerable groups | |
+| | (R-3-2) Risk that existing global epistemic inequalities will be increased |
+: {.striped}
 
 
-## GM-3: Access by Judicial Authority
+## Pro-Cons-GM-3: Access by Judicial Authority
+| Pro "On Behalf of Judicial Authority" | Contra "On Behalf of Judicial Authority" |
+|:----------------------|:--------------------|
+| | (R-0) It is **practically infeasible** to restrict access to TWONs |
+| | (R-2-1) Increase in **vioalations of the right to informational privacy**^[This governance mode does not avoid violation of the right to informational self-determination if personal data for TWON’s development and use have been collected inappropriately or have been leaked.] | 
+| (B-2-3) Ability to prevent and prosecute violations of legal norms on OSNs | |
+: {.striped}
+
 
 # Your Evaluation based on the pro- and cons lists
 
@@ -93,8 +95,17 @@ digraph D {
   * if (ii-pro)&(ii-contra: )
 
 
-# Our Evaluation based on the pro- and cons lists
+# Possible Arguments
 
-## Decision Rules
+## Arguments regarding GM-1: Free Public Access
 
-## Evaluation 
+```{dot}
+//| label: arguments-structure-GM-1
+//| fig-cap: "Argumentative Structure regarding a free public access regulation to TWONs"
+//| file: ./Graphics/GM-1-arguments.dot
+```
+
+## Arguments regarding GM-2: Vested Researchers Only
+
+## Arguments regarding GM-3: On behalf of Judicial Authority Only
+# Evaluation of the Arguments
