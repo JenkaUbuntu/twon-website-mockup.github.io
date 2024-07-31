@@ -38,7 +38,7 @@ digraph "GM-1 Argumentation Structure" {
    url="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/GM-1-pro.html",
    fillcolor="#3182bd",
    fontcolor=white,
-   label="Reconstructed \narguments"
+   label="Reconstructed \nArguments"
    height=5,
    width=5
   ]
@@ -47,7 +47,7 @@ digraph "GM-1 Argumentation Structure" {
    url="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/argument-maps.html#gm-1-trumping-argumentation"
    fillcolor="#08519c",
    fontcolor=white,
-   label="Argumentation \nmap"
+   label="Argumentation \nMap"
    height=.4,
    width=.5
   ]

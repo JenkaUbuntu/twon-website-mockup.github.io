@@ -328,3 +328,37 @@ Main Claims GM-1: Unrestricted Access
 </svg>
 </div></argdown-map></figure>
 ```
+
+## Contra-Arguments Free Public Access
+
+### Trumping Contra-Argumentation GM-1
+
+
+### Balancing Contra-Argument GM-1
+
+
+# GM-2 Vetted Researchers Access Only
+
+## Pro-Arguments GM-2
+### Trumping Pro-Argument GM-2
+
+### Balancing Pro-Argument GM-2
+
+## Contra-Arguments GM-2
+### Trumping Contra-Argument GM-2
+
+
+### Balancing Contra-Argument GM-2
+
+# GM-4 Judicial Authority
+
+## Pro-Arguments GM-3
+### Trumping Pro-Argument GM-3
+
+### Balancing Pro-Argument GM-3
+
+## Contra-Arguments GM-3
+### Trumping Contra-Argument GM-3
+
+
+### Balancing Contra-Argument GM-3

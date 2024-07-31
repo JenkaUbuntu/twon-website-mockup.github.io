@@ -102,7 +102,7 @@ title: Should TWONs be Developed and Used?
 ```{dot}
 //| label: arguments-structure-GM-1
 //| fig-cap: "Argumentative Structure regarding a free public access regulation to TWONs"
-//| file: ./Graphics/GM-1-arguments.dot
+//| file: ./Graphics/GM-1-arg-structure.dot
 ```
 
 ## Arguments regarding GM-2: Vetted Researchers Only
