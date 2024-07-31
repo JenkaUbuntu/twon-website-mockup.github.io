@@ -1,5 +1,5 @@
 ---
-title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement and technology assessment"
+title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement in technology assessment"
 ---
 
 ![Decription of the challenge](./Graphics/problem-description-v2.png)
@@ -8,9 +8,23 @@ title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement and
 
 ![Argumentation-Analysis-Idea](./Graphics/method-intro.png)
 
-| | [Explain the Method: Using Argumentation Analysis for Technology Assessment](./Arg-Anal-Method.qmd) | [Apply the Method: Analysis of TWONs]() | |
+<!--
+| | Explain the Method  | Apply the Method | |
 |----|:------:|:------:|----|
-: {tbl-colwidths="[10,40,40,10]"}
+| | [Using Argumentation Analysis](./Arg-Anal-Method.qmd) |[Apply the Method: Analysis of TWONs](./TWON-Analysis.qmd) |
+: {tbl-colwidths="[10,40,40,10]" .stripped .hover .warning}
+-->
+
+::: {.callout-important icon=false title="Explain the Method"}
+[Using Argumentation Analysis](./Arg-Anal-Method.qmd)
+:::
+
+::: {.callout-important icon="false" title="Apply the Method"}
+[Apply the Method: Analysis of TWONs](./TWON-Analysis.qmd) 
+:::
+
+
+
 
 ## Outcome: Our Recommendations 
 
