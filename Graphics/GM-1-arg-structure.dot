@@ -1,0 +1,168 @@
+digraph "Argument Structure GM-1: Free Public Access" {
+ graph [newrank = true,
+		nodesep = 0.5,
+		ranksep = 0.4,
+		overlap = true,
+		splines = false,]
+ node [fixedsize = false,
+		fontsize = 14,
+		height = 1,
+		shape = box,
+		style = "filled,setlinewidth(1)",
+		width = 1,
+		color=black]
+ edge [arrowhead = none,
+		arrowsize = 1,
+		labelfontname = "Ubuntu",
+		weight = 10,
+		style = "filled,setlinewidth(3)",
+		color=black]
+
+ Label_1 [
+  label="Arguments regarding \n Free Public Access \nGovernance Mode",
+  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html",
+  fillcolor="white",
+  width=1
+  height=.6]
+  
+ pro_1 [
+    href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#pro-arguments-free-public-access",
+    fillcolor="#edf8fb",
+    fixedsize=false,
+    label="Pro-Arguments"
+    height=0.6,
+    row=func,
+    width=1]
+ pro_ba_1_claim [
+    fillcolor="#b2e2e2",
+    fixedsize=false,
+    label="Balancing Argument: \n Benefits from \nfree public access \noutweigh the risks"
+    fontcolor=black,
+    height=0.6,
+    row=func,
+    width=1]
+ pro_ba_arg_reko_1 [
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#balancing-pro-argumentation-gm-1",
+    fillcolor="#b2e2e2",
+    fixedsize=false,
+    label="Reconstruction"
+    fontcolor=black,
+    height=0.4,
+    row=func,
+    width=1]
+ pro_ba_arg_map_1 [
+    URL="",
+    fillcolor="#b2e2e2",
+    fixedsize=false,
+    label="Map"
+    fontcolor=black,
+    height=0.4,
+    row=func,
+    width=1]
+ pro_trump_1_claim [
+    URL="",
+    fillcolor="#66c2a4",
+    fixedsize=false,
+    label="Trumping Argument: \nRisks from \nfree public access \nare insignificant "
+    fontcolor=black,
+    height=0.6,
+    row=func,
+    width=1]
+ pro_trump_arg_reko_1 [
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#trumping-pro-argumentation-gm-1",
+    fillcolor="#66c2a4",
+    fixedsize=false,
+    label="Reconstruction"
+    fontcolor=black,
+    height=0.4,
+    row=func,
+    width=1]
+ pro_trump_arg_map_1 [
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/argument-maps.html#gm-1-trumping-argumentation",
+    fillcolor="#66c2a4",
+    fixedsize=false,
+    label="Map"
+    fontcolor=black,
+    height=0.4,
+    row=func,
+    width=1]
+ 
+ contra_arg_1 [
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#contra-arguments-free-public-access",
+    fillcolor="#fee5d9",
+    fixedsize=false,
+    label="Contra Arguments"
+    height=0.6,
+    row=func,
+    width=1]
+ contra_ba_1_claim [
+    URL="",
+    fillcolor="#fcae91",
+    fixedsize=false,
+    label="Balancing Argument: \n Risks from \nfree public access \noutweigh the benefits"
+    fontcolor=black,
+    height=0.6,
+    row=func,
+    width=1]
+ contra_ba_arg_reko_1 [
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#balancing-contra-argument-gm-1",
+    fillcolor="#fcae91",
+    fixedsize=false,
+    label="Reconstruction"
+    fontcolor=black,
+    height=0.4,
+    row=func,
+    width=1]
+ contra_ba_arg_map_1 [
+    URL="",
+    fillcolor="#fcae91",
+    fixedsize=false,
+    label="Map"
+    fontcolor=black,
+    height=0.4,
+    row=func,
+    width=1]
+ contra_trump_1_claim [
+    fillcolor="#fb6a4a",
+    fixedsize=false,
+    label="Trumping Argument: \nBenefits from \nfree public access \nare insignificant "
+    fontcolor=black,
+    height=0.6,
+    row=func,
+    width=1]
+ contra_trump_arg_reko_1 [
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#trumping-contra-argument-gm-1",
+    fillcolor="#fb6a4a",
+    fixedsize=false,
+    label="Reconstruction"
+    fontcolor=black,
+    height=0.4,
+    row=func,
+    width=1]
+ contra_trump_arg_map_1 [
+    URL="",
+    fillcolor="#fb6a4a",
+    fixedsize=false,
+    label="Map"
+    fontcolor=black,
+    height=0.4,
+    row=func,
+    width=1]
+  
+ Label_1 -> pro_1
+ Label_1 -> contra_arg_1
+ 
+ pro_1 -> pro_ba_1_claim
+ pro_ba_1_claim -> pro_ba_arg_reko_1
+ pro_ba_arg_reko_1 -> pro_ba_arg_map_1
+ pro_1 -> pro_trump_1_claim
+ pro_trump_1_claim -> pro_trump_arg_reko_1
+ pro_trump_arg_reko_1 -> pro_trump_arg_map_1
+ 
+ contra_arg_1 -> contra_ba_1_claim
+ contra_ba_1_claim -> contra_ba_arg_reko_1
+ contra_ba_arg_reko_1 -> contra_ba_arg_map_1
+ contra_arg_1 -> contra_trump_1_claim
+ contra_trump_1_claim -> contra_trump_arg_reko_1
+ contra_trump_arg_reko_1 -> contra_trump_arg_map_1
+}

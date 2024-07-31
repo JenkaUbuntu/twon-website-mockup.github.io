@@ -9,7 +9,7 @@ format:
 
 ## Pro-Arguments Free Public Access
 
-### Trumping-Argumentation
+### Trumping Pro-Argumentation GM-1
 
 ::: {.callout-note collapse="true" icon="false"}
 ## Trumping Pro-Argument: Risks from Free Public Access are Insignificant
@@ -41,7 +41,7 @@ format:
 | **[Contra R-3]**: Reinforcement of existing injustices
 :::
 
-### Balancing-Argumentation
+### Balancing Pro-Argumentation GM-1
 
 ::: {.callout-note collapse="true" icon="false"}
 ## Balancing Pro-Argument: Benefits from Free Public Access Outweigh the Risks
@@ -76,7 +76,7 @@ format:
 
 ## Contra-Arguments Free Public Access
 
-### Trumping Contra-Argument GM-1
+### Trumping Contra-Argumentation GM-1
 
 
 ### Balancing Contra-Argument GM-1
