@@ -1,0 +1,85 @@
+digraph PFR {
+  graph [newrank = true,
+		nodesep = 0.5,
+		ranksep = 0.4,
+		overlap = false,
+		splines = ortho,]
+ 
+ edge [arrowhead = none,
+		arrowsize = 1,
+		labelfontname = "Ubuntu",
+		weight = 10,
+		style = "filled,setlinewidth(3)",
+		/*color=black*/]
+
+  /* Entities */
+subgraph pro_truth {
+    node [fixedsize = false,
+		fontsize = 16,
+		height = 1,
+		shape = box,
+		style = "filled,setlinewidth(1)",
+		width = 1,
+		color="#deebf7"]
+  PFRT [
+    shape=octagon
+    label="Prima-Facie Reasons \nfor Truth-Sticking"
+    fillcolor="white",
+    width=1
+    height=.8];
+
+  DF [label=<
+      <table border='0' cellborder='0' cellspacing='0' cellpadding='4'>
+        <tr><td><b>Desire Fulfillment</b></td></tr>
+        <tr><td align="left">By telling the true departure time, <br/>your friend gets the information <br/>she wants to have <br/>(her desires are satisfied)</td></tr>
+      </table>>]
+
+  AUT [label=<
+      <table border='0' cellborder='0' cellspacing='0' cellpadding='4'>
+        <tr><td><b>Respecting Autonomy</b></td></tr>
+        <tr><td align="left">By telling the truth, <br/>you respect your friend’s autonomy <br/>(her ability to make own decisions)</td></tr>
+      </table>>]
+
+   SinR [label=<
+      <table border='0' cellborder='0' cellspacing='0' cellpadding='4'>
+        <tr><td><b>Supporting Friendship</b></td></tr>
+        <tr><td align="left">By telling the truth,<br/>you avoid mistrust in the<br/>relationship with your friend, <br/>remorseful feelings etc.</td></tr>
+      </table>>]
+   SocPr [label=<
+      <table border='0' cellborder='0' cellspacing='0' cellpadding='4'>
+        <tr><td><b>Supporting a Social Practice</b></td></tr>
+        <tr><td align="left">By telling the truth, <br/>you support a highly important <br/>social practice of honesty/ sincerity</td></tr>
+      </table>>]
+}
+ 
+subgraph pro_lying {
+    node [fixedsize = false,
+		fontsize = 16,
+		height = 1,
+		shape = box,
+		style = "filled,setlinewidth(1)",
+		width = 1,
+		color="#e5f5e0"]
+   PFRL [
+    shape=octagon
+    label="Prima-Facie Reasons \nfor Lying"
+    fillcolor="white",
+    width=1
+    height=.8];
+
+   AH [label=<
+      <table border='0' cellborder='0' cellspacing='0' cellpadding='4'>
+        <tr><td><b>Avoidance of Harm</b></td></tr>
+        <tr><td align="left">By telling that the <br/>earlier connection is the last one, <br/>you avoid for sure <br/>that your friend misses <br/>an important meeting, <br/>i.e. you avoid that <br/>she is significantly harmed.</td></tr>
+      </table>>]
+}
+
+ 
+  /* Relationships */
+  PFRT -> DF -> AUT -> SinR -> SocPr [color=green]
+  PFRL -> AH [color=green]
+
+
+  /* Ranks */
+  /* { rank=|same,min,max,# max is bottom|; shortName; }; */
+}

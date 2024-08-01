@@ -1,0 +1,85 @@
+---
+title: Step 2 - Construction of Arguments
+---
+
+::: {.callout-warning icon="false" collapse="true"}
+# Theoretical Background
+Construction of arguments is a creative task which involves several trial-and-error attempts. There is a formal requirement: </br>
+* find premises such that the respective prima facie reason is represented in at least one premise and that the respective conclusion deductively follows from all premises. </br>
+* The formal requirement is necessary but not sufficient for a plausible argument: we can find a large number of principles which guarantee a deductively valid inference to one of the options for action. These principles differ, however, in their plausibility, as the exmaples below demonstrate.
+:::
+# Structure of Arguments
+
+```{dot}
+//| fig-cap: "Possible Arguments for Truth-Telling and Lying"
+//| file: ./Graphics/arg-struct-lying-example.dot 
+```
+
+# Reconstructed Arguments
+## Debunking Argumentation for Truth-Sticking
+
+Main idea: the prima facie reason for lying -- avoiding harm to your friend -- does not hold. 
+
+::: {.callout-warning icon="false" collapse="true"}
+# Argument 1: Debunking the reason for lying
+
+1. Premise 1:
+2. Premise 2:
+3. 
+4. Conclusion: It is not the case that you avoid significant harm from your friend.
+
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+# Argument 2: Argument for Truth-Sticking
+
+1. Premise 1: You must choose between truth-telling and lying.
+1. Premise 2: there are prima facie reasons for truth-telling
+2. Premise 3: All reasons for lying do not hold.
+    * premise 3 is justified by Argument 1
+3. Premise 4: If you must choose between two options for action, A and B, and there are reasons in favour of A and all the reasons in favour of B do not hold, then you should choose A.
+4. Conclusion: You should stick to truth
+
+:::
+
+
+
+## Balancing Arguments for Truth-Sticking
+
+If there are both prima facie reasons for truth-telling and for lying, the prima facie reasons must be weighed. 
+
+### Trumping 
+
+| Pro Truth-Sticking (contra lying) | Pro Lying (contra truth-sticking) |
+|:---------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Desire-Fulfillment** If it does not cause inappropriate costs to you, you should always fulfill the articulated desires of your friend, even if they can substantially harm your friend. | **Avoidance of Harm**  If it does not cause inappropriate costs to you, you should choose the action which minimizes the expected harm to your friend, even if you break established social norms thereby. |
+| **Respecting Autonomy** If it does not cause inappropriate costs to you, you should always respect the autonomy of your friend, even if the respective actions can substantially harm your friend. |  |
+| **Supporting a sincere relationship** If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend. | |
+| **Supporting social practice** You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend. | |
+: Trumping Principles {.striped}
+
+### Balancing
+
+| Maximizing Expected Value pro Lying |
+|:-----|
+| The expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty. |
+: {.striped}
+
+| Maximizing Expected Value pro Truth-Sticking |
+|:-----|
+| The expected harm for your friend from missing the meeting is lower  than the aggregated harm to her and to society which results from your friend's frustrated desire, disregard of her autonomy, the stress caused to your relationship, and a violation of the social practice of honesty. |
+: {.striped}
+
+| Precautionary Principle pro Truth-Sticking |
+|:-----|
+| XYz |
+: {.striped}
+
+| Precautionary Principle pro Lying |
+|:-----|
+| XYz |
+: {.striped}
+
+## Debunking Arguments for Lying
+
+## Balancing Arguments for Lying

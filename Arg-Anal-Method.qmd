@@ -19,16 +19,6 @@ Suppose, you are in a situation in which a lie would prevent a bad outcome. Shou
 
 ## Argumentation Analysis: it's Idea
 
-<!-- ![](./Graphics/argument-analysis.png) -->
-
-
-### The Argumentatiive problem
-
-* You are facing two options for action -- sticking to truth or lying -- and must decide which one to choose.
-* At first sight, there are reasons for both options for action.
-* You must weigh these prima facie reasons for and against the two options to decide whether you should tell the truth or you sould lie.
-
-
 <!--
 ```{mermaid}
 /*flowchart TD
@@ -37,139 +27,36 @@ Suppose, you are in a situation in which a lie would prevent a bad outcome. Shou
 ```
 -->
 
+
+
 ```{dot}
-digraph G {
-  /*splines="FALSE"; */
-
-  /* Entities */
- PFRT [
-    shape=octagon
-    label=<
-
-      <table border='0' cellborder='0' cellspacing='0'>
-        <tr><td><b>Prima-Facie Reasons <br/> for Truth-Sticking</b></td></tr>
-        <tr><td cellpadding='4'>
-          <table border="0" cellborder='0' cellspacing='0'>
-            <tr><td align="left">- desire fulfillment  </td></tr>
-            <tr><td align="left">- autonomy </td></tr>
-            <tr><td align="left">- avoiding distrust</td></tr>
-          </table>
-        </td>
-        </tr>
-      </table>
-    >];
-
- PFRL [
-    shape=octagon
-    label=<
-
-      <table border='0' cellborder='0' cellspacing='0'>
-        <tr><td><b>Prima-Facie Reasons <br/> for Lying</b></td></tr>
-        <tr><td cellpadding='4'>
-          <table border="0" cellborder='0' cellspacing='0'>
-            <tr><td align="left">- guarantee that the <br/>  harmful outcomes for <br/> your friend are avoided</td></tr>
-          </table>
-        </td>
-        </tr>
-      </table>
-    >];
-
-  A1 [label="Balancing Arguments", shape="ellipse"]
-  A2 [label="Trumping Arguments", shape=ellipse]
-  A3 [label="Debunking Arguments", shape=ellipse]
-
-  T1 [label="T!: You should stick to truth", shape=box, color=red]
-  T2 [label="L!: You should lie", shape=box, color=red]
-  
-  /* Relationships */
-  PFRT -> {A1; A2; A3} [color=green]
-  PFRL -> {A1; A2; A3} [color=green]
-
-  A1 -> T1[label="?", color=green]
-  A1 -> T2[label="?", color=green]
-  A2 -> T1[label="?", color=green]
-  A2 -> T2[label="?", color=green]
-  A3 -> T1[label="?", color=green]
-  A3 -> T2[label="?", color=green]
-
-
-  /* Ranks */
-  /* { rank=|same,min,max,# max is bottom|; shortName; }; */
-}
+//| fig-cap: structure-lying-truth
+//| file: ./Graphics/Truth-Lying-Decision-Problem.dot 
 ```
 
-### Process of the Argumentation Analysis
+* You are facing two options for action -- "T!: sticking to truth" or "L!: lying" -- and must decide which one to choose.
+* At first sight, there are reasons for both options for action.
+* You must weigh these prima facie reasons to decide whether you hould tell the truth or you sould lie:
+  * Argumentation Analysis structures this process of weighing reasons
+
+
+## Process of the Argumentation Analysis
 Argumentation Analysis supports you in clarifying the process of wheighing:
 
 0. **Specification of the available options for action** </br>
-  As a prerequisite of an argumentation analysis, you need to identify all the available options for action in the case your are interested in. Here, we have assumed for simplicity, that there are only two options for you. 
+  As a prerequisite of an argumentation analysis, you need to identify all the available options for action in the case your are interested in. </br>Here, we [have assumed](./Arg-Anal-Method.qmd#example-should-i-lie-or-should-i-not), that there are only two options for you. 
 
-1. [**Identification/Evaluation of prima facie reasons**](./Arg-Anal-Method.qmd#step-1-list-of-prima-facie-reasons) </br>
+1. [**Identification of Prima Facie Reasons**](arg-anal-pf-reasons-example.qmd) </br>
   Identify the list of all prima facie reasons in favour and against the available options for action.
-2. [**Identification/Construction of decision rules**](./Arg-Anal-Method.qmd#step-2-construction-of-decision-rules) </br>
+2. [**Construction of Arguments**](arg-anal-arg-constr.qmd) </br>
   Find/construct general principles which allow a [deductively valid inference]() from the premises (containing at least one prima facie reason) to a conclusion  (recommendation for one of the options for action)
   Construct these principles for all available options for action. 
 
-2. **Evaluate the decision rules** </br>
-  Provide arguments against the decision rules you believe to be implausible. 
-
-## Steps of Argumentation Analysis
-
-### Step 1: List of prima facie reasons
-
-Compile a list of all prima facie reasons that support the available options for action. Below, is an example for how such a final list could look like.^[Compillation of the list as depicted below would usually require several steps </br> * one starts with collecting candidates for prima reasons in favour of all options for action; </br> * subsequently, one reflects on which of these candidates are genuine reasons and reduces the brainstormed list to a usually much reduced list of prima facie reasons.] 
+2. **Evaluation of Arguments** </br>
+  Provide arguments against the premises you believe to be implausible. 
 
 
-| Pro Truth-Sticking (contra lying) | Pro Lying (contra truth-sticking) |
-|:---------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Desire-Fulfillment** By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)     | **Avoidance of Harm** By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e. you avoid that she is significantly harmed. |
-| **Respecting Autonomy** By telling the truth, you respect your friend's autonomy (i.e. her ability to make own decisions) |  |
-| **Supporting a sincere relationship** By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc. | |
-| **Supporting social practice** Telling the truth, you support a highly important social practice of honesty/ sincerity | |
-: {.striped}
-
-### Step 2: Construction of Decision Rules
-
-#### Trumping
-
-One of the values contained in the prima facie reasons is that important that it should not be violated independently of the counter-reasons. The resulting decision rules are:
-
-| Pro Truth-Sticking (contra lying) | Pro Lying (contra truth-sticking) |
-|:---------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Desire-Fulfillment** If it does not cause inappropriate costs to you, you should always fulfill the articulated desires of your friend, even if they can substantially harm your friend. | **Avoidance of Harm**  If it does not cause inappropriate costs to you, you should choose the action which minimizes the expected harm to your friend, even if you break established social norms thereby. |
-| **Respecting Autonomy** If it does not cause inappropriate costs to you, you should always respect the autonomy of your friend, even if the respective actions can substantially harm your friend. |  |
-| **Supporting a sincere relationship** If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend. | |
-| **Supporting social practice** You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend. | |
-: Trumping Principles {.striped}
-
-
-#### Balancing
-
-If there are both prima facie reasons for truth-telling and for lying, and none of these reasons trumps the opposite, the prima facie reasons must be weighed. 
-
-
-| Maximizing Expected Value pro Lying |
-|:-----|
-| The expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty. |
-: {.striped}
-
-| Maximizing Expected Value pro Truth-Sticking |
-|:-----|
-| The expected harm for your friend from missing the meeting is lower  than the aggregated harm to her and to society which results from your friend's frustrated desire, disregard of her autonomy, the stress caused to your relationship, and a violation of the social practice of honesty. |
-: {.striped}
-
-| Precautionary Principle pro Truth-Sticking |
-|:-----|
-| XYz |
-: {.striped}
-
-| Precautionary Principle pro Lying |
-|:-----|
-| XYz |
-: {.striped}
-
-### Evaluation of the Decision Rules
-
+-------------
 Linked sub-sides:
 
 * [Trumping Arguments-internal-link](./Trumping-Principles.qmd) 
@@ -178,15 +65,8 @@ Linked sub-sides:
 
 * [Debunking Arguments]()
 
--------------
 
-Sub-Side Argumentation Analysis (?)
 
-## Argumentation Analysis: Construction of Arguments
 
-Construction of arguments is a creative task which involves several trial-and-error attempts. There is a formal requirement:
 
-* The formal requirement is necessary but not sufficient for a plausible argument: we can find a large number of principles which guarantee a deductively valid inference to one of the options for action. These principles differ, however, in their plausibility, as the exmaples below demonstrate.
-
-### 
 

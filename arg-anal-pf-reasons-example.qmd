@@ -1,0 +1,29 @@
+---
+title: Step 1 -- List of Prima Facie Reasons
+---
+
+::: {.callout-warning icon="false" collapse="true"}
+# Theoretical Background
+Compile a list of all prima facie reasons that support the available options for action. 
+</br>Compiling a list usually involves several steps: </br> 
+  (i) one starts with collecting candidates for prima reasons in favour of all options for action; </br> 
+  (ii) one reflects on which of these candidates are genuine reasons and reduces the candidates-list from (i) to an often reduced list of prima facie reasons. </br>
+Below, is an example for how a list of prima facie reasons in our example could look like. 
+
+:::
+
+
+```{dot}
+//| fig-cap: prima-facie-reasons-example
+//| file: ./Graphics/pf-reasons-lying-example.dot
+``` 
+
+## Pf-Reasons as a Table
+
+| Pro Truth-Sticking (contra lying) | Pro Lying (contra truth-sticking) |
+|:---------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Desire-Fulfillment** By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)     | **Avoidance of Harm** By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e. you avoid that she is significantly harmed. |
+| **Respecting Autonomy** By telling the truth, you respect your friend's autonomy (i.e. her ability to make own decisions) |  |
+| **Supporting a sincere relationship** By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc. | |
+| **Supporting social practice** Telling the truth, you support a highly important social practice of honesty/ sincerity | |
+: {.striped}

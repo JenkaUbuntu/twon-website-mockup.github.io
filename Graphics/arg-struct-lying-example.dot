@@ -1,0 +1,97 @@
+digraph ARG_LYING {
+  graph [newrank = true,
+		nodesep = 0.5,
+		ranksep = 0.4,
+		overlap = false,
+		splines = ortho]
+ node [fixedsize = false,
+		fontsize = 16,
+		height = 1,
+		shape = box,
+		style = "filled,setlinewidth(4)",
+		width = 1,
+		color="#deebf7"]
+ edge [arrowhead = vee,
+		arrowsize = 1,
+		labelfontname = "Ubuntu",
+		weight = 1,
+		style = "filled,setlinewidth(1)",
+		/*color=black*/]
+
+  /* Entities */
+
+
+PFRT [
+    shape=octagon
+    label="Prima-Facie Reasons \nfor Truth-Sticking"
+    fillcolor="white",
+    width=1
+    height=.8];
+ PFRL [
+    shape=octagon
+    label="Prima-Facie Reasons \nfor Lying"
+    fillcolor="white", 
+    color="#b2e2e2",
+    width=1
+    height=.8];
+ 
+ly_ba [
+    fillcolor="#b2e2e2",
+    fixedsize=false,
+    label="Balancing Argument for Lying: \n Avoiding harm outweighs \nthe prima facie reasons \nagainst lying"
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/arg-anal-arg-constr.html#balancing-arguments-for-lying"
+    fontcolor=black,
+    height=0.6,
+    row=func,
+    width=1];
+
+ly_tr [
+    fillcolor="#b2e2e2",
+    fixedsize=false,
+    label="Debunking Argument for Lying: \nThe prima facie reasons \nin favour of truth-telling \ndo not hold"
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/arg-anal-arg-constr.html#debunking-arguments-for-lying"
+    fontcolor=black,
+    height=0.6,
+    row=func,
+    width=1];
+
+tr_ba [
+    fillcolor="#deebf7",
+    fixedsize=false,
+    label="Balancing Argument for Truth: \n The prima facie reasons \nfor truth-sticking outweigh \nthe reason for lying"
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/arg-anal-arg-constr.html#balancing-arguments-for-truth-sticking"
+    fontcolor=black,
+    height=0.6,
+    row=func,
+    width=1];
+
+tr_tr [
+    fillcolor="#deebf7",
+    fixedsize=false,
+    label="Debunking Argument for Truth: \nThe prima facie reason \nfor lying does not hold"
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/arg-anal-arg-constr.html#debunking-argumentation-for-truth-sticking"
+    fontcolor=black,
+    height=1.1,
+    row=func,
+    width=1];
+
+T1 [
+    label="T!: You should stick to truth" 
+    height=0.5,
+    color=red,
+    style="solid" 
+    fillcolor="white"]
+T2 [label="L!: You should lie" 
+    height=0.5,
+    color=red,
+    style="solid"
+    fillcolor="white"]
+ 
+  /* Relationships */
+  PFRT -> {tr_ba; tr_tr} -> T1 [color=green]
+  PFRL -> {ly_ba; ly_tr} -> T2 [color=green]
+  {tr_ba; tr_tr} -> T2 [color=red]
+  {ly_ba; ly_tr} -> T1 [color=red]
+  /* tr_tr -> PFRL [color=red]
+  ly_tr -> PFRT [color=red] */
+}

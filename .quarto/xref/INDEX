@@ -28,5 +28,17 @@
   },
   "argument-rekos/arg-rekos.qmd": {
     "arg-rekos.html": "438cc2cf"
+  },
+  "arg-anal-method-subsides/arguments-construction.qmd": {
+    "arguments-construction.html": "36da3c56"
+  },
+  "arg-anal-method-subsides/pf-reasons-lying-example.qmd": {
+    "pf-reasons-lying-example.html": "9cb66867"
+  },
+  "arg-anal-pf-reasons-example.qmd": {
+    "arg-anal-pf-reasons-example.html": "b9f10ded"
+  },
+  "arg-anal-arg-constr.qmd": {
+    "arg-anal-arg-constr.html": "d5dd2f45"
   }
 }
