@@ -1,0 +1,55 @@
+digraph G {
+  /*splines="FALSE"; */
+
+  /* Entities */
+ PFRT [
+    shape=octagon
+    label=<
+
+      <table border='0' cellborder='0' cellspacing='0'>
+        <tr><td><b>Prima-Facie Reasons <br/> for Truth-Sticking</b></td></tr>
+        <tr><td cellpadding='4'>
+          <table border="0" cellborder='0' cellspacing='0'>
+            <tr><td align="left">- desire fulfillment  </td></tr>
+            <tr><td align="left">- autonomy </td></tr>
+            <tr><td align="left">- avoiding distrust</td></tr>
+          </table>
+        </td>
+        </tr>
+      </table>
+    >];
+
+ PFRL [
+    shape=octagon
+    label=<
+
+      <table border='0' cellborder='0' cellspacing='0'>
+        <tr><td><b>Prima-Facie Reasons <br/> for Lying</b></td></tr>
+        <tr><td cellpadding='4'>
+          <table border="0" cellborder='0' cellspacing='0'>
+            <tr><td align="left">- guarantee that the <br/>  harmful outcomes for <br/> your friend are avoided</td></tr>
+          </table>
+        </td>
+        </tr>
+      </table>
+    >];
+
+  LA [label="Arguments in favour \nof Lying?", shape="ellipse"]
+  TA [label="Arguments in favour \nof Truth-Telling?", shape=ellipse]
+  /*A3 [label="Debunking Arguments", shape=ellipse] */
+
+  T1 [label="T!: You should stick to truth", shape=box, color=red]
+  T2 [label="L!: You should lie", shape=box, color=red]
+  
+  /* Relationships */
+  PFRT -> {LA; TA} [color=green]
+  PFRL -> {LA; TA} [color=green]
+
+  LA -> T1[label="?", color=red]
+  LA -> T2[label="?", color=green]
+  TA -> T1[label="?", color=green]
+  TA -> T2[label="?", color=red]
+
+  /* Ranks */
+  /* { rank=|same,min,max,# max is bottom|; shortName; }; */
+}

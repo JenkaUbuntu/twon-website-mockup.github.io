@@ -2,21 +2,21 @@
   {
     "objectID": "output.html",
     "href": "output.html",
-    "title": "Outcomes: How to deal with TWONs?",
+    "title": "How Should we Deal with TWONs?",
     "section": "",
     "text": "To be specified"
   },
   {
     "objectID": "output.html#recommendations-for-politics",
     "href": "output.html#recommendations-for-politics",
-    "title": "Outcomes: How to deal with TWONs?",
+    "title": "How Should we Deal with TWONs?",
     "section": "",
     "text": "To be specified"
   },
   {
     "objectID": "output.html#recommendations-for-researchers",
     "href": "output.html#recommendations-for-researchers",
-    "title": "Outcomes: How to deal with TWONs?",
+    "title": "How Should we Deal with TWONs?",
     "section": "Recommendations for Researchers",
     "text": "Recommendations for Researchers\n\nTo be specified"
   },
@@ -60,7 +60,7 @@
     "href": "Arg-Anal-Method.html#argumentation-analysis-its-idea",
     "title": "Method of Argumentation Analysis",
     "section": "Argumentation Analysis: it’s Idea",
-    "text": "Argumentation Analysis: it’s Idea\n\n\nThe Argumentatiive problem\n\nYou are facing two options for action – sticking to truth or lying – and must decide which one to choose.\nAt first sight, there are reasons for both options for action.\nYou must weigh these prima facie reasons for and against the two options to decide whether you should tell the truth or you sould lie.\n\n\n\n\n\n\n\n\n\nG\n\n\n\nPFRT\n\nPrima-Facie Reasons \n for Truth-Sticking\n- desire fulfillment  \n- autonomy \n- avoiding distrust\n\n\n\nA1\n\nBalancing Arguments\n\n\n\nPFRT-&gt;A1\n\n\n\n\n\nA2\n\nTrumping Arguments\n\n\n\nPFRT-&gt;A2\n\n\n\n\n\nA3\n\nDebunking Arguments\n\n\n\nPFRT-&gt;A3\n\n\n\n\n\nPFRL\n\nPrima-Facie Reasons \n for Lying\n- guarantee that the \n  harmful outcomes for \n your friend are avoided\n\n\n\nPFRL-&gt;A1\n\n\n\n\n\nPFRL-&gt;A2\n\n\n\n\n\nPFRL-&gt;A3\n\n\n\n\n\nT1\n\nT!: You should stick to truth\n\n\n\nA1-&gt;T1\n\n\n?\n\n\n\nT2\n\nL!: You should lie\n\n\n\nA1-&gt;T2\n\n\n?\n\n\n\nA2-&gt;T1\n\n\n?\n\n\n\nA2-&gt;T2\n\n\n?\n\n\n\nA3-&gt;T1\n\n\n?\n\n\n\nA3-&gt;T2\n\n\n?\n\n\n\n\n\n\n\n\n\n\nProcess of the Argumentation Analysis\nArgumentation Analysis supports you in clarifying the process of wheighing:\n\nSpecification of the available options for action  As a prerequisite of an argumentation analysis, you need to identify all the available options for action in the case your are interested in. Here, we have assumed for simplicity, that there are only two options for you.\nIdentification/Evaluation of prima facie reasons  Identify the list of all prima facie reasons in favour and against the available options for action.\nIdentification/Construction of decision rules  Find/construct general principles which allow a deductively valid inference from the premises (containing at least one prima facie reason) to a conclusion (recommendation for one of the options for action) Construct these principles for all available options for action.\nEvaluate the decision rules  Provide arguments against the decision rules you believe to be implausible."
+    "text": "Argumentation Analysis: it’s Idea\n\n\n\n\n\n\n\n\nG\n\n\n\nPFRT\n\nPrima-Facie Reasons \n for Truth-Sticking\n- desire fulfillment  \n- autonomy \n- avoiding distrust\n\n\n\nLA\n\nArguments in favour \nof Lying?\n\n\n\nPFRT-&gt;LA\n\n\n\n\n\nTA\n\nArguments in favour \nof Truth-Telling?\n\n\n\nPFRT-&gt;TA\n\n\n\n\n\nPFRL\n\nPrima-Facie Reasons \n for Lying\n- guarantee that the \n  harmful outcomes for \n your friend are avoided\n\n\n\nPFRL-&gt;LA\n\n\n\n\n\nPFRL-&gt;TA\n\n\n\n\n\nT1\n\nT!: You should stick to truth\n\n\n\nLA-&gt;T1\n\n\n?\n\n\n\nT2\n\nL!: You should lie\n\n\n\nLA-&gt;T2\n\n\n?\n\n\n\nTA-&gt;T1\n\n\n?\n\n\n\nTA-&gt;T2\n\n\n?\n\n\n\n\n structure-lying-truth \n\n\n\n\nYou are facing two options for action – “T!: sticking to truth” or “L!: lying” – and must decide which one to choose.\nAt first sight, there are reasons for both options for action.\nYou must weigh these prima facie reasons to decide whether you hould tell the truth or you sould lie:\n\nArgumentation Analysis structures this process of weighing reasons"
   },
   {
     "objectID": "Arg-Anal-Method.html#argumentation-analysis-construction-of-arguments",
@@ -116,7 +116,7 @@
     "href": "Arg-Anal-Method.html#footnotes",
     "title": "Method of Argumentation Analysis",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nFeel free to think another story in which a lie would prevent a bad outcome!↩︎\nIn reality, there will be further relevant options, but let us assume here that they do not exist: * telling the truth and than reminding your friend to leave on time for the last train; * considering another means of transportation (e.g. taxi) for the case the public transport option will be missed; * nudging your friend: presenting both options in a way that your friend finds the earlier one more attractive.↩︎\nCompillation of the list as depicted below would usually require several steps  * one starts with collecting candidates for prima reasons in favour of all options for action;  * subsequently, one reflects on which of these candidates are genuine reasons and reduces the brainstormed list to a usually much reduced list of prima facie reasons.↩︎"
+    "text": "Footnotes\n\n\nFeel free to think another story in which a lie would prevent a bad outcome!↩︎\nIn reality, there will be further relevant options, but let us assume here that they do not exist: * telling the truth and than reminding your friend to leave on time for the last train; * considering another means of transportation (e.g. taxi) for the case the public transport option will be missed; * nudging your friend: presenting both options in a way that your friend finds the earlier one more attractive.↩︎"
   },
   {
     "objectID": "Arg-Anal-Method.html#steps-of-argumentation-analysis",
@@ -418,5 +418,103 @@
     "title": "Reconstructed Arguments",
     "section": "Contra-Arguments GM-3",
     "text": "Contra-Arguments GM-3\n\nTrumping Contra-Argument GM-3\n\n\nBalancing Contra-Argument GM-3"
+  },
+  {
+    "objectID": "arg-anal-method-subsides/arguments-construction.html",
+    "href": "arg-anal-method-subsides/arguments-construction.html",
+    "title": "Step 2 - Construction of Arguments",
+    "section": "",
+    "text": "Theoretical Background\n\n\n\n\n\nConstruction of arguments is a creative task which involves several trial-and-error attempts. There is a formal requirement:  * find premises such that the respective prima facie reason is represented in at least one premise and that the respective conclusion deductively follows from all premises.  * The formal requirement is necessary but not sufficient for a plausible argument: we can find a large number of principles which guarantee a deductively valid inference to one of the options for action. These principles differ, however, in their plausibility, as the exmaples below demonstrate."
+  },
+  {
+    "objectID": "arg-anal-method-subsides/pf-reasons-lying-example.html",
+    "href": "arg-anal-method-subsides/pf-reasons-lying-example.html",
+    "title": "Step 1 – List of Prima Facie Reasons",
+    "section": "",
+    "text": "Theoretical Background\n\n\n\n\n\nCompile a list of all prima facie reasons that support the available options for action. Compiling a list usually involves several steps:  (i) one starts with collecting candidates for prima reasons in favour of all options for action;  (ii) one reflects on which of these candidates are genuine reasons and reduces the candidates-list from (i) to an often reduced list of prima facie reasons.  Below, is an example for how a list of prima facie reasons in our example could look like.\n\n\n\n\n\n\n\n\n\n\nPro Truth-Sticking (contra lying)\nPro Lying (contra truth-sticking)\n\n\n\n\nDesire-Fulfillment By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)\nAvoidance of Harm By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e. you avoid that she is significantly harmed.\n\n\nRespecting Autonomy By telling the truth, you respect your friend’s autonomy (i.e. her ability to make own decisions)\n\n\n\nSupporting a sincere relationship By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc.\n\n\n\nSupporting social practice Telling the truth, you support a highly important social practice of honesty/ sincerity\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "arg-anal-method-subsides/pf-reasons-lying-example.html#footnotes",
+    "href": "arg-anal-method-subsides/pf-reasons-lying-example.html#footnotes",
+    "title": "Prima Facie Reasons",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCompillation of the list as depicted below would usually require several steps  * one starts with collecting candidates for prima reasons in favour of all options for action;  * subsequently, one reflects on which of these candidates are genuine reasons and reduces the brainstormed list to a usually much reduced list of prima facie reasons.↩︎"
+  },
+  {
+    "objectID": "arg-anal-method-subsides/arguments-construction.html#footnotes",
+    "href": "arg-anal-method-subsides/arguments-construction.html#footnotes",
+    "title": "Construction of Arguments",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nConstruction of arguments is a creative task which involves several trial-and-error attempts. There is a formal requirement:\n\nThe formal requirement is necessary but not sufficient for a plausible argument: we can find a large number of principles which guarantee a deductively valid inference to one of the options for action. These principles differ, however, in their plausibility, as the exmaples below demonstrate.\n\n↩︎"
+  },
+  {
+    "objectID": "arg-anal-method-subsides/arguments-construction.html#trumping",
+    "href": "arg-anal-method-subsides/arguments-construction.html#trumping",
+    "title": "Step 2 - Construction of Arguments",
+    "section": "Trumping",
+    "text": "Trumping\nOne of the values contained in the prima facie reasons is that important that it should not be violated independently of the counter-reasons. The resulting decision rules are:\n\nTrumping Principles\n\n\n\n\n\n\nPro Truth-Sticking (contra lying)\nPro Lying (contra truth-sticking)\n\n\n\n\nDesire-Fulfillment If it does not cause inappropriate costs to you, you should always fulfill the articulated desires of your friend, even if they can substantially harm your friend.\nAvoidance of Harm If it does not cause inappropriate costs to you, you should choose the action which minimizes the expected harm to your friend, even if you break established social norms thereby.\n\n\nRespecting Autonomy If it does not cause inappropriate costs to you, you should always respect the autonomy of your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting a sincere relationship If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting social practice You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend.\n\n\n\n\n\nBalancing\nIf there are both prima facie reasons for truth-telling and for lying, and none of these reasons trumps the opposite, the prima facie reasons must be weighed.\n\n\n\n\n\n\nMaximizing Expected Value pro Lying\n\n\n\n\nThe expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty.\n\n\n\n\n\n\n\n\n\nMaximizing Expected Value pro Truth-Sticking\n\n\n\n\nThe expected harm for your friend from missing the meeting is lower than the aggregated harm to her and to society which results from your friend’s frustrated desire, disregard of her autonomy, the stress caused to your relationship, and a violation of the social practice of honesty.\n\n\n\n\n\n\nPrecautionary Principle pro Truth-Sticking\n\n\n\n\nXYz\n\n\n\n\n\n\nPrecautionary Principle pro Lying\n\n\n\n\nXYz"
+  },
+  {
+    "objectID": "Arg-Anal-Method.html#process-of-the-argumentation-analysis",
+    "href": "Arg-Anal-Method.html#process-of-the-argumentation-analysis",
+    "title": "Method of Argumentation Analysis",
+    "section": "Process of the Argumentation Analysis",
+    "text": "Process of the Argumentation Analysis\nArgumentation Analysis supports you in clarifying the process of wheighing:\n\nSpecification of the available options for action  As a prerequisite of an argumentation analysis, you need to identify all the available options for action in the case your are interested in. Here, we have assumed, that there are only two options for you.\nIdentification of Prima Facie Reasons  Identify the list of all prima facie reasons in favour and against the available options for action.\nConstruction of Arguments  Find/construct general principles which allow a deductively valid inference from the premises (containing at least one prima facie reason) to a conclusion (recommendation for one of the options for action) Construct these principles for all available options for action.\nEvaluation of Arguments  Provide arguments against the premises you believe to be implausible.\n\n\nLinked sub-sides:\n\nTrumping Arguments-internal-link\nBalancing Arguments-internal\nDebunking Arguments"
+  },
+  {
+    "objectID": "arg-anal-pf-reasons-example.html",
+    "href": "arg-anal-pf-reasons-example.html",
+    "title": "Step 1 – List of Prima Facie Reasons",
+    "section": "",
+    "text": "Theoretical Background\n\n\n\n\n\nCompile a list of all prima facie reasons that support the available options for action. Compiling a list usually involves several steps:  (i) one starts with collecting candidates for prima reasons in favour of all options for action;  (ii) one reflects on which of these candidates are genuine reasons and reduces the candidates-list from (i) to an often reduced list of prima facie reasons.  Below, is an example for how a list of prima facie reasons in our example could look like.\nPFR\n\n\n\nPFRT\n\nPrima-Facie Reasons \nfor Truth-Sticking\n\n\n\nDF\n\nDesire Fulfillment\nBy telling the true departure time, \nyour friend gets the information \nshe wants to have \n(her desires are satisfied)\n\n\n\nPFRT-&gt;DF\n\n\n\n\nAUT\n\nRespecting Autonomy\nBy telling the truth, \nyou respect your friend’s autonomy \n(her ability to make own decisions)\n\n\n\nDF-&gt;AUT\n\n\n\n\nSinR\n\nSupporting Friendship\nBy telling the truth,\nyou avoid mistrust in the\nrelationship with your friend, \nremorseful feelings etc.\n\n\n\nAUT-&gt;SinR\n\n\n\n\nSocPr\n\nSupporting a Social Practice\nBy telling the truth, \nyou support a highly important \nsocial practice of honesty/ sincerity\n\n\n\nSinR-&gt;SocPr\n\n\n\n\nPFRL\n\nPrima-Facie Reasons \nfor Lying\n\n\n\nAH\n\nAvoidance of Harm\nBy telling that the \nearlier connection is the last one, \nyou avoid for sure \nthat your friend misses \nan important meeting, \ni.e. you avoid that \nshe is significantly harmed.\n\n\n\nPFRL-&gt;AH\n\n\n\n\n\n prima-facie-reasons-example"
+  },
+  {
+    "objectID": "arg-anal-arg-constr.html",
+    "href": "arg-anal-arg-constr.html",
+    "title": "Step 2 - Construction of Arguments",
+    "section": "",
+    "text": "Theoretical Background\n\n\n\n\n\nConstruction of arguments is a creative task which involves several trial-and-error attempts. There is a formal requirement:  * find premises such that the respective prima facie reason is represented in at least one premise and that the respective conclusion deductively follows from all premises.  * The formal requirement is necessary but not sufficient for a plausible argument: we can find a large number of principles which guarantee a deductively valid inference to one of the options for action. These principles differ, however, in their plausibility, as the exmaples below demonstrate."
+  },
+  {
+    "objectID": "arg-anal-arg-constr.html#trumping",
+    "href": "arg-anal-arg-constr.html#trumping",
+    "title": "Step 2 - Construction of Arguments",
+    "section": "Trumping",
+    "text": "Trumping\nOne of the values contained in the prima facie reasons is that important that it should not be violated independently of the counter-reasons. The resulting decision rules are:\n\nTrumping Principles\n\n\n\n\n\n\nPro Truth-Sticking (contra lying)\nPro Lying (contra truth-sticking)\n\n\n\n\nDesire-Fulfillment If it does not cause inappropriate costs to you, you should always fulfill the articulated desires of your friend, even if they can substantially harm your friend.\nAvoidance of Harm If it does not cause inappropriate costs to you, you should choose the action which minimizes the expected harm to your friend, even if you break established social norms thereby.\n\n\nRespecting Autonomy If it does not cause inappropriate costs to you, you should always respect the autonomy of your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting a sincere relationship If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting social practice You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend.\n\n\n\n\n\nBalancing\nIf there are both prima facie reasons for truth-telling and for lying, and none of these reasons trumps the opposite, the prima facie reasons must be weighed.\n\n\n\n\n\n\nMaximizing Expected Value pro Lying\n\n\n\n\nThe expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty.\n\n\n\n\n\n\n\n\n\nMaximizing Expected Value pro Truth-Sticking\n\n\n\n\nThe expected harm for your friend from missing the meeting is lower than the aggregated harm to her and to society which results from your friend’s frustrated desire, disregard of her autonomy, the stress caused to your relationship, and a violation of the social practice of honesty.\n\n\n\n\n\n\nPrecautionary Principle pro Truth-Sticking\n\n\n\n\nXYz\n\n\n\n\n\n\nPrecautionary Principle pro Lying\n\n\n\n\nXYz"
+  },
+  {
+    "objectID": "arg-anal-pf-reasons-example.html#pf-reasons-as-a-table",
+    "href": "arg-anal-pf-reasons-example.html#pf-reasons-as-a-table",
+    "title": "Step 1 – List of Prima Facie Reasons",
+    "section": "Pf-Reasons as a Table",
+    "text": "Pf-Reasons as a Table\n\n\n\n\n\n\n\nPro Truth-Sticking (contra lying)\nPro Lying (contra truth-sticking)\n\n\n\n\nDesire-Fulfillment By telling the true departure time, your friend gets the information she wants to have (her desires are best satisfied)\nAvoidance of Harm By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting, i.e. you avoid that she is significantly harmed.\n\n\nRespecting Autonomy By telling the truth, you respect your friend’s autonomy (i.e. her ability to make own decisions)\n\n\n\nSupporting a sincere relationship By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc.\n\n\n\nSupporting social practice Telling the truth, you support a highly important social practice of honesty/ sincerity"
+  },
+  {
+    "objectID": "arg-anal-arg-constr.html#debunking-argumentation-for-truth-sticking",
+    "href": "arg-anal-arg-constr.html#debunking-argumentation-for-truth-sticking",
+    "title": "Step 2 - Construction of Arguments",
+    "section": "Debunking Argumentation for Truth-Sticking",
+    "text": "Debunking Argumentation for Truth-Sticking\nMain idea: the prima facie reason for lying – avoiding harm to your friend – does not hold.\n\n\n\n\n\n\nArgument 1: Debunking the reason for lying\n\n\n\n\n\n\nPremise 1:\nPremise 2:\n\nConclusion: It is not the case that you avoid significant harm from your friend.\n\n\n\n\n\n\n\n\n\n\nArgument 2: Argument for Truth-Sticking\n\n\n\n\n\n\nPremise 1: You must choose between truth-telling and lying.\nPremise 2: there are prima facie reasons for truth-telling\nPremise 3: All reasons for lying do not hold.\n\npremise 3 is justified by Argument 1\n\nPremise 4: If you must choose between two options for action, A and B, and there are reasons in favour of A and all the reasons in favour of B do not hold, then you should choose A.\nConclusion: You should stick to truth\n\n\n\n\n\nTrumping Principles\n\n\n\n\n\n\nPro Truth-Sticking (contra lying)\nPro Lying (contra truth-sticking)\n\n\n\n\nDesire-Fulfillment If it does not cause inappropriate costs to you, you should always fulfill the articulated desires of your friend, even if they can substantially harm your friend.\nAvoidance of Harm If it does not cause inappropriate costs to you, you should choose the action which minimizes the expected harm to your friend, even if you break established social norms thereby.\n\n\nRespecting Autonomy If it does not cause inappropriate costs to you, you should always respect the autonomy of your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting a sincere relationship If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend.\n\n\n\nSupporting social practice You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend."
+  },
+  {
+    "objectID": "arg-anal-arg-constr.html#balancing-arguments-for-truth-sticking",
+    "href": "arg-anal-arg-constr.html#balancing-arguments-for-truth-sticking",
+    "title": "Step 2 - Construction of Arguments",
+    "section": "Balancing Arguments for Truth-Sticking",
+    "text": "Balancing Arguments for Truth-Sticking\nIf there are both prima facie reasons for truth-telling and for lying, and none of these reasons trumps the opposite, the prima facie reasons must be weighed.\n\n\n\n\n\n\nMaximizing Expected Value pro Lying\n\n\n\n\nThe expected harm for your friend from missing the meeting is higher than the harm to her caused by the unfulfilled desire, by the disregard of her autonomy, by the stress caused to your relationship, and by a violation of the social practice of honesty.\n\n\n\n\n\n\n\n\n\nMaximizing Expected Value pro Truth-Sticking\n\n\n\n\nThe expected harm for your friend from missing the meeting is lower than the aggregated harm to her and to society which results from your friend’s frustrated desire, disregard of her autonomy, the stress caused to your relationship, and a violation of the social practice of honesty.\n\n\n\n\n\n\nPrecautionary Principle pro Truth-Sticking\n\n\n\n\nXYz\n\n\n\n\n\n\nPrecautionary Principle pro Lying\n\n\n\n\nXYz"
+  },
+  {
+    "objectID": "arg-anal-arg-constr.html#debunking-arguments-for-lying",
+    "href": "arg-anal-arg-constr.html#debunking-arguments-for-lying",
+    "title": "Step 2 - Construction of Arguments",
+    "section": "Debunking Arguments for Lying",
+    "text": "Debunking Arguments for Lying"
+  },
+  {
+    "objectID": "arg-anal-arg-constr.html#balancing-arguments-for-lying",
+    "href": "arg-anal-arg-constr.html#balancing-arguments-for-lying",
+    "title": "Step 2 - Construction of Arguments",
+    "section": "Balancing Arguments for Lying",
+    "text": "Balancing Arguments for Lying"
   }
 ]
