@@ -2,9 +2,53 @@
 title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement in technology assessment"
 ---
 
-![Decription of the challenge](./Graphics/problem-description-v2.png)
+::: {.panel-tabset}
+### A Problem with Online Social Networks
+![Problem with Online Social Networks](./Graphics/osn-problem-cropped.svg)
+<!--
+* OSNs are associated with societally problematic outcomes: 
+  * hate speach, 
+  * polarization, 
+  * fake news, 
+  * political riots
+  * ...
+* Public discourse: 
+  * it remains controversial who is responsible for these outcomes:
+     * critical public: OSNs and their algorithms are responsible
+     * OSN providers: users are responsible
+  * the available data does not allow to find out who is right
+* Outcome of the public discourse: 
+  * stalemate in regulation of OSNs
+  -->
 
-## Methods: Argumentation Analysis
+### The Solution: TWONs
+![A way to find out how to regulate OSNs -- TWONs](./Graphics/conseq-twon-cropped.svg)
+
+* TWON: Twin of an Online Social Network
+  * Twin: a precise model
+  * TWONs: digital copies of Facebook, Twitter, Instagram, TikTok etc.
+* TWONs would allow:
+  * identification of algorithms of the original OSNs
+  * prediction of hate speach clusters, polarization etc.
+  * reconstruction of causal effects: who has caused certain problematic outcomes
+
+* TWONs pose own risks:
+  * misuse of TWONs for individual interests by powerful agents:
+    * increase in manipulation, fake news etc. 
+    * reinforcement of existing inequalities
+
+### Ethical Challenge
+![Resulting ethical challenge regarding TWONs](./Graphics/ethical-question-g163.svg)
+
+* a technology (OSNs such as Facebook, Twitter etc.) is associated with strongly undesired societal outcomes.
+* to find out if and how to regulate the problematic technology, a second technology -- twins of OSNs -- are build.
+* the intention is to find by the means of the new technology how to prevent the undesired outcomes.
+* but it could turn out that the new technology reinforces the undesired outcomes of the original technology. 
+:::
+<!--
+![Decription of the challenge](./Graphics/problem-description-v2.png)-->
+
+## A Method for Ethical Reflection: Argumentation Analysis
 
 ![Argumentation-Analysis-Idea](./Graphics/method-intro.png)
 
@@ -15,14 +59,41 @@ title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement in 
 : {tbl-colwidths="[10,40,40,10]" .stripped .hover .warning}
 -->
 
-::: {.callout-important icon=false title="Explain the Method"}
-[Using Argumentation Analysis](./Arg-Anal-Method.qmd)
+::: {.columns}
+
+::: {.column width="15%"}
 :::
 
-::: {.callout-important icon="false" title="Apply the Method"}
-[Apply the Method: Analysis of TWONs](./TWON-Analysis.qmd) 
+::: {.column width="30%"}
+::: {.callout-note icon=false}
+# [**EXPLAIN the METHOD**: An Example](./Arg-Anal-Method.qmd)
+:::
 :::
 
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+::: {.callout-note icon="false"}
+# [**APPLY the METHOD**: Analysis of TWONs](./TWON-Analysis.qmd) 
+:::
+:::
+
+::: {.column width="15%"}
+:::
+
+::: 
+
+<!--
+::: {.callout-important icon=false}
+# [Explain the Method: An Example](./Arg-Anal-Method.qmd)
+:::
+
+::: {.callout-important icon="false"}
+# [Apply the Method: Analysis of TWONs](./TWON-Analysis.qmd) 
+:::
+
+-->
 
 
 
