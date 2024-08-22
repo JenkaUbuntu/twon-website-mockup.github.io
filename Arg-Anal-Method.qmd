@@ -1,15 +1,15 @@
 ---
-title: "Method of Argumentation Analysis"
+title: "Methodology of Argumentation Analysis"
 ---
 
 ## Example: Should I Lie or Should I not?
 
 Suppose, you are in a situation in which a lie would prevent a bad outcome. Should you lie or should you risk the bad outcome? -- Here is a story:^[Feel free to think another story in which a lie would prevent a bad outcome!]
 
-* Your friend asks you to tell her when the latest public transport connection leaves by which she will be at the meeting place at 2 o'clock.
-  * She must be at a place in another part of the city for a highly important meeting. She is unfamiliar with the city and needs your skills to advise her on how to get to the meeting place. 
+* Your friend asks you to tell her when the latest public transport connection leaves by which she will be at a meeting place at 2 o'clock.
+  * She must be at a place in another part of the city for a highly important meeting. She is unfamiliar with the city and needs your advise on how to get to the meeting place. 
 * You know:
-  * The last connection that will get her to the meeting on time leaves at 1.30. The next one leaves 30 min later -- meaning that if she misses the 1.30 connection, she will miss the meeting. The one earlier leaves at 1 o'clock meaning that she will waiting time of about 30 minutes at the meeting place.
+  * The last connection that will bring her on time leaves at 1.30. The next one leaves 30 min later -- meaning that if she misses the 1.30 connection, she will miss the meeting. The one earlier leaves at 1 o'clock meaning that she will have waiting time of about 30 minutes at the meeting place.
   * Your friend has a tendency to miss the connections she intends to catch. She often sees the train just driving away from the station.
 * Your options:
   * **Tell the truth!**: You tell your friend that the last train leaves at 1.30 and that the next departs only 30 minutes later implying that she will miss the meeting if she misses the train. You add that you strongly recommend her to take a connection earlier.
@@ -36,7 +36,7 @@ Suppose, you are in a situation in which a lie would prevent a bad outcome. Shou
 
 * You are facing two options for action -- "T!: sticking to truth" or "L!: lying" -- and must decide which one to choose.
 * At first sight, there are reasons for both options for action.
-* You must weigh these prima facie reasons to decide whether you hould tell the truth or you sould lie:
+* You must weigh these prima facie reasons to decide whether you should tell the truth or you should lie:
   * Argumentation Analysis structures this process of weighing reasons
 
 
@@ -55,7 +55,7 @@ Argumentation Analysis supports you in clarifying the process of wheighing:
 2. **Evaluation of Arguments** </br>
   Provide arguments against the premises you believe to be implausible. 
 
-
+<!--
 -------------
 Linked sub-sides:
 
@@ -65,7 +65,7 @@ Linked sub-sides:
 
 * [Debunking Arguments]()
 
-
+-->
 
 
 
