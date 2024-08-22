@@ -66,7 +66,7 @@ title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement in 
 
 ::: {.column width="30%"}
 ::: {.callout-note icon=false}
-# [**EXPLAIN the METHOD**: An Example](./Arg-Anal-Method.qmd)
+# [**EXPLAIN the METHOD**:<br> An Example](./Arg-Anal-Method.qmd)
 :::
 :::
 
@@ -75,7 +75,7 @@ title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement in 
 
 ::: {.column width="30%"}
 ::: {.callout-note icon="false"}
-# [**APPLY the METHOD**: Analysis of TWONs](./TWON-Analysis.qmd) 
+# [**APPLY the METHOD**:<br> Analysis of TWONs](./TWON-Analysis.qmd) 
 :::
 :::
 
