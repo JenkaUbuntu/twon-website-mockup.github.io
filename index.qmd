@@ -24,18 +24,69 @@ title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement in 
 ### The Solution: TWONs
 ![A way to find out how to regulate OSNs -- TWONs](./Graphics/conseq-twon-cropped.svg)
 
-* TWON: Twin of an Online Social Network
-  * Twin: a precise model
-  * TWONs: digital copies of Facebook, Twitter, Instagram, TikTok etc.
-* TWONs would allow:
-  * identification of algorithms of the original OSNs
-  * prediction of hate speach clusters, polarization etc.
-  * reconstruction of causal effects: who has caused certain problematic outcomes
+::: {.columns}
 
-* TWONs pose own risks:
-  * misuse of TWONs for individual interests by powerful agents:
-    * increase in manipulation, fake news etc. 
-    * reinforcement of existing inequalities
+::: {.column width="5%"}
+:::
+
+::: {.column width="90%"}
+::: {.callout-warning collapse="true" icon="false"}
+## TWON: Twin of an Online Social Network
+* Twin: a precise model
+  * examples for models of complex systems: 
+    * weather forecasts
+    * climate models
+  * examples for twins:
+    * urban twins
+    * manufacturing
+* TWONs: digital copies of Facebook, Twitter, Instagram, TikTok etc.
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: 
+
+
+::: {.columns}
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="90%"}
+::: {.callout-warning collapse="true" icon="false"}
+## Expected Benefits of TWONs
+* identification of algorithms of the original OSNs
+* prediction of hate speach clusters, polarization etc.
+* reconstruction of causal effects: who has caused certain problematic outcomes
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: 
+
+::: {.columns}
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="90%"}
+::: {.callout-warning collapse="true" icon="false"}
+## Risks of TWONs
+* misuse of TWONs for individual interests by powerful agents:
+  * increase in manipulation, fake news etc. 
+  * reinforcement of existing inequalities
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: 
+ 
 
 ### Ethical Challenge
 ![Resulting ethical challenge regarding TWONs](./Graphics/ethical-question-g163.svg)
