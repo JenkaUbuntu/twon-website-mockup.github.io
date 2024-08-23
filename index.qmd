@@ -21,7 +21,7 @@ title: "Can Two Wrongs Make a Right? <br/> A case study on ethical judgement in 
   * stalemate in regulation of OSNs
   -->
 
-### The Solution: TWONs
+### The Solution: TWON
 ![A way to find out how to regulate OSNs -- TWONs](./Graphics/conseq-twon-cropped.svg)
 
 ::: {.columns}
