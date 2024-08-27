@@ -5,14 +5,27 @@ format:
     toc: true
     toc-location: left
 ---
-# GM-1: Free Public Access to TWONs
+# Arguments about the GM-1: Free Public Access to TWONs
+
+
 
 ## Pro-Arguments Free Public Access
 
-### Trumping Pro-Argumentation GM-1
+### Debunking Pro-Argumentation GM-1
+
+::: {.panel-tabset}
+
+#### Map of Arguments
+
+```{dot}
+//| fig-cap: "Argument map of debunking the reasons against free public access to TWONs"
+//| file: ./gm1-pro-debunking.argdown.dot
+```
+
+#### Reconstruction
 
 ::: {.callout-note collapse="true" icon="false"}
-## Trumping Pro-Argument: Risks from Free Public Access are Insignificant
+## Debunking Pro-Argument: Risks from Free Public Access are Insignificant
 
 (1) **[Benefits from Free Access are Significant]** It is reasonable to expect that an unrestricted access to TWONs will bring about the following morally significant benefits:
     * (B-1-1) it enhances social welfare (in an amount of ∆ SW(GM-1));
@@ -41,7 +54,22 @@ format:
 | **[Contra R-3]**: tba - Reinforcement of existing injustices
 :::
 
+:::
+
+
 ### Balancing Pro-Argumentation GM-1
+
+::: {.panel-tabset}
+
+#### Map of Arguments
+
+```{dot}
+//| fig-cap: "Argument map of balancing the pro and con reasons in favour a free public access to TWONs"
+//| file: ./gm1-pro-balancing.argdown.dot
+```
+
+
+#### Reconstruction of Arguments
 
 ::: {.callout-note collapse="true" icon="false"}
 ## Balancing Pro-Argument: Benefits from Free Public Access Outweigh the Risks
@@ -72,37 +100,102 @@ format:
 | **[Claim 2]**: XYZ
 | **[Claim 3]**: XYZ
 :::
+:::
 
 ## Contra-Arguments Free Public Access
 
-### Trumping Contra-Argumentation GM-1
+### Debunking Benefits from GM-1 Argumentation
 
+::: {.panel-tabset}
+#### Maps of Arguments
 
-### Balancing Contra-Argument GM-1
+#### Reconstruction of Arguments
+tba
+:::
 
+### Balancing Prima facie Reasons against GM-1
+
+::: {.panel-tabset}
+#### Maps of Arguments
+
+#### Reconstruction of Arguments
+tba
+:::
 
 # GM-2 Vetted Researchers Access Only
 
 ## Pro-Arguments GM-2
-### Trumping Pro-Argument GM-2
+### Debunking Prima facie Reasons against GM-2
+
+::: {.panel-tabset}
+#### Maps of Arguments
+
+#### Reconstruction of Arguments
+tba
+:::
 
 ### Balancing Pro-Argument GM-2
 
+::: {.panel-tabset}
+#### Maps of Arguments
+
+#### Reconstruction of Arguments
+tba
+:::
+
 ## Contra-Arguments GM-2
-### Trumping Contra-Argument GM-2
+### Debunking Prima facie Reasons for GM-2
+
+::: {.panel-tabset}
+#### Maps of Arguments
+
+#### Reconstruction of Arguments
+tba
+:::
 
 
-### Balancing Contra-Argument GM-2
+### Balancing Reasons against GM-2
 
-# GM-4 Judicial Authority
+::: {.panel-tabset}
+#### Maps of Arguments
+
+#### Reconstruction of Arguments
+tba
+:::
+
+# GM-3 Judicial Authority
 
 ## Pro-Arguments GM-3
-### Trumping Pro-Argument GM-3
+### Debunking Pro-Argument GM-3
+::: {.panel-tabset}
+#### Maps of Arguments
+
+#### Reconstruction of Arguments
+tba
+:::
 
 ### Balancing Pro-Argument GM-3
+::: {.panel-tabset}
+#### Maps of Arguments
+
+#### Reconstruction of Arguments
+tba
+:::
 
 ## Contra-Arguments GM-3
-### Trumping Contra-Argument GM-3
+### Debunking Contra-Argument GM-3
+::: {.panel-tabset}
+#### Maps of Arguments
+
+#### Reconstruction of Arguments
+tba
+:::
 
 
 ### Balancing Contra-Argument GM-3
+::: {.panel-tabset}
+#### Maps of Arguments
+
+#### Reconstruction of Arguments
+tba
+:::
