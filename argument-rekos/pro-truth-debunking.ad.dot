@@ -1,0 +1,70 @@
+digraph "Argument Map" {
+
+rankdir = "BT";
+concentrate = "false";
+ratio = "auto";
+size = "10,10";
+edge[arrowsize="1", penwidth="1"]graph [bgcolor = "transparent" ]
+subgraph cluster_1 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Map&#x20;of&#x20;the&#x20;argumentation&#x20;debunking&#x20;the&#x20;prima&#x20;facie&#x20;reason&#x20;for&#x20;lying</FONT>>;
+  color = "#f2eeee";
+  margin="8" style = filled;
+ labelloc = "b";
+
+  n0 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Stick&#x20;to&#x20;Truth</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">You&#x20;should&#x20;tell&#x20;your&#x20;friend&#x20;the&#x20;truth&#x20;about<BR/>&#x20;the&#x20;connections&#x20;options&#x20;for&#x20;her.&#x20;</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#F26035", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+
+subgraph cluster_2 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Crucial&#x20;Argument</FONT>>;
+  color = "#b9b2b2";
+  margin="8" style = filled;
+ labelloc = "b";
+
+  n1 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>You&#x20;cannot&#x20;deceive&#x20;your&#x20;friend</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">Your&#x20;friend&#x20;reliably&#x20;recognizes&#x20;when&#x20;you&#x20;are<BR/>&#x20;not&#x20;sincere&#x20;to&#x20;her.&#x20;</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#8dd3c7", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n7 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>A1&#x3A;&#x20;Debunking&#x20;the&#x20;prima&#x20;facie<BR/>&#x20;reason&#x20;for&#x20;Lying</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">Lying&#x20;will&#x20;not&#x20;avoid&#x20;harm.&#x20;</FONT></TD></TR></TABLE>>, margin="0.11,0.055", shape="box", style="filled, rounded", fillcolor="#00B0F0", fontcolor="#000000",  type="argument-map-node"];
+
+}
+
+
+subgraph cluster_3 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Pro-Lying</FONT>>;
+  color = "#757570";
+  margin="8" style = filled;
+ labelloc = "b";
+
+  n2 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Avoiding&#x20;Harm</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">By&#x20;telling&#x20;that&#x20;the&#x20;earlier&#x20;connection&#x20;is<BR/>&#x20;the&#x20;last&#x20;one&#x20;you&#x20;avoid&#x20;for&#x20;sure&#x20;that&#x20;your<BR/>&#x20;friend&#x20;misses&#x20;an&#x20;important&#x20;meeting.&#x20;</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#FBB982", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n8 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Bridging&#x20;Argument</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">Actions&#x20;that&#x20;harm&#x20;others&#x20;should&#x20;be&#x20;ceteris<BR/>&#x20;paribus&#x20;avioded.&#x20;</FONT></TD></TR></TABLE>>, margin="0.11,0.055", shape="box", style="filled, rounded", fillcolor="#FBB982", fontcolor="#000000",  type="argument-map-node"];
+
+}
+
+
+subgraph cluster_4 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Pro-Truth-Sticking</FONT>>;
+  color = "#757570";
+  margin="8" style = filled;
+ labelloc = "b";
+
+  n3 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Respecting&#x20;Autonomy</B></FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#00B0F0", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n4 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Desire&#x20;Fulfillment</B></FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#00B0F0", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n5 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Supporting&#x20;Friendship</B></FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#00B0F0", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n6 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Supporting&#x20;a&#x20;Social&#x20;Practice</B></FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#00B0F0", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n9 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>A2&#x3A;&#x20;There&#x20;are&#x20;no&#x20;reasons&#x20;against<BR/>&#x20;truth-sticking</B></FONT></TD></TR></TABLE>>, margin="0.11,0.055", shape="box", style="filled, rounded", fillcolor="#00B0F0", fontcolor="#000000",  type="argument-map-node"];
+
+}
+
+
+}
+
+
+
+  n7 -> n2 [type="attack", color="#ff0000"];
+  n8 -> n0 [type="attack", color="#ff0000"];
+  n2 -> n8 [type="support", color="#00ff00"];
+  n3 -> n9 [type="support", color="#00ff00"];
+  n4 -> n9 [type="support", color="#00ff00"];
+  n5 -> n9 [type="support", color="#00ff00"];
+  n6 -> n9 [type="support", color="#00ff00"];
+  n7 -> n9 [type="support", color="#00ff00"];
+  n9 -> n0 [type="support", color="#00ff00"];
+  n1 -> n7 [type="support", color="#00ff00"];
+
+}
