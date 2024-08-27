@@ -34,26 +34,35 @@ Suppose, you are in a situation in which a lie would prevent a bad outcome. Shou
 //| file: ./Graphics/Truth-Lying-Decision-Problem.dot 
 ```
 
-* You are facing two options for action -- "T!: sticking to truth" or "L!: lying" -- and must decide which one to choose.
-* At first sight, there are reasons for both options for action.
-* You must weigh these prima facie reasons to decide whether you should tell the truth or you should lie:
-  * Argumentation Analysis structures this process of weighing reasons
+| | **Argumentation Analysis structures the process of weighing reasons** | |
+|---|:--------:|---|
+
+* You must decide which option for action to choose: "T!: sticking to truth" or "L!: lying".
+* There are reasons for both options for action.
+* Argumentation Analysis supports you in clarifying the process of wheighing.
 
 
 ## Process of the Argumentation Analysis
-Argumentation Analysis supports you in clarifying the process of wheighing:
 
-0. **Specification of the available options for action** </br>
-  As a prerequisite of an argumentation analysis, you need to identify all the available options for action in the case your are interested in. </br>Here, we [have assumed](./Arg-Anal-Method.qmd#example-should-i-lie-or-should-i-not), that there are only two options for you. 
+::: {.callout-caution icon="false" collapse="true"}
+### Step 0: Specification of the available options for action
+As a prerequisite of an argumentation analysis, you need to identify all the available options for action in the case your are interested in. </br>Here, we [have assumed](./Arg-Anal-Method.qmd#example-should-i-lie-or-should-i-not), that there are only two options for you.
+:::
 
-1. [**Identification of Prima Facie Reasons**](arg-anal-pf-reasons-example.qmd) </br>
-  Identify the list of all prima facie reasons in favour and against the available options for action.
-2. [**Construction of Arguments**](arg-anal-arg-constr.qmd) </br>
-  Find/construct general principles which allow a [deductively valid inference]() from the premises (containing at least one prima facie reason) to a conclusion  (recommendation for one of the options for action)
-  Construct these principles for all available options for action. 
+::: {.callout-caution icon="false" collapse="true"}
+### Step 1: [Identification fo Prima-Facie Reasons](arg-anal-pf-reasons-example.qmd)
+Identify the list of all prima facie reasons in favour and against the available options for action.
+:::
 
-2. **Evaluation of Arguments** </br>
-  Provide arguments against the premises you believe to be implausible. 
+::: {.callout-caution icon="false" collapse="true"}
+### Step 2: [Construction of Arguments](arg-anal-arg-constr.qmd)
+Find or construct general principles which allow a [deductively valid inference]() from the premises (containing at least one prima facie reason) to a conclusion  (recommendation for one of the options for action).
+:::
+
+::: {.callout-caution icon="false" collapse="true"}
+### Step 3: [Evaluation of Arguments]()
+Discuss the premises of the reconstructed arguments with regard to their empirical validity and ethical plausibility.
+:::
 
 <!--
 -------------
