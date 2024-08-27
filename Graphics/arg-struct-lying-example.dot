@@ -22,13 +22,13 @@ digraph ARG_LYING {
 
 
 PFRT [
-    shape=octagon
+    shape=box
     label="Prima-Facie Reasons \nfor Truth-Sticking"
     fillcolor="white",
     width=1
     height=.8];
  PFRL [
-    shape=octagon
+    shape=box
     label="Prima-Facie Reasons \nfor Lying"
     fillcolor="white", 
     color="#b2e2e2",
@@ -38,7 +38,7 @@ PFRT [
 ly_ba [
     fillcolor="#b2e2e2",
     fixedsize=false,
-    label="Balancing Argument for Lying: \n Avoiding harm outweighs \nthe prima facie reasons \nagainst lying"
+    label="Balancing Argument \nfor Lying"
     URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/arg-anal-arg-constr.html#balancing-arguments-for-lying"
     fontcolor=black,
     height=0.6,
@@ -48,7 +48,7 @@ ly_ba [
 ly_tr [
     fillcolor="#b2e2e2",
     fixedsize=false,
-    label="Debunking Argument for Lying: \nThe prima facie reasons \nin favour of truth-telling \ndo not hold"
+    label="Debunking Argument \nfor Lying"
     URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/arg-anal-arg-constr.html#debunking-arguments-for-lying"
     fontcolor=black,
     height=0.6,
@@ -58,7 +58,7 @@ ly_tr [
 tr_ba [
     fillcolor="#deebf7",
     fixedsize=false,
-    label="Balancing Argument for Truth: \n The prima facie reasons \nfor truth-sticking outweigh \nthe reason for lying"
+    label="Balancing Argument \nfor Truth"
     URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/arg-anal-arg-constr.html#balancing-arguments-for-truth-sticking"
     fontcolor=black,
     height=0.6,
@@ -68,10 +68,10 @@ tr_ba [
 tr_tr [
     fillcolor="#deebf7",
     fixedsize=false,
-    label="Debunking Argument for Truth: \nThe prima facie reason \nfor lying does not hold"
+    label="Debunking Argument \nfor Truth"
     URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/arg-anal-arg-constr.html#debunking-argumentation-for-truth-sticking"
     fontcolor=black,
-    height=1.1,
+    height=0.6,
     row=func,
     width=1];
 

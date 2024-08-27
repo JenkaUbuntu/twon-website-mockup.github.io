@@ -6,10 +6,10 @@ digraph PFR {
 		splines = ortho,]
  
  edge [arrowhead = none,
-		arrowsize = 1,
+		arrowsize = 0,
 		labelfontname = "Ubuntu",
-		weight = 10,
-		style = "filled,setlinewidth(3)",
+		weight = 1,
+		style = "invis" /*"filled,setlinewidth(3)",*/
 		/*color=black*/]
 
   /* Entities */
@@ -22,8 +22,8 @@ subgraph pro_truth {
 		width = 1,
 		color="#deebf7"]
   PFRT [
-    shape=octagon
-    label="Prima-Facie Reasons \nfor Truth-Sticking"
+    label= <<b>Prima-Facie Reasons <br/>for Truth-Telling</b>>
+    shape=plain
     fillcolor="white",
     width=1
     height=.8];
@@ -61,8 +61,8 @@ subgraph pro_lying {
 		width = 1,
 		color="#e5f5e0"]
    PFRL [
-    shape=octagon
-    label="Prima-Facie Reasons \nfor Lying"
+    shape=plain
+    label=<<b>Prima-Facie Reasons <br/>for Lying</b>>
     fillcolor="white",
     width=1
     height=.8];
@@ -76,7 +76,7 @@ subgraph pro_lying {
 
  
   /* Relationships */
-  PFRT -> DF -> AUT -> SinR -> SocPr [color=green]
+  PFRT -> DF -> AUT -> SinR -> SocPr [color=white]
   PFRL -> AH [color=green]
 
 
