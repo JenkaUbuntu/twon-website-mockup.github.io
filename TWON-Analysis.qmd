@@ -8,16 +8,19 @@ title: Should TWONs be Developed and Used?
 //| file: ./Graphics/TWON-Analysis-Basic-Structure.dot
 ```
 
-# Available Options for Action: the Governing Modes
+# Step 0: Available Options for Action: the Governing Modes
 
+::: {.panel-tabset}
 ## GM-1: Free Public Access
+
 * **Ownership**: 
   * a publicly financed institution runs and maintains the model: it updates the code and the background data. 
   * the code of the model is publicly published under an open source license. The TWON governing institution has the task to ensure that the TWON is used in compliance with the current laws.
 * **Access**: 
   * public users can access the model via a web interface. They can insert their queries for a model run and get a model output.
 
-## GM-2: Vetted Researchers Access
+## GM-2: Researchers Access Only
+
 * **Ownership**: 
   * a research institution which hosts, maintains, and updates the TWON. 
   * Only the hosting institution has access to the code and the background data. It regulates who is allowed to use the TWON.
@@ -26,50 +29,176 @@ title: Should TWONs be Developed and Used?
   * researchers apply to the hosting institution to use the TWON for a specific research query. The proposal explains in how far the intended research contributes to the public interest and takes a stand on ethical concerns as, e.g., sensible data requirements. The hosting institution decides after evaluation of the research proposal. If a research question requires sensible personal data, the decision committee must weigh between the relevance of research and the protection of personal data.
 
 ## GM-3: Judicial Authority
+
 * **Ownership**: 
   * a publicly financed institution which hosts maintains, and updates the TWON. Only the hosting institution has access to the code and the background data.
 * **Access**:
   * The TWON may only be used by order of a judicial authority. The legal authorities decide in accordance with the law in which cases they order enquiries by a TWON. A court may commission a group of investigators to analyze by a TWON of the OSN whether a suspicted communication on the OSN has contributed to a law break.
 
-# Pro and Cons the Governing Modes
-
-## Pro-Cons-GM-1: Free Public Access
+:::
 
 
-| Pro Free Public Access | Contra Free Public Access |
-|:----------------------|:--------------------|
-| (B-1-1) **Increase in social welfare** in an amount of SW(GM-1)     |  |
-| (B-1-2) **Improvement of individual quality of life** in an amount of QoL(GM-1) | (R-1-2) **Risk to individual quality of life** from misuse of personal data |
-| | (R-2-1) Increase in **vioalations of the right to informational privacy** | 
-| (B-2-2) Ability to **prevent undermining of individual autonomy** on OSNs | (R-2-2) Intensified **undermining of individual autonomy** |
-| (B-2-3) Improvement of the **deliberative quality of public discourse**| (R-2-3) Risk of **collapse of institutions necessary for democratic governance**
-| (B-3) Additional knowledge with regard to **mitigation of existing injustices** (e.g., marginalization of vulnerable groups | (R-3-1) **Harms to future generations** from increased resources use and/or environmental pollution |
-| | (R-3-2) **Reinforcement of existing inequalities** in financial and political power relations at the national and global level |
+# Step 1: Pros and Cons the Governing Modes
+
+::: {.panel-tabset}
+
+## Pros and Cons GM-1
+
+::: {.columns}
+
+::: {.column width="47%"}
+::: {.callout-note icon="false" collapse="true"}
+### Pro Free Public Access
+
+| Welfarist Reasons | 
+|:-----|
+|(B-1-1) **Increase in social welfare** <br/>Commercial and public organizations will use TWONs to develop new products and services that generate economic benefits in an amount of SW(GM-1)|
+|(B-1-2) **Improvement of individual quality of life** <br/> Commercial and public organizations will use TWONs to develop new products and services that improve individual quality of life in an amount of QoL(GM-1)|
 : {.striped}
 
+|Reasons from Justice| 
+|:----|
+|(B-2-2) **Respect of Individual Autonomy** <br/>Interested stakeholders will develop tools againt undermining individual autonomy on OSNs.|
+|(B-2-3) **Increase in Deliberative Quality** <br/>Public access to TWONs will enable interested stakeholders to prevent an erosion of epistemic, moral, and juridical norms necessary for democratic governance and to develop tools which improve the deliberative quality of public discourse.|
+|(B-2-4) **Additional knowledge** Public access to TWONs will enable that additional knowledge addressing existing social injustices (marginalization of vulnerable groups) will be created 
+: {.striped}
+:::
+:::
 
-## Pro-Cons-GM-2: Vetted Researchers Access 
+::: {.column width="6%"}
+:::
 
-| Pro Only Researchers Access | Contra Only Researchers Access |
-|:----------------------|:--------------------|
-| | (R-0) It is **practically infeasible** to restrict access to TWONs to researchers only |
-| (B-1-1) **Increase in social welfare** in an amount of SW(GM-2)\<SW(GM-1)     |  |
-| (B-1-2) **Improvement of individual quality of life** in an amount of QoL(GM-2)\<SW(GM-1) | (R-1-2) **Risk to individual quality of life** from misuse of personal data (risk lower than in GM-1) |
-| | (R-2-1) Increase in **vioalations of the right to informational privacy** | 
-| (B-2-2) Ability to **prevent undermining of individual autonomy** on OSNs  | |
-| (B-2-3) Improvement of the **deliberative quality of public discourse** (to a lesser extent than GM-1 in the best possible case) | 
-| (B-3) Additional knowledge for **mitigation of existing injustices** (e.g., marginalization of vulnerable groups | |
-| | (R-3-2) Risk that existing global epistemic inequalities will be increased |
+::: {.column width="47%"}
+::: {.callout-note icon="false" collapse="true"}
+### Contra Free Public Access
+| Welfarist Reasons| 
+|:----|
+|(R-1-2) **Deterioration of individual quality of life** <br/>Free public access to TWONs increases the risk to individual quality of life from misuse of personal data |
+
+| Reasons from Justice| 
+|:----|
+|(R-2-1) **Vioalations of the right to informational privacy** Reliable functioning of TWONs might rely on personal data which individuals did not consented to use.|
+|(R-2-2) **Undermining of individual autonomy** <br/>Free public access to TWONs can reinforce manipulative and misinforming use of OSNs.|
+|(R-2-3) **Collapse of democratic institutions** <br/> |
+|(R-2-4) **Harms to future generations** <br/>from increased resources use and/or environmental pollution |
+|(R-2-5) **Reinforcement of existing inequalities** <br/>in financial and political power relations at the national and global level|
+: {.striped}
+:::
+:::
+
+::: 
+
+
+## Pros and Cons GM-2
+
+::: {.columns}
+
+::: {.column width="47%"}
+::: {.callout-note icon="false" collapse="true"}
+### Pro Vetted Researchers Access
+
+| Welfarist Reasons | 
+|:-----|
+|(B-1-1) **Increase in social welfare** <br/>TWONs will be used to develop new products and services that generate economic benefits in an amount of SW(GM-2) << SW(GM-1)|
+|(B-1-2) **Improvement of individual quality of life** <br/> TWONs will be used to develop new products and services that improve individual quality of life in an amount of QoL(GM-2) << QoL(GM-1)|
 : {.striped}
 
-
-## Pro-Cons-GM-3: Access by Judicial Authority
-| Pro "On Behalf of Judicial Authority" | Contra "On Behalf of Judicial Authority" |
-|:----------------------|:--------------------|
-| | (R-0) It is **practically infeasible** to restrict access to TWONs |
-| | (R-2-1) Increase in **vioalations of the right to informational privacy**^[This governance mode does not avoid violation of the right to informational self-determination if personal data for TWON’s development and use have been collected inappropriately or have been leaked.] | 
-| (B-2-3) Ability to prevent and prosecute violations of legal norms on OSNs | |
+|Reasons from Justice| 
+|:----|
+|(B-2-2) **Respect of Individual Autonomy** <br/>Interested stakeholders will develop tools againt undermining individual autonomy on OSNs.|
+|(B-2-3) **Increase in Deliberative Quality** <br/>TWONs will be used for research aimed at preventing the erosion of epistemic, moral, and legal norms necessary for democratic governance, and at developing tools to improve the deliberative quality of public discourse.|
+|(B-2-4) **Additional knowledge** Research access to TWONs will enable that additional knowledge addressing existing social injustices (marginalization of vulnerable groups) will be created 
 : {.striped}
+:::
+:::
+
+::: {.column width="6%"}
+:::
+
+::: {.column width="47%"}
+::: {.callout-note icon="false" collapse="true"}
+### Contra Researchers Access Only
+| Impossibility Reason|
+|:----|
+|(R-0) It is **practically infeasible** to restrict access to TWONs to researchers only.
+
+| Welfarist Reason| 
+|:----|
+|(R-1-2) **Deterioration of individual quality of life** <br/>Researchers access to TWONs increases the risk to individual quality of life from misuse of personal data (risk lower than in GM-1)|
+: {.striped}
+
+| Reason from Justice| 
+|:----|
+|(R-2-1) **Vioalations of the right to informational privacy** Reliable functioning of TWONs might rely on personal data which individuals did not consented to use.|
+| (R-2-2) **Inequalities** Risk that existing global epistemic inequalities will be increased. 
+: {.striped}
+:::
+:::
+
+::: 
+
+## Pros and Cons GM-3
+
+::: {.columns}
+
+::: {.column width="47%"}
+::: {.callout-note icon="false" collapse="true"}
+### Pro Access on behalf of a Judicial Authority
+
+|Reason from Justice| 
+|:----|
+|(B-2-1) **Prosecution of Illegal Acts** <br/>TWONs will be used for prevention and prosecution of violations of legal norms on OSNs.|
+:::
+:::
+
+::: {.column width="6%"}
+:::
+
+::: {.column width="47%"}
+::: {.callout-note icon="false" collapse="true"}
+### Contra Researchers Access Only
+| Impossibility Reason|
+|:----|
+|(R-0) It is **practically infeasible** to restrict access to TWONs on behalf of a legal authority.
+
+| Reason from Justice| 
+|:----|
+|(R-2-1) **Vioalations of the right to informational privacy** Reliable functioning of TWONs might rely on personal data which individuals did not consented to use.|
+: {.striped}
+:::
+:::
+
+::: 
+
+:::
+
+# Step 2: Construction of Arguments
+
+::: {.panel-tabset}
+
+## GM-1 Arguments
+
+```{dot}
+//| label: arguments-structure-GM-1
+//| fig-cap: "Argumentative Structure regarding a free public access regulation to TWONs"
+//| file: ./Graphics/GM-1-arg-structure.dot
+```
+
+## GM-2 Arguments
+
+## GM-3 Arguments
+
+:::
+
+# Step 3: Evaluation of the Arguments
+::: {.panel-tabset}
+## GM-1
+
+## GM-2
+
+## GM-3
+
+:::
 
 
 # Your Evaluation based on the pro- and cons lists
@@ -93,19 +222,3 @@ title: Should TWONs be Developed and Used?
       * Evaluate it: agree, disagree, do not know
       * Result: 
   * if (ii-pro)&(ii-contra: )
-
-
-# Possible Arguments
-
-## Arguments regarding GM-1: Free Public Access
-
-```{dot}
-//| label: arguments-structure-GM-1
-//| fig-cap: "Argumentative Structure regarding a free public access regulation to TWONs"
-//| file: ./Graphics/GM-1-arg-structure.dot
-```
-
-## Arguments regarding GM-2: Vetted Researchers Only
-
-## Arguments regarding GM-3: On behalf of Judicial Authority Only
-# Evaluation of the Arguments

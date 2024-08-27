@@ -1,0 +1,87 @@
+digraph "Argument Map" {
+
+rankdir = "BT";
+concentrate = "false";
+ratio = "auto";
+size = "10,10";
+edge[arrowsize="1", penwidth="1"]graph [bgcolor = "transparent" ]
+subgraph cluster_1 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Step-3&#x3A;&#x20;Debunking&#x20;Argument&#x20;Pro&#x20;Free&#x20;Public&#x20;Access&#x20;to&#x20;TWONs</FONT>>;
+  color = "#f2eeee";
+  margin="8" style = filled;
+ labelloc = "b";
+
+  n0 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>T-GM-1&#x3A;&#x20;Access&#x20;to&#x20;TWON&#x20;should&#x20;be<BR/>&#x20;unrestricted</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">It&#x20;is&#x20;morally&#x20;allowed&#x20;that&#x20;a&#x20;TWON&#x20;is<BR/>&#x20;publicly&#x20;available&#x20;for&#x20;an&#x20;unrestrited&#x20;use.&#x20;</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#FBB982", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+
+subgraph cluster_2 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Benefits&#x20;and&#x20;Risks</FONT>>;
+  color = "#FBB982";
+  margin="8" style = filled;
+ labelloc = "b";
+
+
+subgraph cluster_3 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Benefits</FONT>>;
+  color = "#fffffd";
+  margin="8" style = filled;
+ labelloc = "b";
+
+  n1 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Significant&#x20;Benefits&#x20;from&#x20;GM-1</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">Unrestricted&#x20;public&#x20;access&#x20;to&#x20;the&#x20;TWON<BR/>&#x20;brings&#x20;about&#x20;the&#x20;following&#x20;morally<BR/>&#x20;significant&#x20;benefits&#x3A;&#x20;&#x28;B-1&#x29;&#x20;it&#x20;enhances<BR/>&#x20;social&#x20;welfare&#x20;and&#x20;individual&#x20;quality&#x20;of<BR/>&#x20;life&#x2C;&#x20;&#x28;B-2&#x29;&#x20;it&#x20;enables&#x20;that&#x20;undermining&#x20;of<BR/>&#x20;societal&#x20;norms&#x20;necessary&#x20;for&#x20;democratic<BR/>&#x20;governance&#x20;is&#x20;prevented&#x2C;&#x20;&#x28;B-3&#x29;&#x20;and&#x20;it<BR/>&#x20;provides&#x20;means&#x20;for&#x20;mitigation&#x20;of&#x20;further<BR/>&#x20;injustices.</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#FBB982", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+
+}
+
+
+subgraph cluster_4 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Risks</FONT>>;
+  color = "#fffffd";
+  margin="8" style = filled;
+ labelloc = "b";
+
+  n4 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Moral&#x20;Drawbacks&#x20;from&#x20;GM-1</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">Unrestricted&#x20;public&#x20;access&#x20;to&#x20;the&#x20;TWON&#x20;can<BR/>&#x20;bring&#x20;about&#x20;the&#x20;following&#x20;moral&#x20;drawbacks&#x3A;<BR/>&#x20;&#x28;R-1&#x29;&#x20;risks&#x20;for&#x20;individual&#x20;quality&#x20;of&#x20;life&#x3B;<BR/>&#x20;&#x28;R-2-1&#x29;&#x20;violation&#x20;of&#x20;the&#x20;right&#x20;to<BR/>&#x20;informational&#x20;self-determination&#x3B;&#x20;&#x28;R-2-2&#x29;<BR/>&#x20;undermining&#x20;of&#x20;individual&#x20;autonomy&#x3B;&#x20;&#x28;R-2-3&#x29;<BR/>&#x20;damage&#x20;to&#x20;democratic&#x20;institutions&#x3B;&#x20;&#x28;R-3&#x29;<BR/>&#x20;reinforcement&#x20;of&#x20;existing&#x20;injustices.</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#FBB982", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+
+}
+
+
+}
+
+
+subgraph cluster_5 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Pro-Arguments</FONT>>;
+  color = "#b9b2b2";
+  margin="8" style = filled;
+ labelloc = "b";
+
+  n5 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>A-GM-1-Pro-1-2&#x3A;&#x20;Impossibility&#x20;of<BR/>&#x20;TWONs&#x27;&#x20;Regulation</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">It&#x20;is&#x20;impossible&#x20;to&#x20;install&#x20;a&#x20;governance<BR/>&#x20;mode&#x20;which&#x20;reliably&#x20;restricts&#x20;access&#x20;to&#x20;the<BR/>&#x20;TWONs&#x20;to&#x20;a&#x20;societal&#x20;group&#x20;only.</FONT></TD></TR></TABLE>>, margin="0.11,0.055", shape="box", style="filled, rounded", fillcolor="#00B0F0", fontcolor="#000000",  type="argument-map-node"];
+
+subgraph cluster_6 {
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Strategy-1&#x3A;&#x20;Debunking&#x20;Risks</FONT>>;
+  color = "#fffffd";
+  margin="8" style = filled;
+ labelloc = "b";
+
+  n2 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Moral&#x20;Drawbacks&#x20;from&#x20;GM-1&#x20;are<BR/>&#x20;Insignificant</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">It&#x20;is&#x20;reasonable&#x20;to&#x20;expect&#x20;that&#x20;unrestricted<BR/>&#x20;public&#x20;access&#x20;to&#x20;the&#x20;TWON&#x20;will&#x20;cause<BR/>&#x20;violations&#x20;of&#x20;moral&#x20;norms&#x20;in&#x20;an<BR/>&#x20;insignificant&#x20;amount&#x20;relative&#x20;to&#x20;the&#x20;status<BR/>&#x20;quo.</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#00B0F0", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n3 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>No&#x20;Alternatives&#x20;to&#x20;GM-1&#x20;without<BR/>&#x20;Significant&#x20;Moral&#x20;Drawbacks</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">According&#x20;to&#x20;the&#x20;best&#x20;available&#x20;knowledge&#x2C;<BR/>&#x20;there&#x20;is&#x20;no&#x20;other&#x20;means&#x20;by&#x20;which&#x20;the<BR/>&#x20;benefits&#x20;&#x28;B-1&#x2C;...&#x2C;B-3&#x29;&#x20;could&#x20;be&#x20;realized<BR/>&#x20;without&#x20;significant&#x20;moral&#x20;drawbacks.</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#00B0F0", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n6 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>A-GM-1-Pro-1</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">Benefits&#x20;without&#x20;Significant&#x20;Risks&#x20;from&#x20;GM-1</FONT></TD></TR></TABLE>>, margin="0.11,0.055", shape="box", style="filled, rounded", fillcolor="#00B0F0", fontcolor="#000000",  type="argument-map-node"];
+  n7 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>A-GM-1-Pro-1-1</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">Moral&#x20;Drawbacks&#x20;from&#x20;GM-1&#x20;are&#x20;Insignificant</FONT></TD></TR></TABLE>>, margin="0.11,0.055", shape="box", style="filled, rounded", fillcolor="#00B0F0", fontcolor="#000000",  type="argument-map-node"];
+  n8 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>A-GM-1&#x20;Democracy&#x20;Threads&#x20;Debunking</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">it&#x20;is&#x20;reasonable&#x20;to&#x20;assume&#x20;that&#x20;an<BR/>&#x20;unrestricted&#x20;access&#x20;to&#x20;a&#x20;TWON&#x20;will&#x20;not<BR/>&#x20;damage&#x20;democratic&#x20;institutions&#x20;to&#x20;a<BR/>&#x20;significantly&#x20;higher&#x20;degree&#x20;than&#x20;the<BR/>&#x20;existing&#x20;OSNs&#x20;damage&#x20;them.</FONT></TD></TR></TABLE>>, margin="0.11,0.055", shape="box", style="filled, rounded", fillcolor="#00B0F0", fontcolor="#000000",  type="argument-map-node"];
+
+}
+
+
+}
+
+
+}
+
+
+
+  n7 -> n2 [type="support", color="#00ff00"];
+  n5 -> n3 [type="support", color="#00ff00"];
+  n8 -> n7 [type="support", color="#00ff00"];
+  n7 -> n4 [type="attack", color="#ff0000"];
+  n6 -> n0 [type="support", color="#00ff00"];
+  n1 -> n6 [type="support", color="#00ff00"];
+  n2 -> n6 [type="support", color="#00ff00"];
+  n3 -> n6 [type="support", color="#00ff00"];
+
+}
