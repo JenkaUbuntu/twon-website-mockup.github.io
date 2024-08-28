@@ -32,7 +32,7 @@ This argumentation strategy is based on the idea that the prima facie reason for
 
 ```{dot}
 //| fig-cap: "Argument map of debunking the prima facie reason for lying"
-//| file: ./argument-rekos/pro-truth-debunking.ad.dot
+//| file: ./argument-rekos/method-example/pro-truth-debunking.ad.dot
 ```
 
 ### Reconstruction of Arguments
