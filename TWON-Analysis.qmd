@@ -1,5 +1,5 @@
 ---
-title: Should TWONs be Developed and Used?
+title: Ethical Analysis of TWONs
 ---
 
 ```{dot}
@@ -8,7 +8,7 @@ title: Should TWONs be Developed and Used?
 //| file: ./Graphics/TWON-Analysis-Basic-Structure.dot
 ```
 
-# Step 0: Available Options for Action: the Governing Modes
+# Step 0: Available Options for Action: the Governing Modes [#sec-step-0]
 
 ::: {.panel-tabset}
 ## GM-1: Free Public Access
@@ -38,7 +38,7 @@ title: Should TWONs be Developed and Used?
 :::
 
 
-# Step 1: Pros and Cons the Governing Modes
+# Step 1: Pros and Cons the Governing Modes {#sec-step-1}
 
 ::: {.panel-tabset}
 
@@ -172,7 +172,7 @@ title: Should TWONs be Developed and Used?
 
 :::
 
-# Step 2: Construction of Arguments
+# Step 2: Construction of Arguments {#sec-step-2}
 
 ::: {.panel-tabset}
 
@@ -190,7 +190,7 @@ title: Should TWONs be Developed and Used?
 
 :::
 
-# Step 3: Evaluation of the Arguments
+# Step 3: Evaluation of the Arguments {#sec-step-3}
 ::: {.panel-tabset}
 ## GM-1
 
