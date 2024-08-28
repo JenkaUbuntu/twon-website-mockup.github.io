@@ -4,9 +4,9 @@ format:
   html:
     toc: true
 ---
-# GM-1: Free Public Access to TWONs
+# GM-1: Free Public Access to TWONs {#sec-free-access}
 
-## Pro-Arguments Free Public Access
+## Pro-Arguments Free Public Access {#sec-pro-free-access}
 
 ### Debunking Pro-Argumentation GM-1
 
@@ -98,7 +98,7 @@ format:
 
 :::::
 
-## Contra-Arguments Free Public Access
+## Contra-Arguments Free Public Access {#sec-contra-free-access}
 
 ### Debunking Benefits from GM-1 Argumentation
 
@@ -118,9 +118,9 @@ tba
 tba
 :::
 
-# GM-2 Vetted Researchers Access Only
+# GM-2 Vetted Researchers Access Only {#sec-researchers-access}
 
-## Pro-Arguments GM-2
+## Pro-Arguments GM-2 {#sec-pro-researchers-access}
 ### Debunking Prima facie Reasons against GM-2
 
 ::: {.panel-tabset}
@@ -139,7 +139,7 @@ tba
 tba
 :::
 
-## Contra-Arguments GM-2
+## Contra-Arguments GM-2 {#sec-contra-researchers-access}
 ### Debunking Prima facie Reasons for GM-2
 
 ::: {.panel-tabset}
@@ -159,9 +159,9 @@ tba
 tba
 :::
 
-# GM-3 Judicial Authority
+# GM-3 Judicial Authority {#sec-judicial}
 
-## Pro-Arguments GM-3
+## Pro-Arguments GM-3 {#sec-pro-judicial}
 ### Debunking Pro-Argument GM-3
 ::: {.panel-tabset}
 #### Maps of Arguments
@@ -178,7 +178,7 @@ tba
 tba
 :::
 
-## Contra-Arguments GM-3
+## Contra-Arguments GM-3 {#sec-contra-judicial}
 ### Debunking Contra-Argument GM-3
 ::: {.panel-tabset}
 #### Maps of Arguments
