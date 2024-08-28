@@ -5,20 +5,42 @@ project:
 website:
   title: "TWON-Website-Mockup"
   navbar:
+    background: secondary
     left:
       - href: index.qmd
         text: Home
-      - href: Arg-Anal-Method.qmd
-        text: Method
-      - href: TWON-Analysis.qmd
-        text: TWON-Analysis
+      - sidebar:method
+      - sidebar:twon-analysis
       - href: output.qmd
         text: Outcomes
     right:
       - about.qmd
     collapse: true
   back-to-top-navigation: true
-
+  
+  sidebar: 
+    - id: method
+      title: Methodology
+      style: floating
+      background: secondary
+      contents: 
+        - Arg-Anal-Method.qmd
+        # navigation items
+        - text: Step 1 p-f Reasons
+          href: arg-anal-pf-reasons-example.qmd
+        - text: Step 2 Construction of Arguments
+          href: arg-anal-arg-constr.qmd
+    - id: twon-analysis
+      title: TWON-Analysis
+      style: docked
+      background: primary
+      contents:
+        - TWON-Analysis.qmd
+        # navigation items
+        - text: Reconstruction of Arguments
+          href: ./argument-rekos/arg-rekos.qmd
+          # navigation items
+       
 format:
   html:
     theme: 

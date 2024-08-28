@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -94,14 +94,40 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../Arg-Anal-Method.html"> 
-<span class="menu-text">Method</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-methodology" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Methodology</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-methodology">    
+        <li>
+    <a class="dropdown-item" href="../Arg-Anal-Method.html">
+ <span class="dropdown-text">Methodology of Argumentation Analysis</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../TWON-Analysis.html"> 
-<span class="menu-text">TWON-Analysis</span></a>
+        <li>
+    <a class="dropdown-item" href="../arg-anal-pf-reasons-example.html">
+ <span class="dropdown-text">Step 1 p-f Reasons</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../arg-anal-arg-constr.html">
+ <span class="dropdown-text">Step 2 Construction of Arguments</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-twon-analysis" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">TWON-Analysis</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-twon-analysis">    
+        <li>
+    <a class="dropdown-item" href="../TWON-Analysis.html">
+ <span class="dropdown-text">Should TWONs be Developed and Used?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../argument-rekos/arg-rekos.html">
+ <span class="dropdown-text">Reconstruction of Arguments</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../output.html"> 
 <span class="menu-text">Outcomes</span></a>
@@ -119,50 +145,79 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../argument-rekos/arg-rekos.html">Reconstruction of Arguments</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../TWON-Analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Should TWONs be Developed and Used?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../argument-rekos/arg-rekos.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Reconstruction of Arguments</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#gm-1-free-public-access-to-twons" id="toc-gm-1-free-public-access-to-twons" class="nav-link active" data-scroll-target="#gm-1-free-public-access-to-twons">GM-1: Free Public Access to TWONs</a>
+  <li><a href="#sec-free-access" id="toc-sec-free-access" class="nav-link active" data-scroll-target="#sec-free-access">GM-1: Free Public Access to TWONs</a>
   <ul class="collapse">
-  <li><a href="#pro-arguments-free-public-access" id="toc-pro-arguments-free-public-access" class="nav-link" data-scroll-target="#pro-arguments-free-public-access">Pro-Arguments Free Public Access</a>
+  <li><a href="#sec-pro-free-access" id="toc-sec-pro-free-access" class="nav-link" data-scroll-target="#sec-pro-free-access">Pro-Arguments Free Public Access</a>
   <ul class="collapse">
   <li><a href="#debunking-pro-argumentation-gm-1" id="toc-debunking-pro-argumentation-gm-1" class="nav-link" data-scroll-target="#debunking-pro-argumentation-gm-1">Debunking Pro-Argumentation GM-1</a></li>
   <li><a href="#balancing-pro-argumentation-gm-1" id="toc-balancing-pro-argumentation-gm-1" class="nav-link" data-scroll-target="#balancing-pro-argumentation-gm-1">Balancing Pro-Argumentation GM-1</a></li>
   </ul></li>
-  <li><a href="#contra-arguments-free-public-access" id="toc-contra-arguments-free-public-access" class="nav-link" data-scroll-target="#contra-arguments-free-public-access">Contra-Arguments Free Public Access</a>
+  <li><a href="#sec-contra-free-access" id="toc-sec-contra-free-access" class="nav-link" data-scroll-target="#sec-contra-free-access">Contra-Arguments Free Public Access</a>
   <ul class="collapse">
   <li><a href="#debunking-benefits-from-gm-1-argumentation" id="toc-debunking-benefits-from-gm-1-argumentation" class="nav-link" data-scroll-target="#debunking-benefits-from-gm-1-argumentation">Debunking Benefits from GM-1 Argumentation</a></li>
   <li><a href="#balancing-prima-facie-reasons-against-gm-1" id="toc-balancing-prima-facie-reasons-against-gm-1" class="nav-link" data-scroll-target="#balancing-prima-facie-reasons-against-gm-1">Balancing Prima facie Reasons against GM-1</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#gm-2-vetted-researchers-access-only" id="toc-gm-2-vetted-researchers-access-only" class="nav-link" data-scroll-target="#gm-2-vetted-researchers-access-only">GM-2 Vetted Researchers Access Only</a>
+  <li><a href="#sec-researchers-access" id="toc-sec-researchers-access" class="nav-link" data-scroll-target="#sec-researchers-access">GM-2 Vetted Researchers Access Only</a>
   <ul class="collapse">
-  <li><a href="#pro-arguments-gm-2" id="toc-pro-arguments-gm-2" class="nav-link" data-scroll-target="#pro-arguments-gm-2">Pro-Arguments GM-2</a>
+  <li><a href="#sec-pro-researchers-access" id="toc-sec-pro-researchers-access" class="nav-link" data-scroll-target="#sec-pro-researchers-access">Pro-Arguments GM-2</a>
   <ul class="collapse">
   <li><a href="#debunking-prima-facie-reasons-against-gm-2" id="toc-debunking-prima-facie-reasons-against-gm-2" class="nav-link" data-scroll-target="#debunking-prima-facie-reasons-against-gm-2">Debunking Prima facie Reasons against GM-2</a></li>
   <li><a href="#balancing-pro-argument-gm-2" id="toc-balancing-pro-argument-gm-2" class="nav-link" data-scroll-target="#balancing-pro-argument-gm-2">Balancing Pro-Argument GM-2</a></li>
   </ul></li>
-  <li><a href="#contra-arguments-gm-2" id="toc-contra-arguments-gm-2" class="nav-link" data-scroll-target="#contra-arguments-gm-2">Contra-Arguments GM-2</a>
+  <li><a href="#sec-contra-researchers-access" id="toc-sec-contra-researchers-access" class="nav-link" data-scroll-target="#sec-contra-researchers-access">Contra-Arguments GM-2</a>
   <ul class="collapse">
   <li><a href="#debunking-prima-facie-reasons-for-gm-2" id="toc-debunking-prima-facie-reasons-for-gm-2" class="nav-link" data-scroll-target="#debunking-prima-facie-reasons-for-gm-2">Debunking Prima facie Reasons for GM-2</a></li>
   <li><a href="#balancing-reasons-against-gm-2" id="toc-balancing-reasons-against-gm-2" class="nav-link" data-scroll-target="#balancing-reasons-against-gm-2">Balancing Reasons against GM-2</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#gm-3-judicial-authority" id="toc-gm-3-judicial-authority" class="nav-link" data-scroll-target="#gm-3-judicial-authority">GM-3 Judicial Authority</a>
+  <li><a href="#sec-judicial" id="toc-sec-judicial" class="nav-link" data-scroll-target="#sec-judicial">GM-3 Judicial Authority</a>
   <ul class="collapse">
-  <li><a href="#pro-arguments-gm-3" id="toc-pro-arguments-gm-3" class="nav-link" data-scroll-target="#pro-arguments-gm-3">Pro-Arguments GM-3</a>
+  <li><a href="#sec-pro-judicial" id="toc-sec-pro-judicial" class="nav-link" data-scroll-target="#sec-pro-judicial">Pro-Arguments GM-3</a>
   <ul class="collapse">
   <li><a href="#debunking-pro-argument-gm-3" id="toc-debunking-pro-argument-gm-3" class="nav-link" data-scroll-target="#debunking-pro-argument-gm-3">Debunking Pro-Argument GM-3</a></li>
   <li><a href="#balancing-pro-argument-gm-3" id="toc-balancing-pro-argument-gm-3" class="nav-link" data-scroll-target="#balancing-pro-argument-gm-3">Balancing Pro-Argument GM-3</a></li>
   </ul></li>
-  <li><a href="#contra-arguments-gm-3" id="toc-contra-arguments-gm-3" class="nav-link" data-scroll-target="#contra-arguments-gm-3">Contra-Arguments GM-3</a>
+  <li><a href="#sec-contra-judicial" id="toc-sec-contra-judicial" class="nav-link" data-scroll-target="#sec-contra-judicial">Contra-Arguments GM-3</a>
   <ul class="collapse">
   <li><a href="#debunking-contra-argument-gm-3" id="toc-debunking-contra-argument-gm-3" class="nav-link" data-scroll-target="#debunking-contra-argument-gm-3">Debunking Contra-Argument GM-3</a></li>
   <li><a href="#balancing-contra-argument-gm-3" id="toc-balancing-contra-argument-gm-3" class="nav-link" data-scroll-target="#balancing-contra-argument-gm-3">Balancing Contra-Argument GM-3</a></li>
@@ -193,10 +248,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="gm-1-free-public-access-to-twons" class="level1">
+<section id="sec-free-access" class="level1">
 <h1>GM-1: Free Public Access to TWONs</h1>
-<section id="pro-arguments-free-public-access" class="level2">
-<h2 class="anchored" data-anchor-id="pro-arguments-free-public-access">Pro-Arguments Free Public Access</h2>
+<section id="sec-pro-free-access" class="level2">
+<h2 class="anchored" data-anchor-id="sec-pro-free-access">Pro-Arguments Free Public Access</h2>
 <section id="debunking-pro-argumentation-gm-1" class="level3">
 <h3 class="anchored" data-anchor-id="debunking-pro-argumentation-gm-1">Debunking Pro-Argumentation GM-1</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
@@ -216,6 +271,21 @@ ul.task-list li input[type="checkbox"] {
 <polygon fill="#f2eeee" stroke="#f2eeee" points="8,-8 8,-628 957,-628 957,-8 8,-8"></polygon>
 <text text-anchor="start" x="311.43" y="-613.2" font-family="arial" font-size="12.00" fill="#000000">Step-2: Debunking Argument Pro Free Public Access to TWONs</text>
 </g>
+<g id="clust2" class="cluster">
+<title>cluster_2</title>
+<polygon fill="#fbb982" stroke="#fbb982" points="473,-226.4 473,-439.2 949,-439.2 949,-226.4 473,-226.4"></polygon>
+<text text-anchor="start" x="661.31" y="-424.4" font-family="arial" font-size="12.00" fill="#000000">Benefits and Risks</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_3</title>
+<polygon fill="#fffffd" stroke="#fffffd" points="723,-234.4 723,-408.8 941,-408.8 941,-234.4 723,-234.4"></polygon>
+<text text-anchor="start" x="810.32" y="-394" font-family="arial" font-size="12.00" fill="#000000">Benefits</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_4</title>
+<polygon fill="#fffffd" stroke="#fffffd" points="481,-240.4 481,-402.8 715,-402.8 715,-240.4 481,-240.4"></polygon>
+<text text-anchor="start" x="583.33" y="-388" font-family="arial" font-size="12.00" fill="#000000">Risks</text>
+</g>
 <g id="clust5" class="cluster">
 <title>cluster_5</title>
 <polygon fill="#b9b2b2" stroke="#b9b2b2" points="16,-16 16,-529.6 465,-529.6 465,-16 16,-16"></polygon>
@@ -225,21 +295,6 @@ ul.task-list li input[type="checkbox"] {
 <title>cluster_6</title>
 <polygon fill="#fffffd" stroke="#fffffd" points="211,-24 211,-218.4 457,-218.4 457,-24 211,-24"></polygon>
 <text text-anchor="start" x="257.29" y="-203.6" font-family="arial" font-size="12.00" fill="#000000">Crucial Debunking Argument</text>
-</g>
-<g id="clust2" class="cluster">
-<title>cluster_2</title>
-<polygon fill="#fbb982" stroke="#fbb982" points="473,-226.4 473,-439.2 949,-439.2 949,-226.4 473,-226.4"></polygon>
-<text text-anchor="start" x="661.31" y="-424.4" font-family="arial" font-size="12.00" fill="#000000">Benefits and Risks</text>
-</g>
-<g id="clust4" class="cluster">
-<title>cluster_4</title>
-<polygon fill="#fffffd" stroke="#fffffd" points="707,-240.4 707,-402.8 941,-402.8 941,-240.4 707,-240.4"></polygon>
-<text text-anchor="start" x="809.33" y="-388" font-family="arial" font-size="12.00" fill="#000000">Risks</text>
-</g>
-<g id="clust3" class="cluster">
-<title>cluster_3</title>
-<polygon fill="#fffffd" stroke="#fffffd" points="481,-234.4 481,-408.8 699,-408.8 699,-234.4 481,-234.4"></polygon>
-<text text-anchor="start" x="568.32" y="-394" font-family="arial" font-size="12.00" fill="#000000">Benefits</text>
 </g>
 <!-- n0 -->
 <g id="node1" class="node">
@@ -253,17 +308,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<path fill="white" stroke="#fbb982" stroke-width="2" d="M678.5,-378.4C678.5,-378.4 501.5,-378.4 501.5,-378.4 495.5,-378.4 489.5,-372.4 489.5,-366.4 489.5,-366.4 489.5,-254.4 489.5,-254.4 489.5,-248.4 495.5,-242.4 501.5,-242.4 501.5,-242.4 678.5,-242.4 678.5,-242.4 684.5,-242.4 690.5,-248.4 690.5,-254.4 690.5,-254.4 690.5,-366.4 690.5,-366.4 690.5,-372.4 684.5,-378.4 678.5,-378.4"></path>
-<text text-anchor="start" x="517.44" y="-364.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Significant Benefits from GM-1</text>
-<text text-anchor="start" x="501.58" y="-347.4" font-family="arial" font-size="10.00" fill="#000000">Unrestricted public access to the TWON</text>
-<text text-anchor="start" x="514.9" y="-335.4" font-family="arial" font-size="10.00" fill="#000000"> brings about the following morally</text>
-<text text-anchor="start" x="507.12" y="-323.4" font-family="arial" font-size="10.00" fill="#000000"> significant benefits: (B-1) it enhances</text>
-<text text-anchor="start" x="505.45" y="-311.4" font-family="arial" font-size="10.00" fill="#000000"> social welfare and individual quality of</text>
-<text text-anchor="start" x="501.84" y="-299.4" font-family="arial" font-size="10.00" fill="#000000"> life, (B-2) it enables that undermining of</text>
-<text text-anchor="start" x="499.63" y="-287.4" font-family="arial" font-size="10.00" fill="#000000"> societal norms necessary for democratic</text>
-<text text-anchor="start" x="506.84" y="-275.4" font-family="arial" font-size="10.00" fill="#000000"> governance is prevented, (B-3) and it</text>
-<text text-anchor="start" x="502.4" y="-263.4" font-family="arial" font-size="10.00" fill="#000000"> provides means for mitigation of further</text>
-<text text-anchor="start" x="567.16" y="-251.4" font-family="arial" font-size="10.00" fill="#000000"> injustices.</text>
+<path fill="white" stroke="#fbb982" stroke-width="2" d="M920.5,-378.4C920.5,-378.4 743.5,-378.4 743.5,-378.4 737.5,-378.4 731.5,-372.4 731.5,-366.4 731.5,-366.4 731.5,-254.4 731.5,-254.4 731.5,-248.4 737.5,-242.4 743.5,-242.4 743.5,-242.4 920.5,-242.4 920.5,-242.4 926.5,-242.4 932.5,-248.4 932.5,-254.4 932.5,-254.4 932.5,-366.4 932.5,-366.4 932.5,-372.4 926.5,-378.4 920.5,-378.4"></path>
+<text text-anchor="start" x="759.44" y="-364.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Significant Benefits from GM-1</text>
+<text text-anchor="start" x="743.58" y="-347.4" font-family="arial" font-size="10.00" fill="#000000">Unrestricted public access to the TWON</text>
+<text text-anchor="start" x="756.9" y="-335.4" font-family="arial" font-size="10.00" fill="#000000"> brings about the following morally</text>
+<text text-anchor="start" x="749.12" y="-323.4" font-family="arial" font-size="10.00" fill="#000000"> significant benefits: (B-1) it enhances</text>
+<text text-anchor="start" x="747.45" y="-311.4" font-family="arial" font-size="10.00" fill="#000000"> social welfare and individual quality of</text>
+<text text-anchor="start" x="743.84" y="-299.4" font-family="arial" font-size="10.00" fill="#000000"> life, (B-2) it enables that undermining of</text>
+<text text-anchor="start" x="741.63" y="-287.4" font-family="arial" font-size="10.00" fill="#000000"> societal norms necessary for democratic</text>
+<text text-anchor="start" x="748.84" y="-275.4" font-family="arial" font-size="10.00" fill="#000000"> governance is prevented, (B-3) and it</text>
+<text text-anchor="start" x="744.4" y="-263.4" font-family="arial" font-size="10.00" fill="#000000"> provides means for mitigation of further</text>
+<text text-anchor="start" x="809.16" y="-251.4" font-family="arial" font-size="10.00" fill="#000000"> injustices.</text>
 </g>
 <!-- n5 -->
 <g id="node6" class="node">
@@ -276,22 +331,22 @@ ul.task-list li input[type="checkbox"] {
 <!-- n1&#45;&gt;n5 -->
 <g id="edge5" class="edge">
 <title>n1-&gt;n5</title>
-<path fill="none" stroke="#00ff00" d="M538.76,-378.59C519.04,-400.59 494.98,-423.41 469,-439.2 467.02,-440.41 464.99,-441.57 462.92,-442.69"></path>
-<polygon fill="#00ff00" stroke="#00ff00" points="461,-439.74 453.64,-447.35 464.14,-445.99 461,-439.74"></polygon>
+<path fill="none" stroke="#00ff00" d="M788.59,-378.69C770.06,-401.82 746.35,-425.36 719,-439.2 675.77,-461.08 554.8,-468.6 463.89,-471.11"></path>
+<polygon fill="#00ff00" stroke="#00ff00" points="463.7,-467.61 453.8,-471.37 463.88,-474.61 463.7,-467.61"></polygon>
 </g>
 <!-- n4 -->
 <g id="node3" class="node">
 <title>n4</title>
-<path fill="white" stroke="#fbb982" stroke-width="2" d="M920.5,-372.4C920.5,-372.4 727.5,-372.4 727.5,-372.4 721.5,-372.4 715.5,-366.4 715.5,-360.4 715.5,-360.4 715.5,-260.4 715.5,-260.4 715.5,-254.4 721.5,-248.4 727.5,-248.4 727.5,-248.4 920.5,-248.4 920.5,-248.4 926.5,-248.4 932.5,-254.4 932.5,-260.4 932.5,-260.4 932.5,-360.4 932.5,-360.4 932.5,-366.4 926.5,-372.4 920.5,-372.4"></path>
-<text text-anchor="start" x="756.98" y="-358.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Moral Drawbacks from GM-1</text>
-<text text-anchor="start" x="726.13" y="-341.4" font-family="arial" font-size="10.00" fill="#000000">Unrestricted public access to the TWON can</text>
-<text text-anchor="start" x="728.34" y="-329.4" font-family="arial" font-size="10.00" fill="#000000"> bring about the following moral drawbacks:</text>
-<text text-anchor="start" x="740.03" y="-317.4" font-family="arial" font-size="10.00" fill="#000000"> (R-1) risks for individual quality of life;</text>
-<text text-anchor="start" x="756.97" y="-305.4" font-family="arial" font-size="10.00" fill="#000000"> (R-2-1) violation of the right to</text>
-<text text-anchor="start" x="734.74" y="-293.4" font-family="arial" font-size="10.00" fill="#000000"> informational self-determination; (R-2-2)</text>
-<text text-anchor="start" x="725.84" y="-281.4" font-family="arial" font-size="10.00" fill="#000000"> undermining of individual autonomy; (R-2-3)</text>
-<text text-anchor="start" x="730.02" y="-269.4" font-family="arial" font-size="10.00" fill="#000000"> damage to democratic institutions; (R-2-4)</text>
-<text text-anchor="start" x="745.3" y="-257.4" font-family="arial" font-size="10.00" fill="#000000"> reinforcement of existing injustices.</text>
+<path fill="white" stroke="#fbb982" stroke-width="2" d="M694.5,-372.4C694.5,-372.4 501.5,-372.4 501.5,-372.4 495.5,-372.4 489.5,-366.4 489.5,-360.4 489.5,-360.4 489.5,-260.4 489.5,-260.4 489.5,-254.4 495.5,-248.4 501.5,-248.4 501.5,-248.4 694.5,-248.4 694.5,-248.4 700.5,-248.4 706.5,-254.4 706.5,-260.4 706.5,-260.4 706.5,-360.4 706.5,-360.4 706.5,-366.4 700.5,-372.4 694.5,-372.4"></path>
+<text text-anchor="start" x="530.98" y="-358.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Moral Drawbacks from GM-1</text>
+<text text-anchor="start" x="500.13" y="-341.4" font-family="arial" font-size="10.00" fill="#000000">Unrestricted public access to the TWON can</text>
+<text text-anchor="start" x="502.34" y="-329.4" font-family="arial" font-size="10.00" fill="#000000"> bring about the following moral drawbacks:</text>
+<text text-anchor="start" x="514.03" y="-317.4" font-family="arial" font-size="10.00" fill="#000000"> (R-1) risks for individual quality of life;</text>
+<text text-anchor="start" x="530.97" y="-305.4" font-family="arial" font-size="10.00" fill="#000000"> (R-2-1) violation of the right to</text>
+<text text-anchor="start" x="508.74" y="-293.4" font-family="arial" font-size="10.00" fill="#000000"> informational self-determination; (R-2-2)</text>
+<text text-anchor="start" x="499.84" y="-281.4" font-family="arial" font-size="10.00" fill="#000000"> undermining of individual autonomy; (R-2-3)</text>
+<text text-anchor="start" x="504.02" y="-269.4" font-family="arial" font-size="10.00" fill="#000000"> damage to democratic institutions; (R-2-4)</text>
+<text text-anchor="start" x="519.3" y="-257.4" font-family="arial" font-size="10.00" fill="#000000"> reinforcement of existing injustices.</text>
 </g>
 <!-- n2 -->
 <g id="node4" class="node">
@@ -344,8 +399,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- n6&#45;&gt;n4 -->
 <g id="edge3" class="edge">
 <title>n6-&gt;n4</title>
-<path fill="none" stroke="#ff0000" d="M448.85,-174.76C520.94,-180.28 620.99,-193.73 703,-226.4 714.39,-230.94 725.78,-236.7 736.75,-243.07"></path>
-<polygon fill="#ff0000" stroke="#ff0000" points="735.09,-246.16 745.46,-248.3 738.69,-240.16 735.09,-246.16"></polygon>
+<path fill="none" stroke="#ff0000" d="M391.75,-188.02C414.6,-198.42 443.85,-212.38 469,-226.4 478.35,-231.61 487.94,-237.24 497.47,-243.01"></path>
+<polygon fill="#ff0000" stroke="#ff0000" points="495.84,-246.11 506.2,-248.35 499.5,-240.14 495.84,-246.11"></polygon>
 </g>
 <!-- n6&#45;&gt;n2 -->
 <g id="edge1" class="edge">
@@ -507,8 +562,8 @@ Additional claims to which a proponent of the Balancing-Pro-Argument is committe
 </div>
 </section>
 </section>
-<section id="contra-arguments-free-public-access" class="level2">
-<h2 class="anchored" data-anchor-id="contra-arguments-free-public-access">Contra-Arguments Free Public Access</h2>
+<section id="sec-contra-free-access" class="level2">
+<h2 class="anchored" data-anchor-id="sec-contra-free-access">Contra-Arguments Free Public Access</h2>
 <section id="debunking-benefits-from-gm-1-argumentation" class="level3">
 <h3 class="anchored" data-anchor-id="debunking-benefits-from-gm-1-argumentation">Debunking Benefits from GM-1 Argumentation</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
@@ -539,10 +594,10 @@ Additional claims to which a proponent of the Balancing-Pro-Argument is committe
 </section>
 </section>
 </section>
-<section id="gm-2-vetted-researchers-access-only" class="level1">
+<section id="sec-researchers-access" class="level1">
 <h1>GM-2 Vetted Researchers Access Only</h1>
-<section id="pro-arguments-gm-2" class="level2">
-<h2 class="anchored" data-anchor-id="pro-arguments-gm-2">Pro-Arguments GM-2</h2>
+<section id="sec-pro-researchers-access" class="level2">
+<h2 class="anchored" data-anchor-id="sec-pro-researchers-access">Pro-Arguments GM-2</h2>
 <section id="debunking-prima-facie-reasons-against-gm-2" class="level3">
 <h3 class="anchored" data-anchor-id="debunking-prima-facie-reasons-against-gm-2">Debunking Prima facie Reasons against GM-2</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
@@ -572,8 +627,8 @@ Additional claims to which a proponent of the Balancing-Pro-Argument is committe
 </div>
 </section>
 </section>
-<section id="contra-arguments-gm-2" class="level2">
-<h2 class="anchored" data-anchor-id="contra-arguments-gm-2">Contra-Arguments GM-2</h2>
+<section id="sec-contra-researchers-access" class="level2">
+<h2 class="anchored" data-anchor-id="sec-contra-researchers-access">Contra-Arguments GM-2</h2>
 <section id="debunking-prima-facie-reasons-for-gm-2" class="level3">
 <h3 class="anchored" data-anchor-id="debunking-prima-facie-reasons-for-gm-2">Debunking Prima facie Reasons for GM-2</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
@@ -604,10 +659,10 @@ Additional claims to which a proponent of the Balancing-Pro-Argument is committe
 </section>
 </section>
 </section>
-<section id="gm-3-judicial-authority" class="level1">
+<section id="sec-judicial" class="level1">
 <h1>GM-3 Judicial Authority</h1>
-<section id="pro-arguments-gm-3" class="level2">
-<h2 class="anchored" data-anchor-id="pro-arguments-gm-3">Pro-Arguments GM-3</h2>
+<section id="sec-pro-judicial" class="level2">
+<h2 class="anchored" data-anchor-id="sec-pro-judicial">Pro-Arguments GM-3</h2>
 <section id="debunking-pro-argument-gm-3" class="level3">
 <h3 class="anchored" data-anchor-id="debunking-pro-argument-gm-3">Debunking Pro-Argument GM-3</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
@@ -637,8 +692,8 @@ Additional claims to which a proponent of the Balancing-Pro-Argument is committe
 </div>
 </section>
 </section>
-<section id="contra-arguments-gm-3" class="level2">
-<h2 class="anchored" data-anchor-id="contra-arguments-gm-3">Contra-Arguments GM-3</h2>
+<section id="sec-contra-judicial" class="level2">
+<h2 class="anchored" data-anchor-id="sec-contra-judicial">Contra-Arguments GM-3</h2>
 <section id="debunking-contra-argument-gm-3" class="level3">
 <h3 class="anchored" data-anchor-id="debunking-contra-argument-gm-3">Debunking Contra-Argument GM-3</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
