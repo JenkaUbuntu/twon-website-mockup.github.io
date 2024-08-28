@@ -50,7 +50,7 @@ digraph "Governance Modes for TWON" {
   node [color=black]
   edge [color=black]
   pro_1 [
-    href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#pro-cons-gm-1-free-public-access",
+    href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#pros-and-cons-gm-1",
     fillcolor="#deebf7",
     fixedsize=false,
     label="GM-1 \nPossible Benefits and Risks"
@@ -58,7 +58,7 @@ digraph "Governance Modes for TWON" {
     row=func,
     width=1]
   decision_principles_1 [
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#arguments-regarding-gm-1-free-public-access",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-1-arguments",
     fillcolor="#9ecae1",
     fixedsize=false,
     label="GM-1 \nPossible Arguments"
@@ -82,7 +82,7 @@ digraph "Governance Modes for TWON" {
   node [color=black]
   edge [color=black]
   pro_2 [
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#pro-cons-gm-2-vetted-researchers-access",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#pros-and-cons-gm-2",
     fillcolor="#deebf7",
     fixedsize=false,
     label="GM-2 \nPossible Benefits and Risks"
@@ -90,7 +90,7 @@ digraph "Governance Modes for TWON" {
     row=func,
     width=1]
   decision_principles_2 [
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#arguments-regarding-gm-2-vetted-researchers-only",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-2-arguments",
     fillcolor="#9ecae1",
     fixedsize=false,
     label="GM-2 \nPossible Arguments"
@@ -114,7 +114,7 @@ digraph "Governance Modes for TWON" {
   node [color=black]
   edge [color=black]
   pro_3 [
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#pro-cons-gm-3-access-by-judicial-authority",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#pros-and-cons-gm-3",
     fillcolor="#deebf7",
     fixedsize=false,
     label="GM-3 \nPossible Benefits and Risks",
@@ -122,7 +122,7 @@ digraph "Governance Modes for TWON" {
     row=func,
     width=1]
   decision_principles_3 [
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#arguments-regarding-gm-3-on-behalf-of-judicial-authority-only",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-3-arguments",
     fillcolor="#9ecae1",
     fixedsize=false,
     label="GM-3 \nPossible Arguments",
@@ -144,19 +144,19 @@ digraph "Governance Modes for TWON" {
  }
  Label_1 [
   label=<<b>GM-1: <br/>Free Public Access</b>>,
-  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-1-free-public-access",
+  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-1:-free-public-access",
   fillcolor="white",
   width=1
   height=.6]
  Label_2 [
   label=<<b>GM-2: <br/>Vetted Researchers Access</b>>,
-  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-2-researchers-access-only",
+  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-2:-researchers-access-only",
   fillcolor="white",
   width=1
   height=.6]
  Label_3 [
   label=<<b>GM-3: <br/>Judicial Authority</b>>,
-  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-3-judicial-authority",
+  URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#gm-3:-judicial-authority",
   fillcolor="white",
   width=1
   height=.6]

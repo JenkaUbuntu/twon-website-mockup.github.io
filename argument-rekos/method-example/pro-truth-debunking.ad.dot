@@ -11,10 +11,10 @@ subgraph cluster_1 {
   margin="8" style = filled;
  labelloc = "b";
 
-  n0 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Stick&#x20;to&#x20;Truth</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">You&#x20;should&#x20;tell&#x20;your&#x20;friend&#x20;the&#x20;truth&#x20;about<BR/>&#x20;the&#x20;connections&#x20;options&#x20;for&#x20;her.&#x20;</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#F26035", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
+  n0 [label=<<TABLE WIDTH="0" ALIGN="CENTER" BORDER="0" CELLSPACING="0"><TR><TD WIDTH="0" ALIGN="TEXT" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000"><B>Stick&#x20;to&#x20;Truth</B></FONT></TD></TR><TR><TD ALIGN="TEXT" WIDTH="0" BALIGN="CENTER"><FONT FACE="arial" POINT-SIZE="10" COLOR="#000000">You&#x20;should&#x20;tell&#x20;your&#x20;friend&#x20;the&#x20;truth&#x20;about<BR/>&#x20;the&#x20;traveling&#x20;options&#x20;for&#x20;her.&#x20;</FONT></TD></TR></TABLE>>, shape="box",  margin="0.11,0.055", style="filled,rounded,bold", color="#F26035", fillcolor="white", labelfontcolor="white", fontcolor="#000000", type="statement-map-node"];
 
 subgraph cluster_2 {
-  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Crucial&#x20;Argument</FONT>>;
+  label = <<FONT FACE="arial" POINT-SIZE="12" COLOR="#000000">Crucial&#x20;Debunking-Argument</FONT>>;
   color = "#b9b2b2";
   margin="8" style = filled;
  labelloc = "b";

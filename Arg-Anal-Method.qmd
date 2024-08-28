@@ -52,16 +52,19 @@ As a prerequisite of an argumentation analysis, you need to identify all the ava
 ::: {.callout-caution icon="false" collapse="true"}
 ### Step 1: [Identification fo Prima-Facie Reasons](arg-anal-pf-reasons-example.qmd)
 Identify the list of all prima facie reasons in favour and against the available options for action.
+[Read more](arg-anal-pf-reasons-example.qmd)
 :::
 
 ::: {.callout-caution icon="false" collapse="true"}
 ### Step 2: [Construction of Arguments](arg-anal-arg-constr.qmd)
 Find or construct general principles which allow a [deductively valid inference]() from the premises (containing at least one prima facie reason) to a conclusion  (recommendation for one of the options for action).
+[Read more](arg-anal-arg-constr.qmd)
 :::
 
 ::: {.callout-caution icon="false" collapse="true"}
 ### Step 3: [Evaluation of Arguments]()
 Discuss the premises of the reconstructed arguments with regard to their empirical validity and ethical plausibility.
+[Read more]()
 :::
 
 <!--

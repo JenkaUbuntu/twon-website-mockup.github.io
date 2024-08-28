@@ -3,76 +3,72 @@ title: Reconstructed Arguments
 format:
   html:
     toc: true
-    toc-location: left
 ---
-# Arguments about the GM-1: Free Public Access to TWONs
-
-
+# GM-1: Free Public Access to TWONs
 
 ## Pro-Arguments Free Public Access
 
 ### Debunking Pro-Argumentation GM-1
 
-::: {.panel-tabset}
+::::: {.panel-tabset}
 
 #### Map of Arguments
 
 ```{dot}
 //| fig-cap: "Argument map of debunking the reasons against free public access to TWONs"
-//| file: ./gm1-pro-debunking.argdown.dot
+//| file: ./twon-analysis/gm1-pro-debunking.argdown.dot
 ```
 
 #### Reconstruction
 
 ::: {.callout-note collapse="true" icon="false"}
-## Debunking Pro-Argument: Risks from Free Public Access are Insignificant
+
+#### Debunking Pro-Argument: Risks from Free Public Access are Insignificant
 
 (1) **[Benefits from Free Access are Significant]** It is reasonable to expect that an unrestricted access to TWONs will bring about the following morally significant benefits:
     * (B-1-1) it enhances social welfare (in an amount of ∆ SW(GM-1));
     * (B-1-2) it improves individual quality of life (in an amount of ∆ QoL (GM-1));
     * (B-2-1) it enables that undermining of societal norms necessary for democratic governance is prevented;
     * (B-2-2) it enables that undermining of individual autonomy on OSN is prevented;
-    * (B-3) it will contribute to a mitigation of existing injustices.
-
+    * (B-2-3) it will contribute to a mitigation of existing injustices.
 (2) **[Risks from Free Access are Insignificant]** It is reasonable to expect that an unrestricted access to TWONs will not materialize the projected risks to a significant amount. 
 (3) **[Decision Rule]** A means M should be used if the following conditions are met:
     (i) it is reasonable to expect that use of M brings about significant benefits B and
     (ii) the expected drawbacks from M’s use are insignificant and
     (iii) for all other available means M_alt for which it is reasonable to expect that they realize at least B it is also reasonable to expect that they bring about moral drawbacks in a significant amount.
 (4) **[No-Alternatives to TWONs without Drawbacks]**: According to the best available knowledge, there is no other means by which the benefits (B-1-1,...,B-3) could be realized without significant drawbacks.
----
 (5) **[Conclusion]** Access to TWONs ought to be unrestricted.
 :::
 
 ::: {.callout-warning icon="false" collapse="true"}
-## Additional claims to which a proponent of the Trumping-Pro-Argument is committed
+
+#### Additional claims to which a proponent of the Debunking-Pro-Argument is committed
+
 | **[Contra-R-1-1]**: It is unreasonable to expect that a free public access to TWONs will increase consumption of critical natural resources or the emission of greenhouse gases to a degree that is morally significant.
 | **[Contra R-1-2]**: It is unreasonable to expect that a free public access to TWONs will lead to a significant reduction in individual quality of life due to misuse of personal data.
 | **[Contra R-2-1]**: tba - Reinforcement of violations of the right to informational privacy;
 | **[Contra R-2-2]**: tba - Intensification of undermining of individual autonomy
 | **[Contra R-2-3]**: tba - Collapse of institutions necessary for democratic governance
-| **[Contra R-3]**: tba - Reinforcement of existing injustices
+| **[Contra R-2-4]**: tba - Reinforcement of existing injustices
 :::
 
-:::
-
+:::::
 
 ### Balancing Pro-Argumentation GM-1
 
-::: {.panel-tabset}
+::::: {.panel-tabset}
 
 #### Map of Arguments
 
-```{dot}
-//| fig-cap: "Argument map of balancing the pro and con reasons in favour a free public access to TWONs"
-//| file: ./gm1-pro-balancing.argdown.dot
+```{=html}
+<iframe src="./twon-analysis/gm1-pro-balancing.html" width="100%" height="500px"></iframe>
 ```
 
-
-#### Reconstruction of Arguments
+#### Reconstruction
 
 ::: {.callout-note collapse="true" icon="false"}
-## Balancing Pro-Argument: Benefits from Free Public Access Outweigh the Risks
+
+#### Balancing Pro-Argument: Benefits from Free Public Access Outweigh the Risks
 
 (1) **Benefits from Free Access** It is reasonable to expect that an unrestricted access to TWONs will bring about the following morally significant benefits:
     * (B-1-1) it enhances social welfare (in an amount of ∆ SW(GM-1));
@@ -80,27 +76,27 @@ format:
     * (B-2-1) it enables that undermining of societal norms necessary for democratic governance is prevented;
     * (B-2-2) it enables that undermining of individual autonomy on OSN is prevented;
     * (B-3) it will contribute to a mitigation of existing injustices.
-
 (2) **Risks from Free Access**: It is reasonable to expect that an unrestricted access to TWONs will involve moral drawbacks in a significant amount:
     * XYZ
-
 (3) **Decision Rule: Protection of Democracy Outweighs the Risks**: Protection of democracy has such a high moral importance that it holds:
     * If there is a means M for which it is reasonable to expect that the society obtains the ability to prevent collapsing of democratic norms and whose deployment involves the risk that it leads to a collapse of democratic institutions (R-2-3) and involves further moral drawbacks R-1-1, R-1-2, R-2-1. R-2-2, R-3
     * and for all other available means Malt for which it is reasonable to expect that they protect democratic institutions it is reasonable to expect that they will involve moral drawbacks higher than (R-1-1, R-1-2, R-2-1. R-2-2, R-3)
     * then M ought to be realized.
-
 (4) **No Alternatives to GM-1 with Smaller Risks**: According to the best available knowledge, all alternative ways to protect democratic institutions involve higher moral risks than (R-1-1, R-1-2, R-2-1. R-2-2, R-3).
 
 (5) **Conclusion**: Access to TWONs ought to be unrestricted.
 :::
 
 ::: {.callout-warning icon="false" collapse="true"}
-## Additional claims to which a proponent of the Balancing-Pro-Argument is committed
+
+#### Additional claims to which a proponent of the Balancing-Pro-Argument is committed
+
 | **[Claim 1]**: XYZ
 | **[Claim 2]**: XYZ
 | **[Claim 3]**: XYZ
 :::
-:::
+
+:::::
 
 ## Contra-Arguments Free Public Access
 

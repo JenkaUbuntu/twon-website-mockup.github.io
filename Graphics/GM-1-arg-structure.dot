@@ -63,7 +63,7 @@ digraph "Argument Structure GM-1: Free Public Access" {
     row=func,
     width=1]
  contra_ba_1_claim [
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#balancing-contra-argument-gm-1",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#balancing-prima-facie-reasons-against-gm-1",
     fillcolor="#fcae91",
     fixedsize=false,
     label=<<b>Balancing Argument</b>: <br/>Risks from <br/>free public access <br/>outweigh the benefits>
@@ -75,7 +75,7 @@ digraph "Argument Structure GM-1: Free Public Access" {
     fillcolor="#fb6a4a",
     fixedsize=false,
     label=<<b>Debunking Argument</b>: <br/>Benefits from <br/>free public access <br/>are insignificant>,
-    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#debunking-contra-argument-gm-1",
+    URL="https://jenkaubuntu.github.io/twon-website-mockup.github.io/argument-rekos/arg-rekos.html#debunking-benefits-from-gm-1-argumentation",
     fontcolor=black,
     height=0.6,
     row=func,
