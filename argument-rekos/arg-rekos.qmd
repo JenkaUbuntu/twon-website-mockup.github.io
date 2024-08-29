@@ -37,6 +37,9 @@ format:
     (ii) the expected drawbacks from M’s use are insignificant and
     (iii) for all other available means M_alt for which it is reasonable to expect that they realize at least B it is also reasonable to expect that they bring about moral drawbacks in a significant amount.
 (4) **[No-Alternatives to TWONs without Drawbacks]**: According to the best available knowledge, there is no other means by which the benefits (B-1-1,...,B-3) could be realized without significant drawbacks.
+
+----
+
 (5) **[Conclusion]** Access to TWONs ought to be unrestricted.
 :::
 
@@ -83,6 +86,8 @@ format:
     * and for all other available means Malt for which it is reasonable to expect that they protect democratic institutions it is reasonable to expect that they will involve moral drawbacks higher than (R-1-1, R-1-2, R-2-1. R-2-2, R-3)
     * then M ought to be realized.
 (4) **No Alternatives to GM-1 with Smaller Risks**: According to the best available knowledge, all alternative ways to protect democratic institutions involve higher moral risks than (R-1-1, R-1-2, R-2-1. R-2-2, R-3).
+
+----
 
 (5) **Conclusion**: Access to TWONs ought to be unrestricted.
 :::
