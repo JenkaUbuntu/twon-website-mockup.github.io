@@ -8,7 +8,7 @@ title: Ethical Analysis of TWONs
 //| file: ./Graphics/TWON-Analysis-Basic-Structure.dot
 ```
 
-# Step 0: Available Options for Action: the Governing Modes [#sec-step-0]
+# Step 0: Available Options for Action: the Governing Modes {#sec-step-0}
 
 ::: {.panel-tabset}
 ## GM-1: Free Public Access
@@ -172,7 +172,7 @@ title: Ethical Analysis of TWONs
 
 :::
 
-# Step 2: Construction of Arguments {#sec-step-2}
+# Step 2: Construction of Arguments {#sec-step-2-construction-of-arguments}
 
 ::: {.panel-tabset}
 
