@@ -24,9 +24,10 @@ Construction of arguments is a creative task which involves several trial-and-er
 
 ## Debunking Argumentation for Truth-Sticking
 
-This argumentation strategy is based on the idea that the prima facie reason for lying -- avoiding harm to your friend -- does not hold. 
-
 ::: {.panel-tabset}
+
+### Idea of the Arguments
+This argumentation strategy is based on the idea that the prima facie reason for lying -- avoiding harm to your friend -- does not hold. 
 
 ### Map of Arguments
 
@@ -91,6 +92,7 @@ If there are both prima facie reasons for truth-telling and for lying, the prima
 ::::: {.panel-tabset}
 
 #### Idea of the Arguments
+This type of argumentation is based on the idea that particular [prima facie-reasons for truth-sticking](./arg-anal-pf-reasons-example.qmd) have such importance that they outweigh the expected harm from truth-sticking. The rationale of the arguments is that the expected harm is less significant for the friend is not deprived of the opportunity to avoid the harm. She is in certain sense responsible for its occurrence.  
 
 #### Reconstructed Arguments
 
