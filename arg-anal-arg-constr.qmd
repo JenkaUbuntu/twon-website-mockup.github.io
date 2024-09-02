@@ -81,9 +81,103 @@ The Debunking-Argumentation consists of two crucial steps:
 
 ## Balancing Arguments for Truth-Sticking
 
-If there are both prima facie reasons for truth-telling and for lying, the prima facie reasons must be weighed. 
+If there are both prima facie reasons for truth-telling and for lying, the prima facie reasons must be weighed. An argument based on weighing pro- and contra considerations that supports truth-sticking must claim that the considerations pro truth-sticking outweigh the prima facie reason against it. There are two general strategies how such a weighing can be justified:
 
-### Trumping 
+* **salient-reason argumentation**: by providing a salient reason for truth-sticking
+* **consequentialist argumentation**: by taking the value of the consequences as the decisive consideration
+
+### Salient-Reason Argumentation 
+
+::::: {.panel-tabset}
+
+#### Idea of the Arguments
+
+#### Reconstructed Arguments
+
+::: {.callout-warning icon="false" collapse="true"}
+#### Autonomy-Argument
+
+Situation S: the choice situation as [described here](./Arg-Anal-Method.qmd)
+
+1. If you tell the truth in the situation S, it is reasonable to expect that your friend will be substantially harmed. 
+2. If you lie in the situation S, you will infringe the autonomy of your friend.
+3. If you tell the truth in the situation S, your friend will have the ability to avoid that she will be harmed.
+4. If you have the ability to manipulate the behaviour of a person A such as to avoid that A will be harmed but A has the ability to avoid that she will be harmed without your manipulation as well, you ought to refrain from manipulating A's behaviour. 
+
+----
+
+5. **[Conclusion]**: You ought to refrain from lying.
+
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### Desire-Fullfillment Argument
+
+Situation S: the choice situation as [described here](./Arg-Anal-Method.qmd)
+
+1. If you tell the truth in the situation S, it is reasonable to expect that your friend will be substantially harmed. 
+2. If you lie in the situation S, you will be violating your friend's articulated desire.
+3. If you tell the truth in the situation S, your friend will have the ability to avoid that she will be harmed.
+4. If you have the ability to fulfil an articulated desire of your friend, the fulfilment of which may reasonably cause harm to your friend, but it is within your friend's power to avoid the harm from the fulfilemt of the desire, you ought to fulfil your friend's desire unless there are more other significant reasons against doing so.
+5. There are no other significant reasons against your fulfilling your friend's desire. 
+
+----
+
+5. **[Conclusion]**: You ought to refrain from lying.
+
+:::
+
+
+::: {.callout-warning icon="false" collapse="true"}
+#### Argument from Sincere Friendship
+
+Situation S: the choice situation as [described here](./Arg-Anal-Method.qmd)
+
+1. If you tell the truth in the situation S, you will fail to avoid for sure that your friend will be substantially harmed. 
+3. If you tell the truth in the situation S, your friend will have the ability to avoid that she will be harmed.
+2. If you lie in the situation S, you will create a precedent that you do not always behave as a practice of sincere friendship requires.
+4. Maintaining the practice of sincere friendship with your friend is of such importance that you ought not to jeopardise the functioning of the practice by failing to avoid harm that is within your friend's power to avoid unless there are more important reasons for jeopardising your sincere friendship.
+5. There are no more important reasons for jeopardising the friendship. 
+
+----
+
+5. **[Conclusion]**: You ought to refrain from lying.
+:::
+
+
+#### Map of the Arguments
+
+```{=html}
+<iframe src="./argument-rekos/method-example/pro-truth-balancing-autonomy-salient.html" width="100%" height="500px"></iframe>
+```
+
+:::::
+
+
+### Consequentialist Argumentation
+
+::::: {.panel-tabset}
+
+#### Idea of the Arguments
+
+#### Reconstructed Arguments
+
+::: {.callout-warning icon="false" collapse="true"}
+
+#### Truth-Sticking Maximizes Expected Goodness
+
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### Truth-Sticking under Uncertainty
+
+:::
+
+#### Map of the Arguments
+
+:::::
+
+<!--
 
 | Pro Truth-Sticking (contra lying) | Pro Lying (contra truth-sticking) |
 |:---------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -92,8 +186,6 @@ If there are both prima facie reasons for truth-telling and for lying, the prima
 | **Supporting a sincere relationship** If it does not cause inappropriate costs to you, you should always choose the action which preserves a sincere relationship with your friend, even if the respective actions can substantially harm your friend. | |
 | **Supporting social practice** You should always tell the truth, even if the corresponding actions cause susbtantial harm to your friend. | |
 : Trumping Principles {.striped}
-
-### Balancing
 
 | Maximizing Expected Value pro Lying |
 |:-----|
@@ -114,6 +206,7 @@ If there are both prima facie reasons for truth-telling and for lying, the prima
 |:-----|
 | XYz |
 : {.striped}
+-->
 
 ## Debunking Arguments for Lying
 
