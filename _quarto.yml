@@ -5,7 +5,7 @@ project:
 website:
   title: "TWON-Website-Mockup"
   navbar:
-    background: secondary
+    background: primary
     left:
       - href: index.qmd
         text: Home
@@ -22,11 +22,11 @@ website:
     - id: method
       title: Methodology
       style: floating
-      background: secondary
+      background: primary
       contents: 
         - Arg-Anal-Method.qmd
         # navigation items
-        - text: Step 1 p-f Reasons
+        - text: Step 1 Prima Facie Reasons
           href: arg-anal-pf-reasons-example.qmd
         - text: Step 2 Construction of Arguments
           href: arg-anal-arg-constr.qmd
@@ -39,8 +39,7 @@ website:
         # navigation items
         - text: Reconstruction of Arguments
           href: ./argument-rekos/arg-rekos.qmd
-          # navigation items
-       
+          # navigation items       
 format:
   html:
     theme: 

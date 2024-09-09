@@ -21,25 +21,29 @@ digraph "Governance Modes for TWON" {
     shape=ellipse,
     fillcolor="white"
     height=.6
+    href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#step-0:available-options-for-action:-the-governing-modes"
   ]
   step_1 [
    label="Step 1: \nPro- and Con Reasons",
     shape=ellipse,
     fillcolor="#deebf7"
-    height=.6
+    height=.6,
+    href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#step-1-pros-and-cons-the-governing-modes"
   ]
   step_2 [
    label="Step 2: \nConstruction of \nArguments",
     shape=ellipse,
     fillcolor="#9ecae1"
-    height=.6
+    height=.6,
+    href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#step-2:-construction-of-arguments"
   ]
   step_3 [
    label="Step 3: \nEvaluation of \nArguments",
     shape=ellipse,
     fontcolor=white
     fillcolor="#3182bd"
-    height=.6
+    height=.6,
+    href="https://jenkaubuntu.github.io/twon-website-mockup.github.io/TWON-Analysis.html#step-3:evaluation-of-the-arguments"
   ]
   step_0 -> step_1
   step_1 -> step_2
