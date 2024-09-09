@@ -130,7 +130,7 @@ title: Ethical Analysis of TWONs
 | Reason from Justice| 
 |:----|
 |(R-2-1) **Vioalations of the right to informational privacy** Reliable functioning of TWONs might rely on personal data which individuals did not consented to use.|
-| (R-2-2) **Inequalities** Risk that existing global epistemic inequalities will be increased. 
+|(R-2-2) **Reinforcement of Inequalities** Risk that existing global epistemic inequalities will be increased.|
 : {.striped}
 :::
 :::
@@ -159,7 +159,7 @@ title: Ethical Analysis of TWONs
 ### Contra Researchers Access Only
 | Impossibility Reason|
 |:----|
-|(R-0) It is **practically infeasible** to restrict access to TWONs on behalf of a legal authority.
+|(R-0) It is **practically infeasible** to restrict access to TWONs on behalf of a legal authority.|
 
 | Reason from Justice| 
 |:----|
