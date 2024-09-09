@@ -12,6 +12,10 @@ format:
 
 ::::: {.panel-tabset}
 
+#### Idea of the Argumentation
+
+This argumentative strategy aims to debunk the prima-facie objections to the free access governance of TWONs. In our case that means that this strategy argues that the identified risks from the GM-1 will not be materialized. 
+
 #### Map of Arguments
 
 ```{dot}
@@ -26,11 +30,11 @@ format:
 #### Debunking Pro-Argument: Risks from Free Public Access are Insignificant
 
 (1) **[Benefits from Free Access are Significant]** It is reasonable to expect that an unrestricted access to TWONs will bring about the following morally significant benefits:
-    * (B-1-1) it enhances social welfare (in an amount of ∆ SW(GM-1));
-    * (B-1-2) it improves individual quality of life (in an amount of ∆ QoL (GM-1));
-    * (B-2-1) it enables that undermining of societal norms necessary for democratic governance is prevented;
-    * (B-2-2) it enables that undermining of individual autonomy on OSN is prevented;
-    * (B-2-3) it will contribute to a mitigation of existing injustices.
+    * (B-1-1) Increase in social welfare (in an amount of ∆ SW(GM-1));
+    * (B-1-2) Improvement of individual quality of life (in an amount of ∆ QoL (GM-1));
+    * (B-2-2) Respect of individual autonomy;
+    * (B-2-3) Increase in deliberative quality;
+    * (B-2-4) Additional knowledge addressing existing injustices.
 (2) **[Risks from Free Access are Insignificant]** It is reasonable to expect that an unrestricted access to TWONs will not materialize the projected risks to a significant amount. 
 (3) **[Decision Rule]** A means M should be used if the following conditions are met:
     (i) it is reasonable to expect that use of M brings about significant benefits B and
@@ -47,12 +51,13 @@ format:
 
 #### Additional claims to which a proponent of the Debunking-Pro-Argument is committed
 
-| **[Contra-R-1-1]**: It is unreasonable to expect that a free public access to TWONs will increase consumption of critical natural resources or the emission of greenhouse gases to a degree that is morally significant.
+Premise (2) in the Debunking-Pro-Argument implies the following claims:
+
 | **[Contra R-1-2]**: It is unreasonable to expect that a free public access to TWONs will lead to a significant reduction in individual quality of life due to misuse of personal data.
-| **[Contra R-2-1]**: tba - Reinforcement of violations of the right to informational privacy;
-| **[Contra R-2-2]**: tba - Intensification of undermining of individual autonomy
-| **[Contra R-2-3]**: tba - Collapse of institutions necessary for democratic governance
-| **[Contra R-2-4]**: tba - Reinforcement of existing injustices
+| **[Contra R-2-1]**: It is unreasonable to expect that a free public access to TWONs will increase violations of the right to informational privacy.
+| **[Contra R-2-2]**: It is unreasonable to expect that a free access to TWONs will intesinfy undermining of individual autonomy on onlice social networks. 
+| **[Contra R-2-3]**: It is unreasonable to expect that a free access to TWONs will lead to a collapse of institutions necessary for democratic governance.
+| **[Contra R-2-4]**: It is unreasonable to expect that a free access to TWONs will reinforce the existing inequalities in financial and power relations at the national and global level.
 :::
 
 :::::
@@ -60,6 +65,9 @@ format:
 ### Balancing Pro-Argumentation GM-1
 
 ::::: {.panel-tabset}
+
+#### Idea of the Argumentation
+This argumentative strategy accepts that a free public access to TWONs will have both significant benefits and risks. The pro-balancing argumentation argues that the benefits of free public access to TWONs are so important that it is morally legitimate to accept the risks of this mode of governance. 
 
 #### Map of Arguments
 
@@ -74,18 +82,23 @@ format:
 #### Balancing Pro-Argument: Benefits from Free Public Access Outweigh the Risks
 
 (1) **Benefits from Free Access** It is reasonable to expect that an unrestricted access to TWONs will bring about the following morally significant benefits:
-    * (B-1-1) it enhances social welfare (in an amount of ∆ SW(GM-1));
-    * (B-1-2) it improves individual quality of life (in an amount of ∆ QoL (GM-1));
-    * (B-2-1) it enables that undermining of societal norms necessary for democratic governance is prevented;
-    * (B-2-2) it enables that undermining of individual autonomy on OSN is prevented;
-    * (B-3) it will contribute to a mitigation of existing injustices.
+    * (B-1-1) Increase in social welfare (in an amount of ∆ SW(GM-1));
+    * (B-1-2) Improvement of individual quality of life (in an amount of ∆ QoL (GM-1));
+    * (B-2-2) Respect of individual autonomy;
+    * (B-2-3) Increase in deliberative quality;
+    * (B-2-4) Additional knowledge addressing existing injustices.
 (2) **Risks from Free Access**: It is reasonable to expect that an unrestricted access to TWONs will involve moral drawbacks in a significant amount:
-    * XYZ
-(3) **Decision Rule: Protection of Democracy Outweighs the Risks**: Protection of democracy has such a high moral importance that it holds:
-    * If there is a means M for which it is reasonable to expect that the society obtains the ability to prevent collapsing of democratic norms and whose deployment involves the risk that it leads to a collapse of democratic institutions (R-2-3) and involves further moral drawbacks R-1-1, R-1-2, R-2-1. R-2-2, R-3
-    * and for all other available means Malt for which it is reasonable to expect that they protect democratic institutions it is reasonable to expect that they will involve moral drawbacks higher than (R-1-1, R-1-2, R-2-1. R-2-2, R-3)
+    * (R-1-2) Deterioration of individual quality of life;
+    * (R-2-1) Vioalations of the right to informational privacy;
+    * (R-2-2) Undermining of individual autonomy;
+    * (R-2-3) Collapse of democratic institutions;
+    * (R-2-4) Harms to future generations;
+    * (R-2-5) Reinforcement of existing inequalities.
+(3) **Decision Rule: Protection of Democracy Outweighs the Risks**: Protection of democracy and of individual autonomy have such a high moral importance that it holds:
+    * If there is a means M for which it is reasonable to expect that the society obtains the ability to prevent that democratic institutions collapse and to protect individual autonomy and whose deployment involves the possibility that it leads to a collapse of democratic institutions (R-2-3), undermination of individual autonomy (R-2-2) and involves further possible moral drawbacks R-1-2,R-2-1, R-2-4, R-2-5.
+    * and for all other available means M_alt for which it is reasonable to expect that they protect democratic institutions it is reasonable to expect that they will involve moral drawbacks higher than (R-1-2,..., R-2-5)
     * then M ought to be realized.
-(4) **No Alternatives to GM-1 with Smaller Risks**: According to the best available knowledge, all alternative ways to protect democratic institutions involve higher moral risks than (R-1-1, R-1-2, R-2-1. R-2-2, R-3).
+(4) **No Alternatives to GM-1 with Smaller Risks**: According to the best available knowledge, all alternative ways to protect democratic institutions involve higher moral risks than (R-1-2, R-2-1. R-2-2, R-2-4, R-2-5).
 
 ----
 
@@ -96,9 +109,17 @@ format:
 
 #### Additional claims to which a proponent of the Balancing-Pro-Argument is committed
 
-| **[Claim 1]**: XYZ
-| **[Claim 2]**: XYZ
-| **[Claim 3]**: XYZ
+| Premise (4) **[No Alteratives to GM-1 with Smaller Risks]**: There are no alternative ways to protect democratic institutions and individual autonomy than providing a free public access to TWONs.
+
+Premise (4) implies:
+  
+  * the more restricitive modes of governance of TWONs (e.g. GM-2 and GM-3) are not realizable.
+
+Premise (3) **[Decision Rule]** is an instance of a more general claim:
+  
+  * If  M provides an effective means to avoid that a thread that p (i.e. the possibility that p with p leading to a high negative impact) will be realized and realization of M involves the thread that p, and there are no other means by which the thread that p can be effectively avoided, M ought to be realized.
+    * this general claim contains a risk-prone decision rule which needs an ethical justification. 
+
 :::
 
 :::::
@@ -108,20 +129,113 @@ format:
 ### Debunking Benefits from GM-1 Argumentation
 
 ::: {.panel-tabset}
-#### Maps of Arguments
+#### Idea of the Argumentation
+This argumentative strategy aims to debunk the prima-facie reasons for the free access governance of TWONs. In our case that means that this strategy argues that the expected benefits from the GM-1 will not be materialized (or will be insignificant).
+
+#### Map of Arguments
 
 #### Reconstruction of Arguments
-tba
+
+::: {.callout-note icon="false" collapse="true"}
+#### Debunking Contra-Argument: Benefits from Free Public Access are insignificant
+
+(1) **Benefits from Free Access** It is unreasonable to expect any benefits from an unrestricted access to TWONs.
+(2) **Risks from Free Access**: It is reasonable to expect that an unrestricted access to TWONs will involve moral drawbacks in a significant amount:
+    * (R-1-2) Deterioration of individual quality of life;
+    * (R-2-1) Vioalations of the right to informational privacy;
+    * (R-2-2) Undermining of individual autonomy;
+    * (R-2-3) Collapse of democratic institutions;
+    * (R-2-4) Harms to future generations;
+    * (R-2-5) Reinforcement of existing inequalities.
+(3) **Decision Rule**: If it is reasonable to expect that a means M jeopardizes moral rights to a morally significant degree and it is reasonable to expect that M will not realize morally significant benefits, it is morally not allowed to realize M.
+
+----
+
+(4) **Conclusion**: A society ought not to allow an unrestricted public access to TWONs.
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### Additional claims to which a proponent of the Debunking-Contra-Argument is committed
+
+Premise (1) in the Debunking-Contra-Argument implies the following claims:
+
+| **[Contra B-1-1]**: It is unreasonable to expect that a free access to TWONs will increase social welfare (in an amount of ∆ SW(GM-1)).
+| **[Contra B-1-2]**: It is unreasonable to expect that a free access to TWONs will improve individual quality of life (in an amount of ∆ QoL (GM-1)).
+| **[Contra B-2-2]**: It is unreasonable to expect that a free access to TWONs will enable a society to protect individual autonomy on OSNs.
+| **[Contra B-2-3]**: It is unreasonable to expect that a free access to TWONs will protect democratic institutions or increase deliberative quality in democratic societies;
+| **[Contra B-2-4]**: It is unreasonable to expect that a free access to TWONs will lead to additional knowledge addressing existing injustices.
+:::
 :::
 
 ### Balancing Prima facie Reasons against GM-1
 
-::: {.panel-tabset}
+::::: {.panel-tabset}
+#### Idea of the Argumentation
+This argumentative strategy accepts that a free public access to TWONs will have both significant benefits and risks. The contra-balancing argumentation argues that the risks of free public access to TWONs are so important that it is morally wrong to realize the technology despite the expected benefits.
+
 #### Maps of Arguments
 
 #### Reconstruction of Arguments
-tba
+::: {.callout-note collapse="true" icon="false"}
+
+#### Argument from Precaution
+
+(1) **Threshold Precautionary Principle** If it is seriously possible that a use of a means M leads to violation of moral rights beyond a threshold of what is morally acceptable R_min then a society ought not to allow that M is realized independently of its expected benefits.
+(2) **Democracy-Thread from Free Access**: It is reasonable to expect that an unrestricted access to TWONs will involve moral drawbacks in a significant amount:
+    * (R-2-3) Collapse of democratic institutions.
+(3) Collapse of democratic governance is an outcome beyond a threshold of what is morally accept-
+able.
+
+----
+
+(5) **Conclusion**: A society ought not to allow an unrestricted public access to TWONs.
 :::
+
+::: {.callout-note collapse="true" icon="false"}
+
+#### Argument from Availability of Alternatives
+
+(1) **Benefits from Free Access** It is reasonable to expect that an unrestricted access to TWONs will bring about the following morally significant benefits:
+    * (B-2-2) Respect of individual autonomy;
+    * (B-2-3) Increase in deliberative quality;
+    * (B-2-4) Additional knowledge addressing existing injustices.
+(2) **Risks from Free Access**: It is reasonable to expect that an unrestricted access to TWONs will involve moral drawbacks in a significant amount:
+    * (R-2-1) Vioalations of the right to informational privacy;
+    * (R-2-2) Undermining of individual autonomy;
+    * (R-2-3) Collapse of democratic institutions;
+    * (R-2-4) Harms to future generations;
+    * (R-2-5) Reinforcement of existing inequalities.
+(2) **Alternatives with Lower Risks** There are means
+for which it is reasonable to expect that they protect democratic norms and involve moral draw-
+backs lower than (R-1-1,...,R-3)
+(2) **Democracy-Thread from Free Access**: It is reasonable to expect that an unrestricted access to TWONs will involve moral drawbacks in a significant amount:
+    * (R-2-3) Collapse of democratic institutions.
+(3) Collapse of democratic governance is an outcome beyond a threshold of what is morally accept-
+able.
+
+----
+
+(5) **Conclusion**: A society ought not to allow an unrestricted public access to TWONs.
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+
+#### Additional claims to which a proponent of the Balancing-Pro-Argument is committed
+
+| Premise (4) **[No Alteratives to GM-1 with Smaller Risks]**: There are no alternative ways to protect democratic institutions and individual autonomy than providing a free public access to TWONs.
+
+Premise (4) implies:
+  
+  * the more restricitive modes of governance of TWONs (e.g. GM-2 and GM-3) are not realizable.
+
+Premise (3) **[Decision Rule]** is an instance of a more general claim:
+  
+  * If  M provides an effective means to avoid that a thread that p (i.e. the possibility that p with p leading to a high negative impact) will be realized and realization of M involves the thread that p, and there are no other means by which the thread that p can be effectively avoided, M ought to be realized.
+    * this general claim contains a risk-prone decision rule which needs an ethical justification. 
+
+:::
+
+:::::
 
 # GM-2 Vetted Researchers Access Only {#sec-researchers-access}
 
