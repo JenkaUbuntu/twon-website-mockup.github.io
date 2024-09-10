@@ -26,10 +26,8 @@ website:
       contents: 
         - Arg-Anal-Method.qmd
         # navigation items
-        - text: Step 1 Prima Facie Reasons
-          href: arg-anal-pf-reasons-example.qmd
-        - text: Step 2 Construction of Arguments
-          href: arg-anal-arg-constr.qmd
+        - arg-anal-pf-reasons-example.qmd
+        - arg-anal-arg-constr.qmd
     - id: twon-analysis
       title: TWON-Analysis
       style: docked
@@ -37,9 +35,8 @@ website:
       contents:
         - TWON-Analysis.qmd
         # navigation items
-        - text: Reconstruction of Arguments
-          href: ./argument-rekos/arg-rekos.qmd
-          # navigation items       
+        - ./argument-rekos/arg-rekos.qmd
+        # navigation items       
 format:
   html:
     theme: 
