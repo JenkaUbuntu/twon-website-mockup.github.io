@@ -134,6 +134,11 @@ This argumentative strategy aims to debunk the prima-facie reasons for the free 
 
 #### Map of Arguments
 
+
+```{=html}
+<iframe src="./twon-analysis/gm1-contra-debunking.html" width="100%" height="500px"></iframe>
+```
+
 #### Reconstruction of Arguments
 
 ::: {.callout-note icon="false" collapse="true"}
@@ -171,20 +176,27 @@ Premise (1) in the Debunking-Contra-Argument implies the following claims:
 
 ::::: {.panel-tabset}
 #### Idea of the Argumentation
-This argumentative strategy accepts that a free public access to TWONs will have both significant benefits and risks. The contra-balancing argumentation argues that the risks of free public access to TWONs are so important that it is morally wrong to realize the technology despite the expected benefits.
+
+This argumentative strategy accepts that a free public access to TWONs will have both significant benefits and risks. The contra-balancing argumentation contains two arguments:
+
+* Precautionary Argument argues that the possible drawbacks from the free access to TWONs are so significant that they should not be accepted regardeless of its benefits.
+
+* The Availability-of-Alternatives Argument argues that there are alternatives to an unrestricted use of TWONs which realize the same benefits with lower risks.
 
 #### Maps of Arguments
+
+```{=html}
+<iframe src="./twon-analysis/gm1-contra-balancing.html" width="100%" height="500px"></iframe>
+```
 
 #### Reconstruction of Arguments
 ::: {.callout-note collapse="true" icon="false"}
 
 #### Argument from Precaution
 
-(1) **Threshold Precautionary Principle** If it is seriously possible that a use of a means M leads to violation of moral rights beyond a threshold of what is morally acceptable R_min then a society ought not to allow that M is realized independently of its expected benefits.
-(2) **Democracy-Thread from Free Access**: It is reasonable to expect that an unrestricted access to TWONs will involve moral drawbacks in a significant amount:
-    * (R-2-3) Collapse of democratic institutions.
-(3) Collapse of democratic governance is an outcome beyond a threshold of what is morally accept-
-able.
+(1) **Threshold Precautionary Principle** If it is seriously possible that the use of a means M will lead to a violation of moral rights beyond a threshold of what is morally acceptable (R_min), then a society ought not to allow M to be realized, regardless of its expected benefits.
+(2) **Democracy-Thread from Free Access**: It is reasonable to expect that an unrestricted access to TWONs will lead to a collapse of democratic institutions (R-2-3).
+(3) Collapse of democratic governance is an outcome beyond a threshold of what is morally acceptable.
 
 ----
 
@@ -193,7 +205,7 @@ able.
 
 ::: {.callout-note collapse="true" icon="false"}
 
-#### Argument from Availability of Alternatives
+#### Argument from the Availability of Alternatives
 
 (1) **Benefits from Free Access** It is reasonable to expect that an unrestricted access to TWONs will bring about the following morally significant benefits:
     * (B-2-2) Respect of individual autonomy;
@@ -205,36 +217,21 @@ able.
     * (R-2-3) Collapse of democratic institutions;
     * (R-2-4) Harms to future generations;
     * (R-2-5) Reinforcement of existing inequalities.
-(2) **Alternatives with Lower Risks** There are means
-for which it is reasonable to expect that they protect democratic norms and involve moral draw-
-backs lower than (R-1-1,...,R-3)
-(2) **Democracy-Thread from Free Access**: It is reasonable to expect that an unrestricted access to TWONs will involve moral drawbacks in a significant amount:
-    * (R-2-3) Collapse of democratic institutions.
-(3) Collapse of democratic governance is an outcome beyond a threshold of what is morally accept-
-able.
+(3) **Alternatives to GM-1 with Lower Risks** There are means for which it is reasonable to expect that they realize the benefits (B-2-2), (B-2-3), and (B-2-4) with lower risks than (R-2-1),...,(R-2-5).
+(4) **Least-Cost Means should be chosen**: Among the means M_1,...,M_n that all achieve the same goal g, the means M_i should be chosen that has the least drawbacks.
 
 ----
 
 (5) **Conclusion**: A society ought not to allow an unrestricted public access to TWONs.
 :::
-
+<!--
 ::: {.callout-warning icon="false" collapse="true"}
 
-#### Additional claims to which a proponent of the Balancing-Pro-Argument is committed
+#### Additional claims to which a proponent of the Balancing-Contra-Arguments is committed
 
-| Premise (4) **[No Alteratives to GM-1 with Smaller Risks]**: There are no alternative ways to protect democratic institutions and individual autonomy than providing a free public access to TWONs.
-
-Premise (4) implies:
-  
-  * the more restricitive modes of governance of TWONs (e.g. GM-2 and GM-3) are not realizable.
-
-Premise (3) **[Decision Rule]** is an instance of a more general claim:
-  
-  * If  M provides an effective means to avoid that a thread that p (i.e. the possibility that p with p leading to a high negative impact) will be realized and realization of M involves the thread that p, and there are no other means by which the thread that p can be effectively avoided, M ought to be realized.
-    * this general claim contains a risk-prone decision rule which needs an ethical justification. 
-
+| Premise (3) **[Alteratives to GM-1 with Lower Risks]**: There are no alternative ways to protect democratic institutions and individual autonomy than providing a free public access to TWONs.
 :::
-
+-->
 :::::
 
 # GM-2 Vetted Researchers Access Only {#sec-researchers-access}
