@@ -45,7 +45,7 @@ The Debunking-Argumentation consists of two crucial steps:
 2. The argument supporting the main claim ("Stick to Truth!"). It is reconstructed as **A2: There are no reasons against truth-sticking"**. 
 
 ::: {.callout-warning icon="false" collapse="true"}
-# A1: Debunking the pf-reason for lying
+# A1: Debunking the prima facie reason for lying
 
 | | |
 |:-:|:-------------------------|
@@ -76,23 +76,19 @@ The Debunking-Argumentation consists of two crucial steps:
 
 :::
 
-
-
-
-
 ## Balancing Arguments for Truth-Sticking
 
 If there are both prima facie reasons for truth-telling and for lying, the prima facie reasons must be weighed. An argument based on weighing pro- and contra considerations that supports truth-sticking must claim that the considerations pro truth-sticking outweigh the prima facie reason against it. There are two general strategies how such a weighing can be justified:
 
-* **salient-reason argumentation**: by providing a salient reason for truth-sticking
+* **salient-reason argumentation**: by providing a salient principle for truth-sticking
 * **consequentialist argumentation**: by taking the value of the consequences as the decisive consideration
 
-### Salient-Reason Argumentation 
+### Salient-Principle Argumentation 
 
 ::::: {.panel-tabset}
 
 #### Idea of the Arguments
-This type of argumentation is based on the idea that particular [prima facie-reasons for truth-sticking](./arg-anal-pf-reasons-example.qmd) have such importance that they outweigh the expected harm from truth-sticking. The rationale of the arguments is that the expected harm is less significant for the friend is not deprived of the opportunity to avoid the harm. She is in certain sense responsible for its occurrence.  
+This type of argumentation is based on the idea that particular [prima facie-reasons for truth-sticking](./arg-anal-pf-reasons-example.qmd) have such importance that they outweigh the expected harm from truth-sticking. The rationale of the arguments is that the expected harm is less significant for the friend is not deprived of the opportunity to avoid the harm. She is in certain sense responsible for its occurrence. 
 
 #### Reconstructed Arguments
 
@@ -162,21 +158,58 @@ Situation S: the choice situation as [described here](./Arg-Anal-Method.qmd)
 
 #### Idea of the Arguments
 
+Consequentialist arguments for truth-sticking argue that the consequences of truth-sticking are overall better than the consequences of lying. Since it is not possible to precisely forecast the consequences of the two options in our example, we have reconstructed two versions of the consequentialist argumenation based on weaker requirement on foreknowledge:
+
+* the expected goodness-argument is based on the decision rule that the option should be realized whose consequences lead to the highest expected goodness. 
+  * the main challenge of the proponents of this argument is to spell out how they account for the overall goodness of social states and how they know the probabilities of the possible outcomes.
+
+* the uncertainty-argumentation aims to justify a choice for action in the light of uncertainty about the possible outcomes of truth-telling and lying. 
+  * its main challenge lies in justifying a decision rule which specifies which option for action to choose based on merely possibilistic knowledge about the consequences. 
+
+
 #### Reconstructed Arguments
 
 ::: {.callout-warning icon="false" collapse="true"}
 
 #### Truth-Sticking Maximizes Expected Goodness
 
+1. From the available options for action, the action ought to be chosen whose consequences lead to the highest expected good.
+2. **[Calculation of the Expected Goodness]**: From the two available options for action, truth-telling and lying, the expected value from truth-telling is higher than the expected value from lying.
+  * Premise (2) implies the claim: 
+    * The expected badness of truth-telling -- which amounts to 
+      * the probability that your friend will be harmed from truth-telling multiplied with the badness of the harm to her from missing the appointment 
+    * is lower than the expected badness of lying which amounts to 
+      * the badness of frustration of the desire of your friend plus the badness of disregard of her autonomy minus the probability that your friendship suffers from the lie multiplied with the goodness of your friendship minus the probability that the social practice of truth-telling suffers from your lie multiplied with the goodness of the practice.
+
+----
+
+3. **[Conclusion]**: You should tell your friend the truth about the traveling options for her.
+
+* Premise (2) needs additional arguments justifying the calculation of the expected goodnes. 
+  * the argument is depicted in the map as "Argumentation justifying the Pro-Truth-Aggregation": the argumentation needs to spell out how to account for goodness/badness of an outcomes; how to know the probability distribution of the possible outcomes; how to know the particular goodness/badness-value of the particular outcomes.
+
 :::
 
 ::: {.callout-warning icon="false" collapse="true"}
 #### Truth-Sticking under Uncertainty
 
+1. The consequences of the two available options for action, truth-telling and lying, are uncertain, i.e. no probability distribution of their outcomes is known.
+2. **[Evaluation under uncertaity]**: The worst possible outcomes of lying lead to much higher badness than the worst possible outcomes of truth-telling.
+3. **[Decision Principle under Uncertainty]**: In a decision situation of uncertainty, the option for action should be chosen whose worst possible outcomes are the best.
+
+----
+
+4. **[Conclusion]**: You should tell your friend the truth about the traveling options for her.
+
+* Premise (2) needs additional arguments justifying the evaluation of the worst possible outcomes.
+  * the argument is depiceted in the map as "Argumentation justifying evaluation under uncertainty": the argumetation needs to spell out how to account for goodness/badness of possible outcomes and how to know the goodness/badness of the worst possible outcomes of the two options for action.
 :::
 
 #### Map of the Arguments
 
+```{=html}
+<iframe src="./argument-rekos/method-example/pro-truth-balancing-conseqent.html" width="100%" height="500px"></iframe>
+```
 :::::
 
 <!--
@@ -211,5 +244,72 @@ Situation S: the choice situation as [described here](./Arg-Anal-Method.qmd)
 -->
 
 ## Debunking Arguments for Lying
+::::: {.panel-tabset}
+### Idea of the Arguments
+This argumentation strategy is based on the idea that the prima facie reasons for truth-telling do not hold.
+
+### Map of Arguments
+tba
+
+### Reconstruction of Arguments
+
+The Debunking-Argumentation consists of two crucial steps:
+
+1. An argument attacking the prima facie reasons supporting truth-telling. In our case there are four pro-truth-sticking reasons. The arguments A1-A4 debunk them:
+  * A1: Debunking desire-fulfillment;
+  * A2: Debunking respecting-autonomy;
+  * A3: Debunking supporing-friendship;
+  * A4: Debunking supporting a social practice.
+
+2. The argument supporting the main claim ("You should lie!"). It is reconstructed as **A5: There are no reasons against lying"**. 
+
+::: {.callout-warning icon="false" collapse="true"}
+#### A1: Debunking desire-fulfillment
+
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### A2: Debunking respecting-autonomy
+
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### A3: Debunking supporing-friendship
+
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### A4: Debunking supporting a social practice
+
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### A5: There are no reasons against lying
+
+1. There are only two options for action: sticking to truth or lying.
+2. If you lie, you avoid that she is significantly harmed.
+3. If you tell the truth, there are no morally significant advantages.
+   * Premise (3) is justified by the Arguments (1)-(4)
+4. If there are only two options for action, and the one option realizes imporant benefits and the other none, the first option should be chosen. 
+
+-----
+
+5. You should lie.
+:::
+
+:::::
 
 ## Balancing Arguments for Lying
+::::: {.panel-tabset}
+
+### Idea of the Arguments
+If there are both prima facie reasons for truth-telling and for lying, the prima facie reasons must be weighed. An argument based on weighing pro- and contra considerations that supports lying must claim that the consideration pro lying outweigh the prima facie reasons against it. There are two general strategies how such a weighing can be justified:
+
+* **salient-reason argumentation**: by providing a salient principle for lying
+* **consequentialist argumentation**: by taking the value of the consequences as the decisive consideration
+
+### Map of Arguments
+
+### Reconstruction of Arguments
+
+:::::

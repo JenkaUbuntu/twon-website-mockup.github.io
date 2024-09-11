@@ -1,0 +1,372 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@argdown/web-components/dist/argdown-map.css"><script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-bundle.js" type="module"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@argdown/web-components/dist/argdown-map.js"></script><figure  role="group" class="argdown-figure"><argdown-map      initial-view="map"><div slot="source" class=""><pre class="language-argdown"><code class="language-argdown"><span class="hljs-meta">===
+color:
+    colorizeByTag: true
+    colorizeGroupsByTag: true
+    colorScheme: colorbrewer-set3
+    tagColors:
+        lie: &quot;#FBB982&quot;
+        truth: &quot;#00B0F0&quot;
+        impl: &quot;#F26035&quot;
+        gray: &quot;#b9b2b2&quot;
+    groupColorScheme:
+        - &quot;#f2eeee&quot;
+        - &quot;#757570&quot;
+        - &quot;#fffffd&quot;
+selection:
+    excludeDisconnected: true
+group:
+    groupDepth: 3
+model:
+    removeTagsFromText: true  
+dot:
+    group:
+        charactersInLine: 100
+    argument:
+        minWidth: 0
+        title:
+            charactersInLine: 35
+        text:
+            charactersInLine: 45
+    statement:
+        minWidth: 0
+        title:
+            charactersInLine: 35
+        text:
+            charactersInLine: 45  
+===</span>
+
+<span class="hljs-section"># Map of the Consequentialist Argumentation</span>
+
+<span class="hljs-statement-title">[Stick to Truth]:</span> You should tell your friend the truth about the traveling options for her. <span class="hljs-tag">#impl</span>
+
+
+<span class="hljs-section">## Pro-Truth</span>
+
+<span class="hljs-argument-title">&lt;A1: Truth-Telling has better consequences than Lying&gt;:</span> the expected good of truth-telling is higher than the expected good of lying.
+
+<span class="hljs-argument-statement-nr">(1)</span> From the available options for action, the action ought to be chosen whose consequences lead to the highest expected good.
+<span class="hljs-argument-statement-nr">(2)</span> From the two available options for action, truth-telling and lying, the expected good from truth-telling is higher than the expected good from lying.
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Aggregation Pro Truth-Sticking]</span>
+<span class="hljs-inference">----</span>
+<span class="hljs-argument-statement-nr">(3)</span> <span class="hljs-statement-title">[Stick to Truth]</span>
+
+<span class="hljs-statement-title">[Aggregation Pro Truth-Sticking]:</span> Probability that your friend will be harmed from truth-telling multiplied with the badness of the harm to her from missing the appointment (=the expected badness of truth-telling) is lower than the expected badness of lying which amounts to the badness of disregard of the desire of your friend plus the badness of disregard of her autonomy minus the probability that your friendship suffers from the lie multiplied with the goodness of your friendship minus the probability that the social practice of truth-telling suffers from your lie multiplied with the goodness of the practice.
+ +<span class="hljs-argument-title">&lt;Argumentation justifying the Pro-Truth-Aggregation&gt;</span>
+
+
+<span class="hljs-argument-title">&lt;Argumentation justifying the Pro-Truth-Aggregation&gt;:</span> the argumentation needs to spell out how to account for goodness/badness of an outcomes; how to know the probability distribution of the possible outcomes; how to know the particular goodness/badness-value of the particular outcomes.
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Supporting a Social Practice]</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Respecting Autonomy]</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Desire Fulfillment]</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Supporting Friendship]</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Only Lying Avoids Harm for Sure]</span>
+  
+<span class="hljs-argument-title">&lt;A2: Truth-Sticking under Uncertainty&gt;:</span> Since the consequences of truth-telling and lying are uncertain, it is better to avoid for sure the worst possible outcomes of lying.
+
+<span class="hljs-argument-statement-nr">(1)</span> The consequences of the two available options for action, truth-telling and lying, are uncertain, i<span class="hljs-tag">.e.</span> no probability distribution of their outcomes is known.
+<span class="hljs-argument-statement-nr">(2)</span> <span class="hljs-statement-title">[Evaluation under uncertaity]:</span> The worst possible outcomes of lying lead to much higher badness than the worst possible outcomes of truth-telling.
+<span class="hljs-support"> &lt;+</span> <span class="hljs-argument-title">&lt;Argumentation justifying evaluation under uncertainty&gt;:</span> the argumetation needs to spell out how to account for goodness/badness of possible outcomes and how to know the goodness/badness of the worst possible outcomes of the two options for action.
+<span class="hljs-argument-statement-nr">(3)</span> <span class="hljs-statement-title">[Decision Principle under Uncertainty]:</span> In a decision situation of uncertainty, the option for action should be chosen whose worst possible outcomes are the best.
+<span class="hljs-inference">----</span>
+<span class="hljs-argument-statement-nr">(4)</span> <span class="hljs-statement-title">[Stick to Truth]</span>
+
+<span class="hljs-argument-title">&lt;Argumentation justifying evaluation under uncertainty&gt;:</span> the argumetation needs to spell out how to account for goodness/badness of possible outcomes and how to know the goodness/badness of the worst possible outcomes of the two options for action.
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Supporting a Social Practice]</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Respecting Autonomy]</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Desire Fulfillment]</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Supporting Friendship]</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-statement-title">[Only Lying Avoids Harm for Sure]</span>
+
+<span class="hljs-section">## Prima Facie Reasons for Truth #(impl)</span>
+
+<span class="hljs-statement-title">[Supporting a Social Practice]:</span> Telling the truth, you support a highly important social practice of honesty/ sincerity. <span class="hljs-tag">#(truth)</span>
+
+<span class="hljs-statement-title">[Respecting Autonomy]:</span> By telling the truth, you respect your friend’s autonomy, i<span class="hljs-tag">.e.</span> her ability to make own decisions. <span class="hljs-tag">#(truth)</span>
+
+<span class="hljs-statement-title">[Desire Fulfillment]:</span> By telling the true departure time, your friend gets the information she wants to have -- her desires are best satisfied. <span class="hljs-tag">#(truth)</span>
+
+<span class="hljs-statement-title">[Supporting Friendship]:</span> By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc. <span class="hljs-tag">#(truth)</span>
+
+<span class="hljs-section">## Prima Facie Reasons fro Lying #(impl)</span>
+
+<span class="hljs-statement-title">[Only Lying Avoids Harm for Sure]:</span> By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting. <span class="hljs-tag">#lie</span>
+
+
+
+
+
+
+
+
+</code></pre></div><div slot="map">
+<!-- Generated by graphviz version 2.47.0 (20210316.0004)
+ -->
+<!-- Title: Argument Map Pages: 1 -->
+<svg width="720pt" height="485pt"
+ viewBox="0.00 0.00 720.00 485.49" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(0.64 0.64) rotate(0) translate(4 751.2)">
+<title>Argument Map</title>
+<g id="clust1" class="cluster">
+<title>cluster_1</title>
+<polygon fill="#f2eeee" stroke="#f2eeee" points="8,-8 8,-739.2 1104,-739.2 1104,-8 8,-8"/>
+<text text-anchor="start" x="440.97" y="-724.4" font-family="arial" font-size="12.00" fill="#000000">Map of the Consequentialist Argumentation</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_2</title>
+<polygon fill="#757570" stroke="#757570" points="123,-126.4 123,-648.8 823,-648.8 823,-126.4 123,-126.4"/>
+<text text-anchor="start" x="447.67" y="-634" font-family="arial" font-size="12.00" fill="#000000">Pro&#45;Truth</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_3</title>
+<polygon fill="#f26035" stroke="#f26035" points="238,-16 238,-118.4 1096,-118.4 1096,-16 238,-16"/>
+<text text-anchor="start" x="585.33" y="-103.6" font-family="arial" font-size="12.00" fill="#000000">Prima Facie Reasons for Truth</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_4</title>
+<polygon fill="#f26035" stroke="#f26035" points="16,-16 16,-118.4 230,-118.4 230,-16 16,-16"/>
+<text text-anchor="start" x="40.99" y="-103.6" font-family="arial" font-size="12.00" fill="#000000">Prima Facie Reasons fro Lying</text>
+</g>
+<!-- n0 -->
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="white" stroke="#f26035" stroke-width="2" d="M679,-708.8C679,-708.8 501,-708.8 501,-708.8 495,-708.8 489,-702.8 489,-696.8 489,-696.8 489,-668.8 489,-668.8 489,-662.8 495,-656.8 501,-656.8 501,-656.8 679,-656.8 679,-656.8 685,-656.8 691,-662.8 691,-668.8 691,-668.8 691,-696.8 691,-696.8 691,-702.8 685,-708.8 679,-708.8"/>
+<text text-anchor="start" x="560.55" y="-694.8" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Stick to Truth</text>
+<text text-anchor="start" x="498.58" y="-677.8" font-family="arial" font-size="10.00" fill="#000000">You should tell your friend the truth about</text>
+<text text-anchor="start" x="525.26" y="-665.8" font-family="arial" font-size="10.00" fill="#000000"> the traveling options for her. </text>
+</g>
+<!-- n1 -->
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="white" stroke="#8dd3c7" stroke-width="2" d="M803,-498.4C803,-498.4 609,-498.4 609,-498.4 603,-498.4 597,-492.4 597,-486.4 597,-486.4 597,-302.4 597,-302.4 597,-296.4 603,-290.4 609,-290.4 609,-290.4 803,-290.4 803,-290.4 809,-290.4 815,-296.4 815,-302.4 815,-302.4 815,-486.4 815,-486.4 815,-492.4 809,-498.4 803,-498.4"/>
+<text text-anchor="start" x="637.65" y="-484.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Aggregation Pro Truth&#45;Sticking</text>
+<text text-anchor="start" x="614.32" y="-467.4" font-family="arial" font-size="10.00" fill="#000000">Probability that your friend will be harmed</text>
+<text text-anchor="start" x="627.38" y="-455.4" font-family="arial" font-size="10.00" fill="#000000"> from truth&#45;telling multiplied with the</text>
+<text text-anchor="start" x="606.81" y="-443.4" font-family="arial" font-size="10.00" fill="#000000"> badness of the harm to her from missing the</text>
+<text text-anchor="start" x="616.66" y="-431.4" font-family="arial" font-size="10.00" fill="#000000"> appointment (=the expected badness of</text>
+<text text-anchor="start" x="618.76" y="-419.4" font-family="arial" font-size="10.00" fill="#000000"> truth&#45;telling) is lower than the expected</text>
+<text text-anchor="start" x="619.86" y="-407.4" font-family="arial" font-size="10.00" fill="#000000"> badness of lying which amounts to the</text>
+<text text-anchor="start" x="612.36" y="-395.4" font-family="arial" font-size="10.00" fill="#000000"> badness of disregard of the desire of your</text>
+<text text-anchor="start" x="610.97" y="-383.4" font-family="arial" font-size="10.00" fill="#000000"> friend plus the badness of disregard of her</text>
+<text text-anchor="start" x="614.59" y="-371.4" font-family="arial" font-size="10.00" fill="#000000"> autonomy minus the probability that your</text>
+<text text-anchor="start" x="617.93" y="-359.4" font-family="arial" font-size="10.00" fill="#000000"> friendship suffers from the lie multiplied</text>
+<text text-anchor="start" x="609.86" y="-347.4" font-family="arial" font-size="10.00" fill="#000000"> with the goodness of your friendship minus</text>
+<text text-anchor="start" x="616.81" y="-335.4" font-family="arial" font-size="10.00" fill="#000000"> the probability that the social practice of</text>
+<text text-anchor="start" x="634.61" y="-323.4" font-family="arial" font-size="10.00" fill="#000000"> truth&#45;telling suffers from your lie</text>
+<text text-anchor="start" x="627.92" y="-311.4" font-family="arial" font-size="10.00" fill="#000000"> multiplied with the goodness of the</text>
+<text text-anchor="start" x="685.72" y="-299.4" font-family="arial" font-size="10.00" fill="#000000"> practice.</text>
+</g>
+<!-- n9 -->
+<g id="node5" class="node">
+<title>n9</title>
+<path fill="#8dd3c7" stroke="black" d="M795,-606.4C795,-606.4 613,-606.4 613,-606.4 607,-606.4 601,-600.4 601,-594.4 601,-594.4 601,-558.4 601,-558.4 601,-552.4 607,-546.4 613,-546.4 613,-546.4 795,-546.4 795,-546.4 801,-546.4 807,-552.4 807,-558.4 807,-558.4 807,-594.4 807,-594.4 807,-600.4 801,-606.4 795,-606.4"/>
+<text text-anchor="start" x="643.43" y="-592.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">A1: Truth&#45;Telling has better</text>
+<text text-anchor="start" x="645.92" y="-582.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> consequences than Lying</text>
+<text text-anchor="start" x="610.92" y="-567.4" font-family="arial" font-size="10.00" fill="#000000">the expected good of truth&#45;telling is higher</text>
+<text text-anchor="start" x="631.75" y="-555.4" font-family="arial" font-size="10.00" fill="#000000"> than the expected good of lying.</text>
+</g>
+<!-- n1&#45;&gt;n9 -->
+<g id="edge1" class="edge">
+<title>n1&#45;&gt;n9</title>
+<path fill="none" stroke="#00ff00" d="M704.85,-498.54C704.71,-511.76 704.56,-524.59 704.44,-535.85"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="700.94,-536.11 704.33,-546.14 707.94,-536.18 700.94,-536.11"/>
+</g>
+<!-- n7 -->
+<g id="node3" class="node">
+<title>n7</title>
+<path fill="white" stroke="#8dd3c7" stroke-width="2" d="M342.5,-426.4C342.5,-426.4 143.5,-426.4 143.5,-426.4 137.5,-426.4 131.5,-420.4 131.5,-414.4 131.5,-414.4 131.5,-374.4 131.5,-374.4 131.5,-368.4 137.5,-362.4 143.5,-362.4 143.5,-362.4 342.5,-362.4 342.5,-362.4 348.5,-362.4 354.5,-368.4 354.5,-374.4 354.5,-374.4 354.5,-414.4 354.5,-414.4 354.5,-420.4 348.5,-426.4 342.5,-426.4"/>
+<text text-anchor="start" x="182.93" y="-412.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Evaluation under uncertaity</text>
+<text text-anchor="start" x="145.14" y="-395.4" font-family="arial" font-size="10.00" fill="#000000">The worst possible outcomes of lying lead to</text>
+<text text-anchor="start" x="141.8" y="-383.4" font-family="arial" font-size="10.00" fill="#000000"> much higher badness than the worst possible</text>
+<text text-anchor="start" x="187.38" y="-371.4" font-family="arial" font-size="10.00" fill="#000000"> outcomes of truth&#45;telling.</text>
+</g>
+<!-- n11 -->
+<g id="node7" class="node">
+<title>n11</title>
+<path fill="#8dd3c7" stroke="black" d="M569.5,-618.4C569.5,-618.4 382.5,-618.4 382.5,-618.4 376.5,-618.4 370.5,-612.4 370.5,-606.4 370.5,-606.4 370.5,-546.4 370.5,-546.4 370.5,-540.4 376.5,-534.4 382.5,-534.4 382.5,-534.4 569.5,-534.4 569.5,-534.4 575.5,-534.4 581.5,-540.4 581.5,-546.4 581.5,-546.4 581.5,-606.4 581.5,-606.4 581.5,-612.4 575.5,-618.4 569.5,-618.4"/>
+<text text-anchor="start" x="422.6" y="-604.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">A2: Truth&#45;Sticking under</text>
+<text text-anchor="start" x="449.83" y="-594.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> Uncertainty</text>
+<text text-anchor="start" x="380.63" y="-579.4" font-family="arial" font-size="10.00" fill="#000000">Since the consequences of truth&#45;telling and</text>
+<text text-anchor="start" x="390.92" y="-567.4" font-family="arial" font-size="10.00" fill="#000000"> lying are uncertain, it is better to avoid</text>
+<text text-anchor="start" x="388.15" y="-555.4" font-family="arial" font-size="10.00" fill="#000000"> for sure the worst possible outcomes of</text>
+<text text-anchor="start" x="463.44" y="-543.4" font-family="arial" font-size="10.00" fill="#000000"> lying.</text>
+</g>
+<!-- n7&#45;&gt;n11 -->
+<g id="edge16" class="edge">
+<title>n7&#45;&gt;n11</title>
+<path fill="none" stroke="#00ff00" d="M277.68,-426.58C301.45,-447.53 334,-475.41 364,-498.4 377.11,-508.44 391.42,-518.75 405.29,-528.42"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="403.65,-531.54 413.86,-534.36 407.63,-525.79 403.65,-531.54"/>
+</g>
+<!-- n8 -->
+<g id="node4" class="node">
+<title>n8</title>
+<path fill="white" stroke="#8dd3c7" stroke-width="2" d="M567,-430.4C567,-430.4 385,-430.4 385,-430.4 379,-430.4 373,-424.4 373,-418.4 373,-418.4 373,-370.4 373,-370.4 373,-364.4 379,-358.4 385,-358.4 385,-358.4 567,-358.4 567,-358.4 573,-358.4 579,-364.4 579,-370.4 579,-370.4 579,-418.4 579,-418.4 579,-424.4 573,-430.4 567,-430.4"/>
+<text text-anchor="start" x="422.11" y="-416.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Decision Principle under</text>
+<text text-anchor="start" x="449.33" y="-406.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> Uncertainty</text>
+<text text-anchor="start" x="386.8" y="-391.4" font-family="arial" font-size="10.00" fill="#000000">In a decision situation of uncertainty, the</text>
+<text text-anchor="start" x="382.63" y="-379.4" font-family="arial" font-size="10.00" fill="#000000"> option for action should be chosen whose</text>
+<text text-anchor="start" x="390.7" y="-367.4" font-family="arial" font-size="10.00" fill="#000000"> worst possible outcomes are the best.</text>
+</g>
+<!-- n8&#45;&gt;n11 -->
+<g id="edge17" class="edge">
+<title>n8&#45;&gt;n11</title>
+<path fill="none" stroke="#00ff00" d="M476,-430.53C476,-457.17 476,-494.16 476,-524.1"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="472.5,-524.37 476,-534.37 479.5,-524.37 472.5,-524.37"/>
+</g>
+<!-- n9&#45;&gt;n0 -->
+<g id="edge14" class="edge">
+<title>n9&#45;&gt;n0</title>
+<path fill="none" stroke="#00ff00" d="M672.24,-606.48C657.55,-619.94 640.04,-635.97 624.96,-649.78"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="622.34,-647.44 617.33,-656.77 627.07,-652.6 622.34,-647.44"/>
+</g>
+<!-- n10 -->
+<g id="node6" class="node">
+<title>n10</title>
+<path fill="#8dd3c7" stroke="black" d="M768.5,-254.4C768.5,-254.4 579.5,-254.4 579.5,-254.4 573.5,-254.4 567.5,-248.4 567.5,-242.4 567.5,-242.4 567.5,-146.4 567.5,-146.4 567.5,-140.4 573.5,-134.4 579.5,-134.4 579.5,-134.4 768.5,-134.4 768.5,-134.4 774.5,-134.4 780.5,-140.4 780.5,-146.4 780.5,-146.4 780.5,-242.4 780.5,-242.4 780.5,-248.4 774.5,-254.4 768.5,-254.4"/>
+<text text-anchor="start" x="612.82" y="-240.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Argumentation justifying the</text>
+<text text-anchor="start" x="623.38" y="-230.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> Pro&#45;Truth&#45;Aggregation</text>
+<text text-anchor="start" x="577.52" y="-215.4" font-family="arial" font-size="10.00" fill="#000000">the argumentation needs to spell out how to</text>
+<text text-anchor="start" x="592.52" y="-203.4" font-family="arial" font-size="10.00" fill="#000000"> account for goodness/badness of an</text>
+<text text-anchor="start" x="588.37" y="-191.4" font-family="arial" font-size="10.00" fill="#000000"> outcomes; how to know the probability</text>
+<text text-anchor="start" x="580.31" y="-179.4" font-family="arial" font-size="10.00" fill="#000000"> distribution of the possible outcomes; how</text>
+<text text-anchor="start" x="625.6" y="-167.4" font-family="arial" font-size="10.00" fill="#000000"> to know the particular</text>
+<text text-anchor="start" x="581.69" y="-155.4" font-family="arial" font-size="10.00" fill="#000000"> goodness/badness&#45;value of the particular</text>
+<text text-anchor="start" x="650.05" y="-143.4" font-family="arial" font-size="10.00" fill="#000000"> outcomes.</text>
+</g>
+<!-- n10&#45;&gt;n1 -->
+<g id="edge2" class="edge">
+<title>n10&#45;&gt;n1</title>
+<path fill="none" stroke="#00ff00" d="M683.56,-254.54C684.88,-262.73 686.28,-271.37 687.7,-280.16"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="684.26,-280.81 689.31,-290.13 691.17,-279.7 684.26,-280.81"/>
+</g>
+<!-- n11&#45;&gt;n0 -->
+<g id="edge15" class="edge">
+<title>n11&#45;&gt;n0</title>
+<path fill="none" stroke="#00ff00" d="M521.06,-618.66C532.37,-629.03 544.35,-639.99 555.09,-649.83"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="552.92,-652.59 562.66,-656.76 557.65,-647.43 552.92,-652.59"/>
+</g>
+<!-- n12 -->
+<g id="node8" class="node">
+<title>n12</title>
+<path fill="#8dd3c7" stroke="black" d="M474.5,-242.4C474.5,-242.4 289.5,-242.4 289.5,-242.4 283.5,-242.4 277.5,-236.4 277.5,-230.4 277.5,-230.4 277.5,-158.4 277.5,-158.4 277.5,-152.4 283.5,-146.4 289.5,-146.4 289.5,-146.4 474.5,-146.4 474.5,-146.4 480.5,-146.4 486.5,-152.4 486.5,-158.4 486.5,-158.4 486.5,-230.4 486.5,-230.4 486.5,-236.4 480.5,-242.4 474.5,-242.4"/>
+<text text-anchor="start" x="329.16" y="-228.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Argumentation justifying</text>
+<text text-anchor="start" x="318.31" y="-218.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> evaluation under uncertainty</text>
+<text text-anchor="start" x="288.3" y="-203.4" font-family="arial" font-size="10.00" fill="#000000">the argumetation needs to spell out how to</text>
+<text text-anchor="start" x="287.74" y="-191.4" font-family="arial" font-size="10.00" fill="#000000"> account for goodness/badness of possible</text>
+<text text-anchor="start" x="312.2" y="-179.4" font-family="arial" font-size="10.00" fill="#000000"> outcomes and how to know the</text>
+<text text-anchor="start" x="292.19" y="-167.4" font-family="arial" font-size="10.00" fill="#000000"> goodness/badness of the worst possible</text>
+<text text-anchor="start" x="295.53" y="-155.4" font-family="arial" font-size="10.00" fill="#000000"> outcomes of the two options for action.</text>
+</g>
+<!-- n12&#45;&gt;n7 -->
+<g id="edge8" class="edge">
+<title>n12&#45;&gt;n7</title>
+<path fill="none" stroke="#00ff00" d="M348.88,-242.57C325,-276.59 293.13,-321.99 270.62,-354.06"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="267.7,-352.12 264.82,-362.32 273.43,-356.14 267.7,-352.12"/>
+</g>
+<!-- n2 -->
+<g id="node9" class="node">
+<title>n2</title>
+<path fill="white" stroke="#00b0f0" stroke-width="2" d="M645.5,-88C645.5,-88 486.5,-88 486.5,-88 480.5,-88 474.5,-82 474.5,-76 474.5,-76 474.5,-36 474.5,-36 474.5,-30 480.5,-24 486.5,-24 486.5,-24 645.5,-24 645.5,-24 651.5,-24 657.5,-30 657.5,-36 657.5,-36 657.5,-76 657.5,-76 657.5,-82 651.5,-88 645.5,-88"/>
+<text text-anchor="start" x="503.71" y="-74" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Supporting a Social Practice</text>
+<text text-anchor="start" x="484.53" y="-57" font-family="arial" font-size="10.00" fill="#000000">Telling the truth, you support a highly</text>
+<text text-anchor="start" x="485.37" y="-45" font-family="arial" font-size="10.00" fill="#000000"> important social practice of honesty/</text>
+<text text-anchor="start" x="544" y="-33" font-family="arial" font-size="10.00" fill="#000000"> sincerity. </text>
+</g>
+<!-- n2&#45;&gt;n10 -->
+<g id="edge3" class="edge">
+<title>n2&#45;&gt;n10</title>
+<path fill="none" stroke="#00ff00" d="M590.78,-88.29C599.84,-99.73 610.46,-113.16 621.04,-126.51"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="618.3,-128.69 627.25,-134.35 623.78,-124.34 618.3,-128.69"/>
+</g>
+<!-- n2&#45;&gt;n12 -->
+<g id="edge9" class="edge">
+<title>n2&#45;&gt;n12</title>
+<path fill="none" stroke="#00ff00" d="M523.79,-88.29C503.1,-103.63 477.6,-122.53 453.96,-140.06"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="451.63,-137.42 445.68,-146.19 455.8,-143.05 451.63,-137.42"/>
+</g>
+<!-- n3 -->
+<g id="node10" class="node">
+<title>n3</title>
+<path fill="white" stroke="#00b0f0" stroke-width="2" d="M444,-88C444,-88 258,-88 258,-88 252,-88 246,-82 246,-76 246,-76 246,-36 246,-36 246,-30 252,-24 258,-24 258,-24 444,-24 444,-24 450,-24 456,-30 456,-36 456,-36 456,-76 456,-76 456,-82 450,-88 444,-88"/>
+<text text-anchor="start" x="302.1" y="-74" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Respecting Autonomy</text>
+<text text-anchor="start" x="271.26" y="-57" font-family="arial" font-size="10.00" fill="#000000">By telling the truth, you respect your</text>
+<text text-anchor="start" x="255.7" y="-45" font-family="arial" font-size="10.00" fill="#000000"> friend’s autonomy, i.e. her ability to make</text>
+<text text-anchor="start" x="315.44" y="-33" font-family="arial" font-size="10.00" fill="#000000"> own decisions. </text>
+</g>
+<!-- n3&#45;&gt;n10 -->
+<g id="edge4" class="edge">
+<title>n3&#45;&gt;n10</title>
+<path fill="none" stroke="#00ff00" d="M403.04,-88.05C422.35,-98.69 444.73,-110.02 466,-118.4 478.84,-123.46 482.86,-122.19 496,-126.4 516.09,-132.84 537.23,-140.24 557.66,-147.72"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="556.71,-151.1 567.3,-151.27 559.13,-144.53 556.71,-151.1"/>
+</g>
+<!-- n3&#45;&gt;n12 -->
+<g id="edge10" class="edge">
+<title>n3&#45;&gt;n12</title>
+<path fill="none" stroke="#00ff00" d="M358.11,-88.29C361.34,-102.49 365.26,-119.75 368.99,-136.13"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="365.64,-137.22 371.27,-146.19 372.47,-135.66 365.64,-137.22"/>
+</g>
+<!-- n4 -->
+<g id="node11" class="node">
+<title>n4</title>
+<path fill="white" stroke="#00b0f0" stroke-width="2" d="M1075.5,-88C1075.5,-88 902.5,-88 902.5,-88 896.5,-88 890.5,-82 890.5,-76 890.5,-76 890.5,-36 890.5,-36 890.5,-30 896.5,-24 902.5,-24 902.5,-24 1075.5,-24 1075.5,-24 1081.5,-24 1087.5,-30 1087.5,-36 1087.5,-36 1087.5,-76 1087.5,-76 1087.5,-82 1081.5,-88 1075.5,-88"/>
+<text text-anchor="start" x="950.89" y="-74" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Desire Fulfillment</text>
+<text text-anchor="start" x="904.76" y="-57" font-family="arial" font-size="10.00" fill="#000000">By telling the true departure time, your</text>
+<text text-anchor="start" x="900.86" y="-45" font-family="arial" font-size="10.00" fill="#000000"> friend gets the information she wants to</text>
+<text text-anchor="start" x="904.48" y="-33" font-family="arial" font-size="10.00" fill="#000000"> have &#45;&#45; her desires are best satisfied. </text>
+</g>
+<!-- n4&#45;&gt;n10 -->
+<g id="edge5" class="edge">
+<title>n4&#45;&gt;n10</title>
+<path fill="none" stroke="#00ff00" d="M938.57,-88.02C920.73,-98.36 900.29,-109.5 881,-118.4 852.19,-131.69 820.29,-144.25 790.35,-155.15"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="788.92,-151.95 780.7,-158.64 791.29,-158.53 788.92,-151.95"/>
+</g>
+<!-- n4&#45;&gt;n12 -->
+<g id="edge11" class="edge">
+<title>n4&#45;&gt;n12</title>
+<path fill="none" stroke="#00ff00" d="M945.73,-88.1C926.8,-99.93 903.76,-112.08 881,-118.4 812.03,-137.55 629.24,-112.65 559,-126.4 538.26,-130.46 516.77,-136.71 496.22,-143.79"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="494.79,-140.58 486.53,-147.21 497.12,-147.18 494.79,-140.58"/>
+</g>
+<!-- n5 -->
+<g id="node12" class="node">
+<title>n5</title>
+<path fill="white" stroke="#00b0f0" stroke-width="2" d="M860,-88C860,-88 688,-88 688,-88 682,-88 676,-82 676,-76 676,-76 676,-36 676,-36 676,-30 682,-24 688,-24 688,-24 860,-24 860,-24 866,-24 872,-30 872,-36 872,-36 872,-76 872,-76 872,-82 866,-88 860,-88"/>
+<text text-anchor="start" x="725.1" y="-74" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Supporting Friendship</text>
+<text text-anchor="start" x="685.65" y="-57" font-family="arial" font-size="10.00" fill="#000000">By telling the truth, you avoid mistrust in</text>
+<text text-anchor="start" x="702.04" y="-45" font-family="arial" font-size="10.00" fill="#000000"> the relationship with your friend,</text>
+<text text-anchor="start" x="719.55" y="-33" font-family="arial" font-size="10.00" fill="#000000"> remorseful feelings etc. </text>
+</g>
+<!-- n5&#45;&gt;n10 -->
+<g id="edge6" class="edge">
+<title>n5&#45;&gt;n10</title>
+<path fill="none" stroke="#00ff00" d="M751.06,-88.29C742.75,-99.63 733.01,-112.91 723.31,-126.14"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="720.38,-124.22 717.29,-134.35 726.03,-128.36 720.38,-124.22"/>
+</g>
+<!-- n5&#45;&gt;n12 -->
+<g id="edge12" class="edge">
+<title>n5&#45;&gt;n12</title>
+<path fill="none" stroke="#00ff00" d="M730.24,-88.04C711.61,-99.63 689.12,-111.62 667,-118.4 620.98,-132.51 605.99,-115.99 559,-126.4 538.37,-130.97 516.93,-137.47 496.4,-144.65"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="494.96,-141.44 486.71,-148.1 497.31,-148.04 494.96,-141.44"/>
+</g>
+<!-- n6 -->
+<g id="node13" class="node">
+<title>n6</title>
+<path fill="white" stroke="#fbb982" stroke-width="2" d="M210,-88C210,-88 36,-88 36,-88 30,-88 24,-82 24,-76 24,-76 24,-36 24,-36 24,-30 30,-24 36,-24 36,-24 210,-24 210,-24 216,-24 222,-30 222,-36 222,-36 222,-76 222,-76 222,-82 216,-88 210,-88"/>
+<text text-anchor="start" x="50.21" y="-74" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Only Lying Avoids Harm for Sure</text>
+<text text-anchor="start" x="38.81" y="-57" font-family="arial" font-size="10.00" fill="#000000">By telling that the earlier connection is</text>
+<text text-anchor="start" x="33.8" y="-45" font-family="arial" font-size="10.00" fill="#000000"> the last one you avoid for sure that your</text>
+<text text-anchor="start" x="41.04" y="-33" font-family="arial" font-size="10.00" fill="#000000"> friend misses an important meeting. </text>
+</g>
+<!-- n6&#45;&gt;n10 -->
+<g id="edge7" class="edge">
+<title>n6&#45;&gt;n10</title>
+<path fill="none" stroke="#00ff00" d="M167.6,-88.04C187.08,-99.86 210.75,-112.02 234,-118.4 290.17,-133.82 438.86,-115.1 496,-126.4 516.41,-130.44 537.56,-136.55 557.85,-143.46"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="556.82,-146.81 567.42,-146.81 559.13,-140.2 556.82,-146.81"/>
+</g>
+<!-- n6&#45;&gt;n12 -->
+<g id="edge13" class="edge">
+<title>n6&#45;&gt;n12</title>
+<path fill="none" stroke="#00ff00" d="M178.12,-88C195.88,-97.86 215.71,-108.71 234,-118.4 248.33,-125.99 263.52,-133.87 278.5,-141.55"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="277.29,-144.86 287.78,-146.3 280.47,-138.63 277.29,-144.86"/>
+</g>
+</g>
+</svg>
+</div></argdown-map></figure>
