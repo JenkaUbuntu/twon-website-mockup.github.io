@@ -1,0 +1,264 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@argdown/web-components/dist/argdown-map.css"><script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-bundle.js" type="module"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@argdown/web-components/dist/argdown-map.js"></script><figure  role="group" class="argdown-figure"><argdown-map      initial-view="map"><div slot="source" class=""><pre class="language-argdown"><code class="language-argdown"><span class="hljs-meta">===
+color:
+    colorizeByTag: true
+    colorizeGroupsByTag: true
+    colorScheme: colorbrewer-set3
+    tagColors:
+        lie: &quot;#FBB982&quot;
+        truth: &quot;#00B0F0&quot;
+        impl: &quot;#F26035&quot;
+        gray: &quot;#b9b2b2&quot;
+    groupColorScheme:
+        - &quot;#f2eeee&quot;
+        - &quot;#757570&quot;
+        - &quot;#fffffd&quot;
+selection:
+    excludeDisconnected: true
+group:
+    groupDepth: 3
+model:
+    removeTagsFromText: true  
+dot:
+    group:
+        charactersInLine: 100
+    argument:
+        minWidth: 0
+        title:
+            charactersInLine: 35
+        text:
+            charactersInLine: 45
+    statement:
+        minWidth: 0
+        title:
+            charactersInLine: 35
+        text:
+            charactersInLine: 45  
+===</span>
+
+<span class="hljs-section"># Map of the argumentation: Debunking the prima facie reasons for truth-sticking</span>
+
+<span class="hljs-statement-title">[Stick to Truth]:</span> You should tell your friend the truth about the travel options for her. <span class="hljs-tag">#impl</span>
+
+<span class="hljs-statement-title">[You Should Lie!]:</span> You should tell your friend an earlier travel option as the last option. <span class="hljs-tag">#(impl)</span>
+
+<span class="hljs-section">## Pro-Truth #gray</span>
+
+
+<span class="hljs-section">## Pro-Lying</span>
+
+<span class="hljs-argument-title">&lt;A1: There are no reasons against lying&gt;</span>
+
+<span class="hljs-argument-statement-nr">(1)</span> There are only two options for action: sticking to truth or lying.
+<span class="hljs-argument-statement-nr">(2)</span> If you lie, you avoid that she is significantly harmed.
+<span class="hljs-argument-statement-nr">(3)</span> If you tell the truth, there are no morally significant advantages.
+<span class="hljs-support"> &lt;+</span> <span class="hljs-argument-title">&lt;A2: Debunking desire-fulfillment&gt;</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-argument-title">&lt;A3: Debunking the claim that truth-telling respects autonomy&gt;</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-argument-title">&lt;A4: Debunking the claim that truth-telling supports friendship&gt;</span>
+<span class="hljs-support"> &lt;+</span> <span class="hljs-argument-title">&lt;A5: Debunking the claim that truth-telling supports an important social practice&gt;</span>
+<span class="hljs-argument-statement-nr">(4)</span> If there are only two options for action, and the one option realizes imporant benefits and the other none, the first option should be chosen. 
+<span class="hljs-inference">----</span>
+<span class="hljs-argument-statement-nr">(5)</span> <span class="hljs-statement-title">[You Should Lie!]</span>
+
+<span class="hljs-argument-title">&lt;A2: Debunking desire-fulfillment&gt;:</span> Your friend&#x27;s desires are different from what she articultes.
+
+<span class="hljs-argument-statement-nr">(1)</span> Your friend has articulated the desire to learn when the last connection leaves by which she arrives at 2 o&#x27;clock at a meeting point. 
+<span class="hljs-argument-statement-nr">(2)</span> Very often, when your friend articulates the desire to learn the last connection for an important meeting, she has the desire to learn an earlier connection than the last one (for she knows that she often misses the last connection).
+<span class="hljs-argument-statement-nr">(3)</span> If a person articulates &quot;p&quot; and in most cases when a person articulates &quot;p&quot; she means &quot;p-&quot;, it is reasonable to interpret the persons&#x27;s articulation &quot;p&quot; as &quot;p-&quot;.
+<span class="hljs-inference">----</span>
+<span class="hljs-argument-statement-nr">(4)</span> It is reasonable to interpret your friend&#x27;s articulated desire as desire to learn an earlier connection than the last one. 
+<span class="hljs-argument-statement-nr">(5)</span> If it is reasonable to interpret your friend&#x27;s desire as q, then she has the desire that q.
+<span class="hljs-inference">----</span>
+<span class="hljs-argument-statement-nr">(6)</span> Your friend has the desire to learn an earlier connection than the last one.
+<span class="hljs-attack"> -&gt;</span> <span class="hljs-statement-title">[Desire Fulfillment]</span> 
+
+<span class="hljs-argument-title">&lt;A3: Debunking the claim that truth-telling respects autonomy&gt;:</span> the argument needs a reconstruction
+<span class="hljs-attack"> -&gt;</span> <span class="hljs-statement-title">[Respecting Autonomy]</span>
+
+<span class="hljs-argument-title">&lt;A4: Debunking the claim that truth-telling supports friendship&gt;:</span> the argument needs a reconstruction
+<span class="hljs-attack"> -&gt;</span> <span class="hljs-statement-title">[Supporting Friendship]</span>
+
+ <span class="hljs-argument-title">&lt;A5: Debunking the claim that truth-telling supports an important social practice&gt;:</span> a single act does not influence a social practice
+
+<span class="hljs-argument-statement-nr">(1)</span> The social practice of honesty/sincerity is maintained by billions of individual actions. 
+<span class="hljs-argument-statement-nr">(2)</span> If a practice is maintained by billions of individual actions, then a single act which violates the practice does not have any causal effect on the stability of the pratice. 
+<span class="hljs-inference">----</span>
+<span class="hljs-argument-statement-nr">(3)</span> Telling the truth does not have a causal effect on the stability of the practice.
+<span class="hljs-attack"> -&gt;</span> <span class="hljs-statement-title">[Supporting a Social Practice]</span>
+
+<span class="hljs-section">## Prima Facie Reasons for Truth #(impl)</span>
+
+<span class="hljs-statement-title">[Supporting a Social Practice]:</span> Telling the truth, you support a highly important social practice of honesty/ sincerity. <span class="hljs-tag">#(truth)</span>
+
+<span class="hljs-statement-title">[Respecting Autonomy]:</span> By telling the truth, you respect your friend’s autonomy, i<span class="hljs-tag">.e.</span> her ability to make own decisions. <span class="hljs-tag">#(truth)</span>
+
+<span class="hljs-statement-title">[Desire Fulfillment]:</span> By telling the true departure time, your friend gets the information she wants to have -- her desires are best satisfied. <span class="hljs-tag">#(truth)</span>
+
+<span class="hljs-statement-title">[Supporting Friendship]:</span> By telling the truth, you avoid mistrust in the relationship with your friend, remorseful feelings etc. <span class="hljs-tag">#(truth)</span>
+
+<span class="hljs-section">## Prima Facie Reasons fro Lying #(impl)</span>
+
+<span class="hljs-statement-title">[Only Lying Avoids Harm for Sure]:</span> By telling that the earlier connection is the last one you avoid for sure that your friend misses an important meeting. <span class="hljs-tag">#lie</span></code></pre></div><div slot="map">
+<!-- Generated by graphviz version 2.47.0 (20210316.0004)
+ -->
+<!-- Title: Argument Map Pages: 1 -->
+<svg width="720pt" height="138pt"
+ viewBox="0.00 0.00 720.00 138.31" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(0.42 0.42) rotate(0) translate(4 326.8)">
+<title>Argument Map</title>
+<g id="clust1" class="cluster">
+<title>cluster_1</title>
+<polygon fill="#f2eeee" stroke="#f2eeee" points="8,-8 8,-314.8 1706,-314.8 1706,-8 8,-8"/>
+<text text-anchor="start" x="648.28" y="-300" font-family="arial" font-size="12.00" fill="#000000">Map of the argumentation: Debunking the prima facie reasons for truth&#45;sticking</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_2</title>
+<polygon fill="#f26035" stroke="#f26035" points="840,-122 840,-224.4 1698,-224.4 1698,-122 840,-122"/>
+<text text-anchor="start" x="1187.33" y="-209.6" font-family="arial" font-size="12.00" fill="#000000">Prima Facie Reasons for Truth</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_3</title>
+<polygon fill="#757570" stroke="#757570" points="16,-16 16,-210.4 832,-210.4 832,-16 16,-16"/>
+<text text-anchor="start" x="398.33" y="-195.6" font-family="arial" font-size="12.00" fill="#000000">Pro&#45;Lying</text>
+</g>
+<!-- n0 -->
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="white" stroke="#f26035" stroke-width="2" d="M503,-284.4C503,-284.4 347,-284.4 347,-284.4 341,-284.4 335,-278.4 335,-272.4 335,-272.4 335,-244.4 335,-244.4 335,-238.4 341,-232.4 347,-232.4 347,-232.4 503,-232.4 503,-232.4 509,-232.4 515,-238.4 515,-244.4 515,-244.4 515,-272.4 515,-272.4 515,-278.4 509,-284.4 503,-284.4"/>
+<text text-anchor="start" x="389.71" y="-270.4" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">You Should Lie!</text>
+<text text-anchor="start" x="344.98" y="-253.4" font-family="arial" font-size="10.00" fill="#000000">You should tell your friend an earlier</text>
+<text text-anchor="start" x="354.42" y="-241.4" font-family="arial" font-size="10.00" fill="#000000"> travel option as the last option. </text>
+</g>
+<!-- n1 -->
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="white" stroke="#00b0f0" stroke-width="2" d="M1677.5,-194C1677.5,-194 1504.5,-194 1504.5,-194 1498.5,-194 1492.5,-188 1492.5,-182 1492.5,-182 1492.5,-142 1492.5,-142 1492.5,-136 1498.5,-130 1504.5,-130 1504.5,-130 1677.5,-130 1677.5,-130 1683.5,-130 1689.5,-136 1689.5,-142 1689.5,-142 1689.5,-182 1689.5,-182 1689.5,-188 1683.5,-194 1677.5,-194"/>
+<text text-anchor="start" x="1552.89" y="-180" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Desire Fulfillment</text>
+<text text-anchor="start" x="1506.76" y="-163" font-family="arial" font-size="10.00" fill="#000000">By telling the true departure time, your</text>
+<text text-anchor="start" x="1502.86" y="-151" font-family="arial" font-size="10.00" fill="#000000"> friend gets the information she wants to</text>
+<text text-anchor="start" x="1506.48" y="-139" font-family="arial" font-size="10.00" fill="#000000"> have &#45;&#45; her desires are best satisfied. </text>
+</g>
+<!-- n2 -->
+<g id="node3" class="node">
+<title>n2</title>
+<path fill="white" stroke="#00b0f0" stroke-width="2" d="M1462,-194C1462,-194 1276,-194 1276,-194 1270,-194 1264,-188 1264,-182 1264,-182 1264,-142 1264,-142 1264,-136 1270,-130 1276,-130 1276,-130 1462,-130 1462,-130 1468,-130 1474,-136 1474,-142 1474,-142 1474,-182 1474,-182 1474,-188 1468,-194 1462,-194"/>
+<text text-anchor="start" x="1320.1" y="-180" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Respecting Autonomy</text>
+<text text-anchor="start" x="1289.26" y="-163" font-family="arial" font-size="10.00" fill="#000000">By telling the truth, you respect your</text>
+<text text-anchor="start" x="1273.7" y="-151" font-family="arial" font-size="10.00" fill="#000000"> friend’s autonomy, i.e. her ability to make</text>
+<text text-anchor="start" x="1333.44" y="-139" font-family="arial" font-size="10.00" fill="#000000"> own decisions. </text>
+</g>
+<!-- n3 -->
+<g id="node4" class="node">
+<title>n3</title>
+<path fill="white" stroke="#00b0f0" stroke-width="2" d="M1234,-194C1234,-194 1062,-194 1062,-194 1056,-194 1050,-188 1050,-182 1050,-182 1050,-142 1050,-142 1050,-136 1056,-130 1062,-130 1062,-130 1234,-130 1234,-130 1240,-130 1246,-136 1246,-142 1246,-142 1246,-182 1246,-182 1246,-188 1240,-194 1234,-194"/>
+<text text-anchor="start" x="1099.1" y="-180" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Supporting Friendship</text>
+<text text-anchor="start" x="1059.65" y="-163" font-family="arial" font-size="10.00" fill="#000000">By telling the truth, you avoid mistrust in</text>
+<text text-anchor="start" x="1076.04" y="-151" font-family="arial" font-size="10.00" fill="#000000"> the relationship with your friend,</text>
+<text text-anchor="start" x="1093.55" y="-139" font-family="arial" font-size="10.00" fill="#000000"> remorseful feelings etc. </text>
+</g>
+<!-- n4 -->
+<g id="node5" class="node">
+<title>n4</title>
+<path fill="white" stroke="#00b0f0" stroke-width="2" d="M1019.5,-194C1019.5,-194 860.5,-194 860.5,-194 854.5,-194 848.5,-188 848.5,-182 848.5,-182 848.5,-142 848.5,-142 848.5,-136 854.5,-130 860.5,-130 860.5,-130 1019.5,-130 1019.5,-130 1025.5,-130 1031.5,-136 1031.5,-142 1031.5,-142 1031.5,-182 1031.5,-182 1031.5,-188 1025.5,-194 1019.5,-194"/>
+<text text-anchor="start" x="877.71" y="-180" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">Supporting a Social Practice</text>
+<text text-anchor="start" x="858.53" y="-163" font-family="arial" font-size="10.00" fill="#000000">Telling the truth, you support a highly</text>
+<text text-anchor="start" x="859.37" y="-151" font-family="arial" font-size="10.00" fill="#000000"> important social practice of honesty/</text>
+<text text-anchor="start" x="918" y="-139" font-family="arial" font-size="10.00" fill="#000000"> sincerity. </text>
+</g>
+<!-- n5 -->
+<g id="node6" class="node">
+<title>n5</title>
+<path fill="#8dd3c7" stroke="black" d="M497,-180C497,-180 353,-180 353,-180 347,-180 341,-174 341,-168 341,-168 341,-156 341,-156 341,-150 347,-144 353,-144 353,-144 497,-144 497,-144 503,-144 509,-150 509,-156 509,-156 509,-168 509,-168 509,-174 503,-180 497,-180"/>
+<text text-anchor="start" x="350.81" y="-164" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">A1: There are no reasons against</text>
+<text text-anchor="start" x="413.33" y="-154" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> lying</text>
+</g>
+<!-- n5&#45;&gt;n0 -->
+<g id="edge9" class="edge">
+<title>n5&#45;&gt;n0</title>
+<path fill="none" stroke="#00ff00" d="M425,-180.31C425,-192.05 425,-207.97 425,-222.3"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="421.5,-222.37 425,-232.37 428.5,-222.37 421.5,-222.37"/>
+</g>
+<!-- n6 -->
+<g id="node7" class="node">
+<title>n6</title>
+<path fill="#8dd3c7" stroke="black" d="M812,-85C812,-85 646,-85 646,-85 640,-85 634,-79 634,-73 634,-73 634,-45 634,-45 634,-39 640,-33 646,-33 646,-33 812,-33 812,-33 818,-33 824,-39 824,-45 824,-45 824,-73 824,-73 824,-79 818,-85 812,-85"/>
+<text text-anchor="start" x="658.43" y="-71" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">A2: Debunking desire&#45;fulfillment</text>
+<text text-anchor="start" x="643.99" y="-54" font-family="arial" font-size="10.00" fill="#000000">Your friend&#39;s desires are different from</text>
+<text text-anchor="start" x="684.82" y="-42" font-family="arial" font-size="10.00" fill="#000000"> what she articultes.</text>
+</g>
+<!-- n6&#45;&gt;n1 -->
+<g id="edge5" class="edge">
+<title>n6&#45;&gt;n1</title>
+<path fill="none" stroke="#ff0000" d="M824.22,-59.82C968.42,-61.33 1250.06,-71.31 1483,-122 1489.54,-123.42 1496.23,-125.15 1502.91,-127.06"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1502.09,-130.47 1512.67,-130 1504.1,-123.77 1502.09,-130.47"/>
+</g>
+<!-- n6&#45;&gt;n5 -->
+<g id="edge1" class="edge">
+<title>n6&#45;&gt;n5</title>
+<path fill="none" stroke="#00ff00" d="M653.46,-85.1C601.81,-102.26 534.22,-124.71 485.98,-140.74"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="484.69,-137.48 476.3,-143.96 486.9,-144.12 484.69,-137.48"/>
+</g>
+<!-- n7 -->
+<g id="node8" class="node">
+<title>n7</title>
+<path fill="#8dd3c7" stroke="black" d="M604,-83C604,-83 446,-83 446,-83 440,-83 434,-77 434,-71 434,-71 434,-47 434,-47 434,-41 440,-35 446,-35 446,-35 604,-35 604,-35 610,-35 616,-41 616,-47 616,-47 616,-71 616,-71 616,-77 610,-83 604,-83"/>
+<text text-anchor="start" x="461.09" y="-69" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">A3: Debunking the claim that</text>
+<text text-anchor="start" x="455.26" y="-59" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> truth&#45;telling respects autonomy</text>
+<text text-anchor="start" x="443.59" y="-44" font-family="arial" font-size="10.00" fill="#000000">the argument needs a reconstruction</text>
+</g>
+<!-- n7&#45;&gt;n2 -->
+<g id="edge6" class="edge">
+<title>n7&#45;&gt;n2</title>
+<path fill="none" stroke="#ff0000" d="M583.75,-83.05C597.12,-87.43 611.39,-91.44 625,-94 900.44,-145.85 979.61,-69.89 1255,-122 1262.36,-123.39 1269.89,-125.16 1277.4,-127.17"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1276.67,-130.6 1287.25,-129.93 1278.57,-123.86 1276.67,-130.6"/>
+</g>
+<!-- n7&#45;&gt;n5 -->
+<g id="edge2" class="edge">
+<title>n7&#45;&gt;n5</title>
+<path fill="none" stroke="#00ff00" d="M502.06,-83.17C486.3,-99.09 465.41,-120.19 449.36,-136.4"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="446.46,-134.35 441.91,-143.92 451.43,-139.28 446.46,-134.35"/>
+</g>
+<!-- n8 -->
+<g id="node9" class="node">
+<title>n8</title>
+<path fill="#8dd3c7" stroke="black" d="M404,-83C404,-83 246,-83 246,-83 240,-83 234,-77 234,-71 234,-71 234,-47 234,-47 234,-41 240,-35 246,-35 246,-35 404,-35 404,-35 410,-35 416,-41 416,-47 416,-47 416,-71 416,-71 416,-77 410,-83 404,-83"/>
+<text text-anchor="start" x="261.09" y="-69" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">A4: Debunking the claim that</text>
+<text text-anchor="start" x="255.27" y="-59" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> truth&#45;telling supports friendship</text>
+<text text-anchor="start" x="243.59" y="-44" font-family="arial" font-size="10.00" fill="#000000">the argument needs a reconstruction</text>
+</g>
+<!-- n8&#45;&gt;n3 -->
+<g id="edge7" class="edge">
+<title>n8&#45;&gt;n3</title>
+<path fill="none" stroke="#ff0000" d="M383.75,-83.04C397.12,-87.42 411.4,-91.43 425,-94 694.3,-144.84 772.27,-68.23 1041,-122 1047.71,-123.34 1054.56,-125.03 1061.39,-126.96"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="1060.78,-130.43 1071.36,-129.92 1062.78,-123.72 1060.78,-130.43"/>
+</g>
+<!-- n8&#45;&gt;n5 -->
+<g id="edge3" class="edge">
+<title>n8&#45;&gt;n5</title>
+<path fill="none" stroke="#00ff00" d="M347.94,-83.17C363.7,-99.09 384.59,-120.19 400.64,-136.4"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="398.57,-139.28 408.09,-143.92 403.54,-134.35 398.57,-139.28"/>
+</g>
+<!-- n9 -->
+<g id="node10" class="node">
+<title>n9</title>
+<path fill="#8dd3c7" stroke="black" d="M203.5,-94C203.5,-94 36.5,-94 36.5,-94 30.5,-94 24.5,-88 24.5,-82 24.5,-82 24.5,-36 24.5,-36 24.5,-30 30.5,-24 36.5,-24 36.5,-24 203.5,-24 203.5,-24 209.5,-24 215.5,-30 215.5,-36 215.5,-36 215.5,-82 215.5,-82 215.5,-88 209.5,-94 203.5,-94"/>
+<text text-anchor="start" x="56.59" y="-80" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000">A5: Debunking the claim that</text>
+<text text-anchor="start" x="66.88" y="-70" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> truth&#45;telling supports an</text>
+<text text-anchor="start" x="65.22" y="-60" font-family="arial" font-weight="bold" font-size="10.00" fill="#000000"> important social practice</text>
+<text text-anchor="start" x="34.92" y="-45" font-family="arial" font-size="10.00" fill="#000000">a single act does not influence a social</text>
+<text text-anchor="start" x="101.61" y="-33" font-family="arial" font-size="10.00" fill="#000000"> practice</text>
+</g>
+<!-- n9&#45;&gt;n4 -->
+<g id="edge8" class="edge">
+<title>n9&#45;&gt;n4</title>
+<path fill="none" stroke="#ff0000" d="M215.58,-92.11C218.74,-92.8 221.89,-93.44 225,-94 492.47,-142.53 569.7,-67.39 836,-122 842.54,-123.34 849.21,-125.03 855.85,-126.95"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="854.97,-130.34 865.56,-129.92 857.02,-123.65 854.97,-130.34"/>
+</g>
+<!-- n9&#45;&gt;n5 -->
+<g id="edge4" class="edge">
+<title>n9&#45;&gt;n5</title>
+<path fill="none" stroke="#00ff00" d="M215.67,-91.68C264.13,-107.73 321.52,-126.73 363.95,-140.78"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="362.98,-144.15 373.58,-143.97 365.18,-137.51 362.98,-144.15"/>
+</g>
+</g>
+</svg>
+</div></argdown-map></figure>

@@ -243,48 +243,25 @@ Consequentialist arguments for truth-sticking argue that the consequences of tru
 : {.striped}
 -->
 
-## Debunking Arguments for Lying
+## Debunking-Arguments for Lying {#sec-debunking-for-lying}
 ::::: {.panel-tabset}
 ### Idea of the Arguments
 This argumentation strategy is based on the idea that the prima facie reasons for truth-telling do not hold.
 
 ### Map of Arguments
-tba
+
+```{=html}
+<iframe src="./argument-rekos/method-example/pro-lying-debunking.html" width="100%" height="500px"></iframe>
+```
 
 ### Reconstruction of Arguments
 
-The Debunking-Argumentation consists of two crucial steps:
+The Debunking-Argumentation consists of two steps:
 
-1. An argument attacking the prima facie reasons supporting truth-telling. In our case there are four pro-truth-sticking reasons. The arguments A1-A4 debunk them:
-  * A1: Debunking desire-fulfillment;
-  * A2: Debunking respecting-autonomy;
-  * A3: Debunking supporing-friendship;
-  * A4: Debunking supporting a social practice.
-
-2. The argument supporting the main claim ("You should lie!"). It is reconstructed as **A5: There are no reasons against lying"**. 
+(@) An argument supporting the main claim ("You should lie!"). It is reconstructed as **A1: There are no reasons against lying"**. 
 
 ::: {.callout-warning icon="false" collapse="true"}
-#### A1: Debunking desire-fulfillment
-
-:::
-
-::: {.callout-warning icon="false" collapse="true"}
-#### A2: Debunking respecting-autonomy
-
-:::
-
-::: {.callout-warning icon="false" collapse="true"}
-#### A3: Debunking supporing-friendship
-
-:::
-
-::: {.callout-warning icon="false" collapse="true"}
-#### A4: Debunking supporting a social practice
-
-:::
-
-::: {.callout-warning icon="false" collapse="true"}
-#### A5: There are no reasons against lying
+#### A1: There are no reasons against lying
 
 1. There are only two options for action: sticking to truth or lying.
 2. If you lie, you avoid that she is significantly harmed.
@@ -296,6 +273,56 @@ The Debunking-Argumentation consists of two crucial steps:
 
 5. You should lie.
 :::
+
+(@) Arguments attacking the prima facie reasons for truth-telling. In our case there are four pro-truth-sticking reasons. A successful debunking argumentation requires arguments which attack each of the four prima faccie reasons for truth-sticking: 
+  * A2: Debunking desire-fulfillment;
+  * A3: Debunking respecting-autonomy;
+  * A4: Debunking supporing-friendship;
+  * A5: Debunking the claim that truth-telling supports an important social practice.
+
+    As an example, we reconstruct the arguments A2 and A5. A2 is based on the claim that there is additional information which allows to interpret the desire of your friend to learn the last connection as another desire. Arguments A3 and A4 would need additional knowledge about peculiarities of the situation as well. 
+
+
+::: {.callout-warning icon="false" collapse="true"}
+#### A2: Debunking desire-fulfillment
+
+1. Your friend has articulated the desire to learn when the last connection leaves by which she arrives at 2 o'clock at a meeting point. 
+2. Very often, when your friend articulates the desire to learn the last connection for an important meeting, she has the desire to learn an earlier connection than the last one (for she knows that she often misses the last connection).
+3. If a person articulates "p" and in most cases when a person articulates "p" she means "p-", it is reasonable to interpret the persons's articulation "p" as "p-".
+
+----
+
+4. It is reasonable to interpret your friend's articulated desire as desire to learn an earlier connection than the last one. 
+5. If it is reasonable to interpret your friend's desire as q, then she has the desire that q.
+
+----
+
+6. Your friend has the desire to learn an earlier connection than the last one. 
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### A3: Debunking the claim that truth-telling respects autonomy
+not reconstructed here
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### A4: Debunking the claim that truth-telling supports friendship
+not reconstructed here
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### A5: Debunking the claim that truth-telling supports an important social practice
+
+1. The social practice of honesty/sincerity is maintained by billions of individual actions. 
+2. If a practice is maintained by billions of individual actions, then a single act which violates the practice does not have any causal effect on the stability of the pratice. 
+
+----
+
+3. Telling the truth does not have a causal effect on the stability of the practice.
+
+:::
+
+
 
 :::::
 
