@@ -29,14 +29,14 @@ Construction of arguments is a creative task which involves several trial-and-er
 ### Idea of the Arguments
 This argumentation strategy is based on the idea that the prima facie reason for lying -- avoiding harm to your friend -- does not hold. 
 
-### Map of Arguments
+### Map of the Arguments
 
 ```{dot}
 //| fig-cap: "Argument map of debunking the prima facie reason for lying"
 //| file: ./argument-rekos/method-example/pro-truth-debunking.ad.dot
 ```
 
-### Reconstruction of Arguments
+### Reconstructed Arguments
 
 The Debunking-Argumentation consists of two crucial steps:
 
@@ -71,7 +71,7 @@ The Debunking-Argumentation consists of two crucial steps:
 -----
 | | |
 |:-:|:-------------------------|
-|(5)| [Conclusion]: You should stick to truth.|
+|(5)| [Conclusion]: You should stick to the truth.|
 :::
 
 :::
@@ -80,10 +80,10 @@ The Debunking-Argumentation consists of two crucial steps:
 
 If there are both prima facie reasons for truth-telling and for lying, the prima facie reasons must be weighed. An argument based on weighing pro- and contra considerations that supports truth-sticking must claim that the considerations pro truth-sticking outweigh the prima facie reason against it. There are two general strategies how such a weighing can be justified:
 
-* **salient-reason argumentation**: by providing a salient principle for truth-sticking
+* **salient-concern argumentation**: by providing a salient principle for truth-sticking
 * **consequentialist argumentation**: by taking the value of the consequences as the decisive consideration
 
-### Salient-Principle Argumentation 
+### Salient-Concern Argumentation 
 
 ::::: {.panel-tabset}
 
@@ -248,13 +248,13 @@ Consequentialist arguments for truth-sticking argue that the consequences of tru
 ### Idea of the Arguments
 This argumentation strategy is based on the idea that the prima facie reasons for truth-telling do not hold.
 
-### Map of Arguments
+### Map of the Arguments
 
 ```{=html}
 <iframe src="./argument-rekos/method-example/pro-lying-debunking.html" width="100%" height="500px"></iframe>
 ```
 
-### Reconstruction of Arguments
+### Reconstructed Arguments
 
 The Debunking-Argumentation consists of two steps:
 
@@ -327,16 +327,96 @@ not reconstructed here
 :::::
 
 ## Balancing Arguments for Lying
+
+If there are both prima facie reasons for truth-telling and for lying, the prima facie reasons must be weighed. An argument based on weighing pro- and contra considerations that supports lying must claim that the consideration pro lying outweigh the prima facie reasons against it. There are two general strategies how such a weighing can be justified:
+
+* **salient-concern argumentation**: by providing a salient principle for lying
+* **consequentialist argumentation**: by taking the value of the consequences as the decisive consideration
+
+### Salient-Concern Argumentation
+
 ::::: {.panel-tabset}
 
 ### Idea of the Arguments
-If there are both prima facie reasons for truth-telling and for lying, the prima facie reasons must be weighed. An argument based on weighing pro- and contra considerations that supports lying must claim that the consideration pro lying outweigh the prima facie reasons against it. There are two general strategies how such a weighing can be justified:
+This argumentation is based on the idea that the [prima facie reason for lying](./arg-anal-pf-reasons-example.qmd) has such moral importance that it outweighs the prima facie reasons for truth-telling. The rationale of this reasoning is that substantial harm to a person should be avoided even if it requires violating other moral norms (which do not immediately cause harm).
 
-* **salient-reason argumentation**: by providing a salient principle for lying
-* **consequentialist argumentation**: by taking the value of the consequences as the decisive consideration
+### Map of Arguments
+```{=html}
+<iframe src="./argument-rekos/method-example/pro-lying-balancing-salient.html" width="100%" height="500px"></iframe>
+```
+
+### Reconstructed Argument
+::: {.callout-warning icon="false" collapse="true"}
+#### Avoiding-Harm Argument
+Situation S: the choice situation as [described here](./Arg-Anal-Method.qmd)
+
+1. If you tell the truth in the situation S, it is reasonable to expect that your friend will be substantially harmed. 
+2. If you have the ability to manipulate the behaviour of a person A such as to avoid that A will be harmed, you ought to manipulate A's behaviour even if you violate further moral principles whithout causing additional harm.
+3. If you lie in the situation S, you will violate moral principles without causing additional harm. 
+
+----
+
+4. **[Conclusion]**: You ought to lie in S.
+
+:::
+:::::
+
+## Consequentialist Argumentation for Lying
+
+::::: {.panel-tabset}
+
+### Idea of the Arguments
+
+Consequentialist arguments for lying argue that the consequences of lying in the particular situation are overall better than the consequences of truth-sticking in this situation. Since it is not possible to precisely forecast the consequences of the two options in our example, we have reconstructed two versions of the consequentialist argumenation based on weaker requirement on foreknowledge:
+
+* the expected goodness-argument is based on the decision rule that the option should be realized whose consequences lead to the highest expected goodness. 
+  * the main challenge of the proponents of this argument is to spell out how they account for the overall goodness of social states and how they know the probabilities of the possible outcomes.
+
+* the uncertainty-argumentation aims to justify a choice for action in the light of uncertainty about the possible outcomes of truth-telling and lying. 
+  * its main challenge lies in justifying a decision rule which specifies which option for action to choose based on merely possibilistic knowledge about the consequences. 
+
+
+### Reconstructed Arguments
+
+::: {.callout-warning icon="false" collapse="true"}
+#### Lying Maximizes Expected Goodness
+
+1. From the available options for action, the action ought to be chosen whose consequences lead to the highest expected good.
+2. **[Calculation of the Expected Goodness]**: From the two available options for action, truth-telling and lying, the expected value from lying is higher than the expected value from sticking to truth.
+
+----
+
+3. **[Conclusion]**: You should lie in the Situation S.
+
+* Premise (2) implies the claim: 
+    * The expected badness of truth-telling -- which amounts to 
+      * the probability that your friend will be harmed from truth-telling multiplied with the badness of the harm to her from missing the appointment 
+    * is higher than the expected badness of lying which amounts to 
+      * the badness of frustration of the desire of your friend plus the badness of disregard of her autonomy minus the probability that your friendship suffers from the lie multiplied with the goodness of your friendship minus the probability that the social practice of truth-telling suffers from your lie multiplied with the goodness of the practice.
+
+* Premise (2) needs additional arguments justifying the calculation of the expected goodnes. 
+  * the argument is depicted in the map as "Argumentation justifying the Pro-Lying-Aggregation": the argumentation needs to spell out how to account for goodness/badness of an outcomes; how to know the probability distribution of the possible outcomes; how to know the particular goodness/badness-value of the particular outcomes.
+:::
+
+::: {.callout-warning icon="false" collapse="true"}
+#### Lying under Uncertainty
+
+1. The consequences of the two available options for action, truth-telling and lying, are uncertain, i.e. no probability distribution of their outcomes is known.
+2. **[Evaluation under uncertaity]**: The worst possible outcomes of sticking to truth are much worse than the worst possible outcomes of lying.
+3. **[Decision Principle under Uncertainty]**: In a decision situation of uncertainty, the option for action should be chosen whose worst possible outcomes are the best.
+
+----
+
+4. **[Conclusion]**: You should lie in situation S.
+
+* Premise (2) needs additional arguments justifying the evaluation of the worst possible outcomes.
+  * the argument is depiceted in the map as "Argumentation justifying evaluation under uncertainty": the argumetation needs to spell out how to account for goodness/badness of possible outcomes and how to know the goodness/badness of the worst possible outcomes of the two options for action.
+:::
 
 ### Map of Arguments
 
-### Reconstruction of Arguments
+```{=html}
+<iframe src="./argument-rekos/method-example/pro-lying-balancing-consequent.html" width="100%" height="500px"></iframe>
+```
 
 :::::
