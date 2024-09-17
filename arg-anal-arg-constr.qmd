@@ -243,7 +243,7 @@ Consequentialist arguments for truth-sticking argue that the consequences of tru
 : {.striped}
 -->
 
-## Debunking-Arguments for Lying {#sec-debunking-for-lying}
+## Debunking Argumentation Supporting Lying {#sec-debunking-for-lying}
 ::::: {.panel-tabset}
 ### Idea of the Arguments
 This argumentation strategy is based on the idea that the prima facie reasons for truth-telling do not hold.
