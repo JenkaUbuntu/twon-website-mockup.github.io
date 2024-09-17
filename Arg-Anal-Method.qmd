@@ -64,7 +64,7 @@ Find or construct general principles which allow a [deductively valid inference]
 ::: {.callout-caution icon="false" collapse="true"}
 ### Step 3: [Evaluation of Arguments]()
 Discuss the premises of the reconstructed arguments with regard to their empirical validity and ethical plausibility.
-[Read more]()
+[Read more](./Arg-Anal-Method-Evaluation-Step3.qmd)
 :::
 
 <!--

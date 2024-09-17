@@ -28,6 +28,7 @@ website:
         # navigation items
         - arg-anal-pf-reasons-example.qmd
         - arg-anal-arg-constr.qmd
+        - Arg-Anal-Method-Evaluation-Step3.qmd
     - id: twon-analysis
       title: TWON-Analysis
       style: docked
